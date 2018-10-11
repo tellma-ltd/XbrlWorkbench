@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28F280CA-7EB5-495B-BF2F-608B50A08784}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Banan.Tools.Xbrl</RootNamespace>
+    <AssemblyName>Banan.Tools.Xbrl</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xceed.Words.NET, Version=1.2.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\Solutions\packages\DocX.1.2.1\lib\Xceed.Words.NET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Instances\Export\Writers\ItemMemberInfo.cs" />
+    <Compile Include="Taxonomies\Constants\ArcRoles.cs" />
+    <Compile Include="Taxonomies\Constants\ArcXNames.cs" />
+    <Compile Include="Taxonomies\Constants\BalanceTypes.cs" />
+    <Compile Include="Taxonomies\Constants\DataTypeRegistry.cs" />
+    <Compile Include="Taxonomies\Constants\ElementXNames.cs" />
+    <Compile Include="Taxonomies\Constants\LinkbaseRefXNames.cs" />
+    <Compile Include="Taxonomies\Constants\LinkbaseXNames.cs" />
+    <Compile Include="Taxonomies\Constants\LabelRoles.cs" />
+    <Compile Include="Taxonomies\Constants\LinkbaseRefRoles.cs" />
+    <Compile Include="Taxonomies\Constants\LinkRoles.cs" />
+    <Compile Include="Taxonomies\Constants\NodeXNames.cs" />
+    <Compile Include="Taxonomies\Constants\PeriodTypes.cs" />
+    <Compile Include="Taxonomies\Constants\ReferencePartXNames.cs" />
+    <Compile Include="Taxonomies\Constants\ReferenceRoles.cs" />
+    <Compile Include="Instances\Export\Presentation\RelatedAspect.cs" />
+    <Compile Include="Instances\Export\Presentation\RelatedAspectRoles.cs" />
+    <Compile Include="Taxonomies\Constants\RoleTypeXNames.cs" />
+    <Compile Include="Taxonomies\Constants\SchemaLocations.cs" />
+    <Compile Include="Taxonomies\Constants\SchemaXNames.cs" />
+    <Compile Include="Taxonomies\Constants\SubstitutionGroups.cs" />
+    <Compile Include="Taxonomies\Constants\XLinkTypes.cs" />
+    <Compile Include="Taxonomies\Constants\XLinkXNames.cs" />
+    <Compile Include="Taxonomies\Constants\XmlXNames.cs" />
+    <Compile Include="Instances\Export\Writers\InlineXbrlFilingWriterSettings.cs" />
+    <Compile Include="Instances\Export\Writers\InlineXbrlFilingWriter.cs" />
+    <Compile Include="Instances\Export\Writers\WordWriter.cs" />
+    <Compile Include="Instances\Export\Writers\WordWriterSettings.cs" />
+    <Compile Include="Instances\Export\Writers\XbrlWriter.cs" />
+    <Compile Include="Instances\Export\Writers\InlineXbrlWriterSettings.cs" />
+    <Compile Include="Instances\Export\Writers\PresenterBasedInstanceWriter.cs" />
+    <Compile Include="Instances\Export\Writers\InlineXbrlClassNames.cs" />
+    <Compile Include="Instances\Export\Writers\XNameExtensions.cs" />
+    <Compile Include="Instances\IInstanceWriter.cs" />
+    <Compile Include="Instances\Export\Presentation\TextUnit.cs" />
+    <Compile Include="Instances\Export\Presentation\ExplicitMember.cs" />
+    <Compile Include="Instances\Export\Presentation\Hypercube.cs" />
+    <Compile Include="Instances\Export\Presentation\ItemMember.cs" />
+    <Compile Include="Instances\BalanceMethod.cs" />
+    <Compile Include="Instances\ExplicitMember.cs" />
+    <Compile Include="Taxonomies\Arc.cs" />
+    <Compile Include="Taxonomies\CalculationArc.cs" />
+    <Compile Include="Taxonomies\DefinitionLink.cs" />
+    <Compile Include="Taxonomies\DiscoverableTaxonomySet.cs" />
+    <Compile Include="Taxonomies\Export\Writers\ZipArchiveHelper.cs" />
+    <Compile Include="Taxonomies\Export\Writers\ZipArchiveWriter.cs" />
+    <Compile Include="Taxonomies\HierarchicalArc.cs" />
+    <Compile Include="Taxonomies\ITaxonomyWriter.cs" />
+    <Compile Include="Taxonomies\Import\ConceptLocation.cs" />
+    <Compile Include="Taxonomies\Import\ExtensionAbstractConcept.cs" />
+    <Compile Include="Taxonomies\Import\ExtensionConcept.cs" />
+    <Compile Include="Taxonomies\Import\ExtensionItem.cs" />
+    <Compile Include="Taxonomies\Import\ExtensionMember.cs" />
+    <Compile Include="Taxonomies\Import\TaxonomyDagProcessor.cs" />
+    <Compile Include="Taxonomies\ITaxonomyFileHolder.cs" />
+    <Compile Include="Taxonomies\ITaxonomySource.cs" />
+    <Compile Include="Taxonomies\Import\ItemLocation.cs" />
+    <Compile Include="Taxonomies\Import\MemberLocation.cs" />
+    <Compile Include="Taxonomies\Import\TaxonomyExtension.cs" />
+    <Compile Include="Taxonomies\Import\TaxonomyFileSet.cs" />
+    <Compile Include="Taxonomies\InterConceptArc.cs" />
+    <Compile Include="Taxonomies\Item.cs" />
+    <Compile Include="Instances\Context.cs" />
+    <Compile Include="Instances\CurrencyUnit.cs" />
+    <Compile Include="Taxonomies\Import\FileSystemReader.cs" />
+    <Compile Include="Taxonomies\Import\IFileReader.cs" />
+    <Compile Include="Taxonomies\Import\ZipArchiveReader.cs" />
+    <Compile Include="Instances\DurationPeriod.cs" />
+    <Compile Include="Instances\Entity.cs" />
+    <Compile Include="Instances\Export\Presentation\Aspect.cs" />
+    <Compile Include="Instances\Export\Presentation\ConceptAspect.cs" />
+    <Compile Include="Instances\Export\Presentation\ConceptMember.cs" />
+    <Compile Include="Instances\Export\Presentation\Axis.cs" />
+    <Compile Include="Instances\Export\Presentation\Dimension.cs" />
+    <Compile Include="Instances\Export\Presentation\EntityAspect.cs" />
+    <Compile Include="Instances\Export\Presentation\EnumerableExtensions.cs" />
+    <Compile Include="Instances\Export\Presentation\ExplicitMemberAspect.cs" />
+    <Compile Include="Instances\Export\Presentation\FactModel.cs" />
+    <Compile Include="Instances\Export\Presentation\FactSet.cs" />
+    <Compile Include="Instances\Export\Writers\TableContext.cs" />
+    <Compile Include="Instances\Export\Writers\XElementExtensions.cs" />
+    <Compile Include="Instances\Export\Writers\HtmlXNames.cs" />
+    <Compile Include="Instances\Export\Presentation\IPresenterWriter.cs" />
+    <Compile Include="Instances\Export\Presentation\Member.cs" />
+    <Compile Include="Instances\Export\Presentation\PeriodAspect.cs" />
+    <Compile Include="Instances\Export\Presentation\PresentationNetwork.cs" />
+    <Compile Include="Instances\Export\Presentation\Presenter.cs" />
+    <Compile Include="Instances\Export\Presentation\ScopeSettings.cs" />
+    <Compile Include="Instances\Export\Presentation\UnitAspect.cs" />
+    <Compile Include="Instances\Export\Writers\InlineXbrlWriter.cs" />
+    <Compile Include="Instances\Export\Writers\PresenterBasedWriterSettings.cs" />
+    <Compile Include="Instances\Export\InstanceExportException.cs" />
+    <Compile Include="Instances\Fact.cs" />
+    <Compile Include="Instances\ForeverPeriod.cs" />
+    <Compile Include="Instances\InstantPeriod.cs" />
+    <Compile Include="Taxonomies\LabelArc.cs" />
+    <Compile Include="Taxonomies\LabelLink.cs" />
+    <Compile Include="Taxonomies\Linkbase.cs" />
+    <Compile Include="Taxonomies\PresentationArc.cs" />
+    <Compile Include="Taxonomies\CalculationLink.cs" />
+    <Compile Include="Taxonomies\PresentationLink.cs" />
+    <Compile Include="Taxonomies\ReferenceArc.cs" />
+    <Compile Include="Taxonomies\LabelNode.cs" />
+    <Compile Include="Taxonomies\Link.cs" />
+    <Compile Include="Taxonomies\ReferenceLink.cs" />
+    <Compile Include="Taxonomies\ReferenceNode.cs" />
+    <Compile Include="Taxonomies\RoleType.cs" />
+    <Compile Include="Taxonomies\LocatorNode.cs" />
+    <Compile Include="Namespaces.cs" />
+    <Compile Include="Taxonomies\Node.cs" />
+    <Compile Include="Instances\Period.cs" />
+    <Compile Include="Taxonomies\DefinitionArc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Instances\PureUnit.cs" />
+    <Compile Include="Taxonomies\Schema.cs" />
+    <Compile Include="Taxonomies\Taxonomy.cs" />
+    <Compile Include="Instances\Unit.cs" />
+    <Compile Include="Instances\Instance.cs" />
+    <Compile Include="Taxonomies\TaxonomyFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Banan.Tools.Xbrl.2.2.0 .nuspec" />
+    <None Include="Banan.Tools.Xbrl.2.1.1.nuspec" />
+    <None Include="Banan.Tools.Xbrl.2.1.0.nuspec" />
+    <None Include="Banan.Tools.Xbrl.2.0.0.nuspec" />
+    <None Include="Diagrams\Taxonomy Sources.cd" />
+    <None Include="Diagrams\Taxonomy.cd" />
+    <None Include="Diagrams\Instance.cd" />
+    <None Include="Instances\Export\Diagrams\Writers.cd" />
+    <None Include="Instances\Export\Diagrams\Presentation.cd" />
+    <None Include="Diagrams\Fact.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NuGet commands.txt" />
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Banan.Tools.Xbrl</id>
+    <version>2.0.0</version>
+    <title>Banan XBRL Tools</title>
+    <authors>Abdullah Ulber</authors>
+    <owners>Banan IT</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains classes to work with XBRL taxonomies and instances.</description>
+    <releaseNotes>2.0: Complete rewrite. Covers XBRL Dimensions 1.0, multiple export formats (iXBRL, XBRL, filing bundle), extension taxonomies.
+1.1: iXBRL export: Renamed schema to scheme, changed sign attribute to "-", added taxonomy namespace.</releaseNotes>
+    <copyright>Copyright Banan IT, 2018</copyright>
+    <tags>XBRL iXBRL</tags>
+    <packageTypes>
+      <packageType name="Dependency" />
+    </packageTypes>
+    <dependencies>
+      <dependency id="DocX" version="1.2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="readme.txt" target="readme.txt" />
+  </files>
+</package>

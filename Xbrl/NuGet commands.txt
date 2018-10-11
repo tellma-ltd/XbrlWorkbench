@@ -1,0 +1,5 @@
+﻿nuget.exe pack Tools.Xbrl.csproj -version 2.2.0
+
+"C:\Program Files (x86)\NuGet\nuget.exe" sources Add -Name "bSmart" -Source "https://banantfs.pkgs.visualstudio.com/_packaging/bSmart/nuget/v3/index.json"
+
+nuget.exe push -Source "bSmart" -ApiKey VSTS Banan.Tools.Xbrl.2.2.0.nupkg

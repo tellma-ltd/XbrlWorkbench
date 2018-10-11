@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Banan.Tools.Xbrl.Instances.Entity" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAEACAAQAAAAAA=</HashCode>
+      <FileName>Instances\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Unit" Collapsed="true">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Period" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Period.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.Item" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAEAFIAAAAIAAAAAAQEAIAAAAAEQAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.FactSet" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>Instances\Export\Presentation\FactSet.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="FactModels" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.FactModel" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAAAAAgAAIAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\FactModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Aspects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.Aspect" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAQIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\Aspect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.Dimension" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAwCEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\Dimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.RelatedAspect" Collapsed="true">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\RelatedAspect.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Aspect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.Member" Collapsed="true">
+    <Position X="3.25" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="Member" Hidden="true" />
+      <Method Name="Reduce" Hidden="true" />
+    </Members>
+    <AssociationLine Name="RelatedAspects" Type="Banan.Tools.Xbrl.Instances.Export.Presentation.RelatedAspect">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.255" Y="0.258" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAgEEAEABAEQAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>Instances\Export\Presentation\Member.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parent" />
+      <Property Name="Aspect" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Children" />
+      <Property Name="RelatedAspects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.Axis" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="Axis" Hidden="true" />
+      <Property Name="Name" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAECAQAAAABQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\Axis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Dimension" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Roots" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.EntityAspect" Collapsed="true">
+    <Position X="6" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\EntityAspect.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Entity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.UnitAspect" Collapsed="true">
+    <Position X="6" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEoAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\UnitAspect.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Unit" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.ConceptAspect" Collapsed="true">
+    <Position X="6" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAABAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\ConceptAspect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.PeriodAspect" Collapsed="true">
+    <Position X="6" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAgAAAAAAAAIAAACAAAAAAAAI=</HashCode>
+      <FileName>Instances\Export\Presentation\PeriodAspect.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Period" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.ExplicitMemberAspect" Collapsed="true">
+    <Position X="6" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAIAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\ExplicitMemberAspect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.ItemMember" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\ItemMember.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.ConceptMember" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\ConceptMember.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HypercubeAxis" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Export.Presentation.ExplicitMember" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Export\Presentation\ExplicitMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

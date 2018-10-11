@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright © 2017 IFRS Foundation.   All rights reserved.  Reproduction and use rights are strictly limited.  For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.  The Foundation has trade marks registered around the world (Marks) including ‘IAS®’, ‘IASB®’, ‘IFRIC®’, ‘IFRS®’, the IFRS® logo, ‘IFRS for SMEs®’, IFRS for SMEs® logo, the ‘Hexagon Device’, ‘International Accounting Standards®’, ‘International Financial Reporting Standards®’, ‘IFRS Taxonomy®’ and ‘SIC®’. Further details of the Foundation’s Marks are available from the Licensor on request.  -->
+<xbrli:xbrl xmlns:example1="http://www.ifrs.org/xbrl/illustrativeExamples/Example1" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs-full" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifrs-smes="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs-smes">
+  <link:schemaRef xlink:type="simple" xlink:href="example1_2017-03-09.xsd"/>
+  <xbrli:context id="e2010">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="e2011">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="e2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="y2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="y2011">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2011-01-01</xbrli:startDate>
+      <xbrli:endDate>2011-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="e2011_GrossCarryingAmountMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_AccumulatedDepreciationAmortisationAndImpairmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_AccumulatedDepreciationAmortisationAndImpairmentMember_LandAndBuildingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:LandAndBuildingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_GrossCarryingAmountMember_FixturesAndFittingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:FixturesAndFittingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_AccumulatedDepreciationAmortisationAndImpairmentMember_FixturesAndFittingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:FixturesAndFittingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_GrossCarryingAmountMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_LandAndBuildingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:LandAndBuildingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_GrossCarryingAmountMember_LandAndBuildingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:LandAndBuildingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_LandAndBuildingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:LandAndBuildingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_FixturesAndFittingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:FixturesAndFittingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_GrossCarryingAmountMember_FixturesAndFittingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:FixturesAndFittingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_FixturesAndFittingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:FixturesAndFittingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_GrossCarryingAmountMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember_LandAndBuildingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:LandAndBuildingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_GrossCarryingAmountMember_FixturesAndFittingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:FixturesAndFittingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember_FixturesAndFittingsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-smes:FixturesAndFittingsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_GrossCarryingAmountMember_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfIntangibleAssetsOtherThanGoodwillAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_AccumulatedDepreciationAmortisationAndImpairmentMember_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfIntangibleAssetsOtherThanGoodwillAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfIntangibleAssetsOtherThanGoodwillAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_GrossCarryingAmountMember_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfIntangibleAssetsOtherThanGoodwillAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-smes:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfIntangibleAssetsOtherThanGoodwillAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_GovernmentMandatedPlan">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:DefinedBenefitPlansAxis">example1:GovernnmentMandatedPlanMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_GovernmentMandatedPlan">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:DefinedBenefitPlansAxis">example1:GovernnmentMandatedPlanMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_GovernmentMandatedPlan">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:DefinedBenefitPlansAxis">example1:GovernnmentMandatedPlanMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_LongServiceBenefit">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">example1:LongServiceBenefitMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_LongServiceBenefit">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">example1:LongServiceBenefitMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_LongServiceBenefit">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">example1:LongServiceBenefitMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2011_LongServiceBenefit">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2011-01-01</xbrli:startDate>
+      <xbrli:endDate>2011-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">example1:LongServiceBenefitMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2010_LongServiceBenefit">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">example1:LongServiceBenefitMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2011_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2011-01-01</xbrli:startDate>
+      <xbrli:endDate>2011-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2010_ComputerSoftwareMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">ifrs-smes:ComputerSoftwareMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_WarrantyProvisionMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfProvisionsAxis">ifrs-smes:WarrantyProvisionMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_WarrantyProvisionMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfProvisionsAxis">ifrs-smes:WarrantyProvisionMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_WarrantyProvisionMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfProvisionsAxis">ifrs-smes:WarrantyProvisionMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_NotLaterThanOneYearMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:MaturityAxis">ifrs-smes:NotLaterThanOneYearMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_LaterThanOneYearAndNotLaterThanFiveYearsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:MaturityAxis">ifrs-smes:LaterThanOneYearAndNotLaterThanFiveYearsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_NotLaterThanOneYearMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:MaturityAxis">ifrs-smes:NotLaterThanOneYearMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_LaterThanOneYearAndNotLaterThanFiveYearsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:MaturityAxis">ifrs-smes:LaterThanOneYearAndNotLaterThanFiveYearsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_OrdinarySharesMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:ClassesOfShareCapitalAxis">ifrs-full:OrdinarySharesMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_AssociatesMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CategoriesOfRelatedPartiesAxis">ifrs-full:AssociatesMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2011_AssociatesMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2011-01-01</xbrli:startDate>
+      <xbrli:endDate>2011-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CategoriesOfRelatedPartiesAxis">ifrs-full:AssociatesMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_AssociatesMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CategoriesOfRelatedPartiesAxis">ifrs-full:AssociatesMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011_AssociatesMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:CategoriesOfRelatedPartiesAxis">ifrs-full:AssociatesMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_FloodInOneOfTheCandleStorageRoomsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:NonadjustingEventsAfterReportingPeriodAxis">example1:FloodInOneOfTheCandleStorageRoomsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context> 
+  <xbrli:context id="e2012_UnrealisedForeignExchangeGainsLossesMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">ifrs-full:UnrealisedForeignExchangeGainsLossesMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2012_UnrealisedForeignExchangeGainsLossesMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/illustrativeExamples">Example 1</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-smes:TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis">ifrs-full:UnrealisedForeignExchangeGainsLossesMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="Shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="Pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="EURperShare">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:EUR</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <ifrs-smes:Revenue id="XWAND00000326" decimals="0" contextRef="y2012" unitRef="EUR">6863545</ifrs-smes:Revenue>
+  <ifrs-smes:Revenue id="XWAND00000327" decimals="0" contextRef="y2011" unitRef="EUR">5808653</ifrs-smes:Revenue>
+  <ifrs-smes:CostOfSales id="XWAND00000329" decimals="0" contextRef="y2012" unitRef="EUR">5178530</ifrs-smes:CostOfSales>
+  <ifrs-smes:CostOfSales id="XWAND00000328" decimals="0" contextRef="y2011" unitRef="EUR">4422575</ifrs-smes:CostOfSales>
+  <ifrs-smes:GrossProfit id="XWAND00000330" decimals="0" contextRef="y2012" unitRef="EUR">1685015</ifrs-smes:GrossProfit>
+  <ifrs-smes:GrossProfit id="XWAND00000331" decimals="0" contextRef="y2011" unitRef="EUR">1386078</ifrs-smes:GrossProfit>
+  <ifrs-smes:OtherIncome id="XWAND00000333" decimals="0" contextRef="y2012" unitRef="EUR">88850</ifrs-smes:OtherIncome>
+  <ifrs-smes:OtherIncome id="XWAND00000332" decimals="0" contextRef="y2011" unitRef="EUR">25000</ifrs-smes:OtherIncome>
+  <ifrs-smes:DistributionCosts id="XWAND00000334" decimals="0" contextRef="y2012" unitRef="EUR">175550</ifrs-smes:DistributionCosts>
+  <ifrs-smes:DistributionCosts id="XWAND00000335" decimals="0" contextRef="y2011" unitRef="EUR">156800</ifrs-smes:DistributionCosts>
+  <ifrs-smes:AdministrativeExpense id="XWAND00000337" decimals="0" contextRef="y2012" unitRef="EUR">810230</ifrs-smes:AdministrativeExpense>
+  <ifrs-smes:AdministrativeExpense id="XWAND00000336" decimals="0" contextRef="y2011" unitRef="EUR">660389</ifrs-smes:AdministrativeExpense>
+  <ifrs-smes:OtherExpenseByFunction id="XWAND00000338" decimals="0" contextRef="y2012" unitRef="EUR">106763</ifrs-smes:OtherExpenseByFunction>
+  <ifrs-smes:OtherExpenseByFunction id="XWAND00000339" decimals="0" contextRef="y2011" unitRef="EUR">100030</ifrs-smes:OtherExpenseByFunction>
+  <ifrs-smes:FinanceCosts id="XWAND00000341" decimals="0" contextRef="y2012" unitRef="EUR">26366</ifrs-smes:FinanceCosts>
+  <ifrs-smes:FinanceCosts id="XWAND00000340" decimals="0" contextRef="y2011" unitRef="EUR">36712</ifrs-smes:FinanceCosts>
+  <ifrs-smes:ProfitLossBeforeTax id="XWAND00000342" decimals="0" contextRef="y2012" unitRef="EUR">654956</ifrs-smes:ProfitLossBeforeTax>
+  <ifrs-smes:ProfitLossBeforeTax id="XWAND00000343" decimals="0" contextRef="y2011" unitRef="EUR">457147</ifrs-smes:ProfitLossBeforeTax>
+  <ifrs-smes:IncomeTaxExpenseContinuingOperations id="XWAND00000345" decimals="0" contextRef="y2012" unitRef="EUR">270250</ifrs-smes:IncomeTaxExpenseContinuingOperations>
+  <ifrs-smes:IncomeTaxExpenseContinuingOperations id="XWAND00000344" decimals="0" contextRef="y2011" unitRef="EUR">189559</ifrs-smes:IncomeTaxExpenseContinuingOperations>
+  <ifrs-smes:ProfitLoss id="XWAND00000346" decimals="0" contextRef="y2012" unitRef="EUR">384706</ifrs-smes:ProfitLoss>
+  <ifrs-smes:ProfitLoss id="XWAND00000347" decimals="0" contextRef="y2011" unitRef="EUR">267588</ifrs-smes:ProfitLoss>
+  <ifrs-smes:RetainedEarnings id="XWAND00000349" decimals="0" contextRef="e2011" unitRef="EUR">2171353</ifrs-smes:RetainedEarnings>
+  <ifrs-smes:RetainedEarnings id="XWAND00000348" decimals="0" contextRef="e2010" unitRef="EUR">2003765</ifrs-smes:RetainedEarnings>
+  <ifrs-smes:DividendsDeclaredAndPaidOrPayable id="XWAND00000350" decimals="0" contextRef="y2012" unitRef="EUR">150000</ifrs-smes:DividendsDeclaredAndPaidOrPayable>
+  <ifrs-smes:DividendsDeclaredAndPaidOrPayable id="XWAND00000351" decimals="0" contextRef="y2011" unitRef="EUR">100000</ifrs-smes:DividendsDeclaredAndPaidOrPayable>
+  <ifrs-smes:RetainedEarnings id="XWAND00000353" decimals="0" contextRef="e2012" unitRef="EUR">2406059</ifrs-smes:RetainedEarnings>
+  <ifrs-smes:ChangesInInventoriesOfFinishedGoodsAndWorkInProgress id="XWAND00000359" decimals="0" contextRef="y2012" unitRef="EUR">-3310</ifrs-smes:ChangesInInventoriesOfFinishedGoodsAndWorkInProgress>
+  <ifrs-smes:ChangesInInventoriesOfFinishedGoodsAndWorkInProgress id="XWAND00000360" decimals="0" contextRef="y2011" unitRef="EUR">1360</ifrs-smes:ChangesInInventoriesOfFinishedGoodsAndWorkInProgress>
+  <ifrs-smes:RawMaterialsAndConsumablesUsed id="XWAND00000362" decimals="0" contextRef="y2012" unitRef="EUR">4786699</ifrs-smes:RawMaterialsAndConsumablesUsed>
+  <ifrs-smes:RawMaterialsAndConsumablesUsed id="XWAND00000361" decimals="0" contextRef="y2011" unitRef="EUR">4092185</ifrs-smes:RawMaterialsAndConsumablesUsed>
+  <ifrs-smes:EmployeeBenefitsExpense id="XWAND00000363" decimals="0" contextRef="y2012" unitRef="EUR">936142</ifrs-smes:EmployeeBenefitsExpense>
+  <ifrs-smes:EmployeeBenefitsExpense id="XWAND00000364" decimals="0" contextRef="y2011" unitRef="EUR">879900</ifrs-smes:EmployeeBenefitsExpense>
+  <ifrs-smes:DepreciationAndAmortisationExpense id="XWAND00000366" decimals="0" contextRef="y2012" unitRef="EUR">272060</ifrs-smes:DepreciationAndAmortisationExpense>
+  <ifrs-smes:DepreciationAndAmortisationExpense id="XWAND00000365" decimals="0" contextRef="y2011" unitRef="EUR">221247</ifrs-smes:DepreciationAndAmortisationExpense>
+  <ifrs-smes:ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment id="XWAND00000367" decimals="0" contextRef="y2012" unitRef="EUR">30000</ifrs-smes:ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment>
+  <ifrs-smes:OtherExpenseByNature id="XWAND00000369" decimals="0" contextRef="y2012" unitRef="EUR">249482</ifrs-smes:OtherExpenseByNature>
+  <ifrs-smes:OtherExpenseByNature id="XWAND00000370" decimals="0" contextRef="y2011" unitRef="EUR">145102</ifrs-smes:OtherExpenseByNature>
+  <ifrs-smes:Cash id="XWAND00000385" decimals="0" contextRef="e2012" unitRef="EUR">28700</ifrs-smes:Cash>
+  <ifrs-smes:Cash id="XWAND00000386" decimals="0" contextRef="e2011" unitRef="EUR">22075</ifrs-smes:Cash>
+  <ifrs-smes:Cash id="XWAND00000387" decimals="0" contextRef="e2010" unitRef="EUR">18478</ifrs-smes:Cash>
+  <ifrs-smes:TradeAndOtherCurrentReceivables id="XWAND00000390" decimals="0" contextRef="e2012" unitRef="EUR">585548</ifrs-smes:TradeAndOtherCurrentReceivables>
+  <ifrs-smes:TradeAndOtherCurrentReceivables id="XWAND00000389" decimals="0" contextRef="e2011" unitRef="EUR">573862</ifrs-smes:TradeAndOtherCurrentReceivables>
+  <ifrs-smes:TradeAndOtherCurrentReceivables id="XWAND00000388" decimals="0" contextRef="e2010" unitRef="EUR">521234</ifrs-smes:TradeAndOtherCurrentReceivables>
+  <ifrs-smes:Inventories id="XWAND00000391" decimals="0" contextRef="e2012" unitRef="EUR">57381</ifrs-smes:Inventories>
+  <ifrs-smes:Inventories id="XWAND00000392" decimals="0" contextRef="e2011" unitRef="EUR">47920</ifrs-smes:Inventories>
+  <ifrs-smes:Inventories id="XWAND00000393" decimals="0" contextRef="e2010" unitRef="EUR">45050</ifrs-smes:Inventories>
+  <ifrs-smes:CurrentAssets id="XWAND00000396" decimals="0" contextRef="e2012" unitRef="EUR">671629</ifrs-smes:CurrentAssets>
+  <ifrs-smes:CurrentAssets id="XWAND00000395" decimals="0" contextRef="e2011" unitRef="EUR">643857</ifrs-smes:CurrentAssets>
+  <ifrs-smes:CurrentAssets id="XWAND00000394" decimals="0" contextRef="e2010" unitRef="EUR">584762</ifrs-smes:CurrentAssets>
+  <ifrs-smes:InvestmentsInAssociates id="XWAND00000397" decimals="0" contextRef="e2012" unitRef="EUR">107500</ifrs-smes:InvestmentsInAssociates>
+  <ifrs-smes:InvestmentsInAssociates id="XWAND00000398" decimals="0" contextRef="e2011" unitRef="EUR">107500</ifrs-smes:InvestmentsInAssociates>
+  <ifrs-smes:InvestmentsInAssociates id="XWAND00000399" decimals="0" contextRef="e2010" unitRef="EUR">107500</ifrs-smes:InvestmentsInAssociates>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000402" decimals="0" contextRef="e2012" unitRef="EUR">2549945</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000401" decimals="0" contextRef="e2011" unitRef="EUR">2401455</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000400" decimals="0" contextRef="e2010" unitRef="EUR">2186002</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:IntangibleAssetsOtherThanGoodwill id="XWAND00000403" decimals="0" contextRef="e2012" unitRef="EUR">850</ifrs-smes:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:IntangibleAssetsOtherThanGoodwill id="XWAND00000404" decimals="0" contextRef="e2011" unitRef="EUR">2550</ifrs-smes:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:IntangibleAssetsOtherThanGoodwill id="XWAND00000405" decimals="0" contextRef="e2010" unitRef="EUR">4250</ifrs-smes:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000408" decimals="0" contextRef="e2012" unitRef="EUR">-4309</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000407" decimals="0" contextRef="e2011" unitRef="EUR">-2912</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000406" decimals="0" contextRef="e2010" unitRef="EUR">-2155</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-smes:NoncurrentAssets id="XWAND00000409" decimals="0" contextRef="e2012" unitRef="EUR">2662604</ifrs-smes:NoncurrentAssets>
+  <ifrs-smes:NoncurrentAssets id="XWAND00000410" decimals="0" contextRef="e2011" unitRef="EUR">2514417</ifrs-smes:NoncurrentAssets>
+  <ifrs-smes:NoncurrentAssets id="XWAND00000411" decimals="0" contextRef="e2010" unitRef="EUR">2299907</ifrs-smes:NoncurrentAssets>
+  <ifrs-smes:Assets id="XWAND00000414" decimals="0" contextRef="e2012" unitRef="EUR">3334233</ifrs-smes:Assets>
+  <ifrs-smes:Assets id="XWAND00000413" decimals="0" contextRef="e2011" unitRef="EUR">3158274</ifrs-smes:Assets>
+  <ifrs-smes:Assets id="XWAND00000412" decimals="0" contextRef="e2010" unitRef="EUR">2884669</ifrs-smes:Assets>
+  <ifrs-smes:BankOverdraftsClassifiedAsCashEquivalents id="XWAND00000415" decimals="0" contextRef="e2012" unitRef="EUR">83600</ifrs-smes:BankOverdraftsClassifiedAsCashEquivalents>
+  <ifrs-smes:BankOverdraftsClassifiedAsCashEquivalents id="XWAND00000416" decimals="0" contextRef="e2011" unitRef="EUR">115507</ifrs-smes:BankOverdraftsClassifiedAsCashEquivalents>
+  <ifrs-smes:BankOverdraftsClassifiedAsCashEquivalents id="XWAND00000417" decimals="0" contextRef="e2010" unitRef="EUR">20435</ifrs-smes:BankOverdraftsClassifiedAsCashEquivalents>
+  <ifrs-smes:TradeAndOtherCurrentPayables id="XWAND00000420" decimals="0" contextRef="e2012" unitRef="EUR">431480</ifrs-smes:TradeAndOtherCurrentPayables>
+  <ifrs-smes:TradeAndOtherCurrentPayables id="XWAND00000419" decimals="0" contextRef="e2011" unitRef="EUR">420520</ifrs-smes:TradeAndOtherCurrentPayables>
+  <ifrs-smes:TradeAndOtherCurrentPayables id="XWAND00000418" decimals="0" contextRef="e2010" unitRef="EUR">412690</ifrs-smes:TradeAndOtherCurrentPayables>
+  <ifrs-full:CurrentInterestPayable id="XWAND00000421" decimals="0" contextRef="e2012" unitRef="EUR" >2000</ifrs-full:CurrentInterestPayable>
+  <ifrs-full:CurrentInterestPayable id="XWAND00000422" decimals="0" contextRef="e2011" unitRef="EUR">1200</ifrs-full:CurrentInterestPayable>
+  <ifrs-smes:CurrentTaxLiabilitiesCurrent id="XWAND00000425" decimals="0" contextRef="e2012" unitRef="EUR">271647</ifrs-smes:CurrentTaxLiabilitiesCurrent>
+  <ifrs-smes:CurrentTaxLiabilitiesCurrent id="XWAND00000424" decimals="0" contextRef="e2011" unitRef="EUR">190316</ifrs-smes:CurrentTaxLiabilitiesCurrent>
+  <ifrs-smes:CurrentTaxLiabilitiesCurrent id="XWAND00000423" decimals="0" contextRef="e2010" unitRef="EUR">173211</ifrs-smes:CurrentTaxLiabilitiesCurrent>
+  <ifrs-smes:ShorttermWarrantyProvision id="XWAND00000426" decimals="0" contextRef="e2012" unitRef="EUR">4200</ifrs-smes:ShorttermWarrantyProvision>
+  <ifrs-smes:ShorttermWarrantyProvision id="XWAND00000427" decimals="0" contextRef="e2011" unitRef="EUR">5040</ifrs-smes:ShorttermWarrantyProvision>
+  <ifrs-smes:ShorttermWarrantyProvision id="XWAND00000428" decimals="0" contextRef="e2010" unitRef="EUR">2000</ifrs-smes:ShorttermWarrantyProvision>
+  <ifrs-smes:CurrentProvisionsForEmployeeBenefits id="XWAND00000431" decimals="0" contextRef="e2012" unitRef="EUR">4944</ifrs-smes:CurrentProvisionsForEmployeeBenefits>
+  <ifrs-smes:CurrentProvisionsForEmployeeBenefits id="XWAND00000430" decimals="0" contextRef="e2011" unitRef="EUR">4754</ifrs-smes:CurrentProvisionsForEmployeeBenefits>
+  <ifrs-smes:CurrentProvisionsForEmployeeBenefits id="XWAND00000429" decimals="0" contextRef="e2010" unitRef="EUR">4571</ifrs-smes:CurrentProvisionsForEmployeeBenefits>
+  <ifrs-full:CurrentFinanceLeaseLiabilities id="XWAND00000432" decimals="0" contextRef="e2012" unitRef="EUR">21461</ifrs-full:CurrentFinanceLeaseLiabilities>
+  <ifrs-full:CurrentFinanceLeaseLiabilities id="XWAND00000433" decimals="0" contextRef="e2011" unitRef="EUR">19884</ifrs-full:CurrentFinanceLeaseLiabilities>
+  <ifrs-full:CurrentFinanceLeaseLiabilities id="XWAND00000434" decimals="0" contextRef="e2010" unitRef="EUR">18423</ifrs-full:CurrentFinanceLeaseLiabilities>
+  <ifrs-smes:CurrentLiabilities id="XWAND00000437" decimals="0" contextRef="e2012" unitRef="EUR">819332</ifrs-smes:CurrentLiabilities>
+  <ifrs-smes:CurrentLiabilities id="XWAND00000436" decimals="0" contextRef="e2011" unitRef="EUR">757221</ifrs-smes:CurrentLiabilities>
+  <ifrs-smes:CurrentLiabilities id="XWAND00000435" decimals="0" contextRef="e2010" unitRef="EUR">631330</ifrs-smes:CurrentLiabilities>
+  <ifrs-smes:LongtermBorrowings id="XWAND00000438" decimals="0" contextRef="e2012" unitRef="EUR">50000</ifrs-smes:LongtermBorrowings>
+  <ifrs-smes:LongtermBorrowings id="XWAND00000439" decimals="0" contextRef="e2011" unitRef="EUR">150000</ifrs-smes:LongtermBorrowings>
+  <ifrs-smes:LongtermBorrowings id="XWAND00000440" decimals="0" contextRef="e2010" unitRef="EUR">150000</ifrs-smes:LongtermBorrowings>
+  <ifrs-smes:NoncurrentProvisionsForEmployeeBenefits id="XWAND00000443" decimals="0" contextRef="e2012" unitRef="EUR">5679</ifrs-smes:NoncurrentProvisionsForEmployeeBenefits>
+  <ifrs-smes:NoncurrentProvisionsForEmployeeBenefits id="XWAND00000442" decimals="0" contextRef="e2011" unitRef="EUR">5076</ifrs-smes:NoncurrentProvisionsForEmployeeBenefits>
+  <ifrs-smes:NoncurrentProvisionsForEmployeeBenefits id="XWAND00000441" decimals="0" contextRef="e2010" unitRef="EUR">5066</ifrs-smes:NoncurrentProvisionsForEmployeeBenefits>
+  <ifrs-full:NoncurrentFinanceLeaseLiabilities id="XWAND00000444" decimals="0" contextRef="e2012" unitRef="EUR">23163</ifrs-full:NoncurrentFinanceLeaseLiabilities>
+  <ifrs-full:NoncurrentFinanceLeaseLiabilities id="XWAND00000445" decimals="0" contextRef="e2011" unitRef="EUR">44624</ifrs-full:NoncurrentFinanceLeaseLiabilities>
+  <ifrs-full:NoncurrentFinanceLeaseLiabilities id="XWAND00000446" decimals="0" contextRef="e2010" unitRef="EUR">64508</ifrs-full:NoncurrentFinanceLeaseLiabilities>
+  <ifrs-smes:NoncurrentLiabilities id="XWAND00000449" decimals="0" contextRef="e2012" unitRef="EUR">78842</ifrs-smes:NoncurrentLiabilities>
+  <ifrs-smes:NoncurrentLiabilities id="XWAND00000448" decimals="0" contextRef="e2011" unitRef="EUR">199700</ifrs-smes:NoncurrentLiabilities>
+  <ifrs-smes:NoncurrentLiabilities id="XWAND00000447" decimals="0" contextRef="e2010" unitRef="EUR">219574</ifrs-smes:NoncurrentLiabilities>
+  <ifrs-smes:Liabilities id="XWAND00000450" decimals="0" contextRef="e2012" unitRef="EUR">898174</ifrs-smes:Liabilities>
+  <ifrs-smes:Liabilities id="XWAND00000451" decimals="0" contextRef="e2011" unitRef="EUR">956921</ifrs-smes:Liabilities>
+  <ifrs-smes:Liabilities id="XWAND00000452" decimals="0" contextRef="e2010" unitRef="EUR">850904</ifrs-smes:Liabilities>
+  <ifrs-smes:IssuedCapital id="XWAND00000455" decimals="0" contextRef="e2012" unitRef="EUR">30000</ifrs-smes:IssuedCapital>
+  <ifrs-smes:IssuedCapital id="XWAND00000454" decimals="0" contextRef="e2011" unitRef="EUR">30000</ifrs-smes:IssuedCapital>
+  <ifrs-smes:IssuedCapital id="XWAND00000453" decimals="0" contextRef="e2010" unitRef="EUR">30000</ifrs-smes:IssuedCapital>
+  <ifrs-smes:Equity id="XWAND00000461" decimals="0" contextRef="e2012" unitRef="EUR">2436059</ifrs-smes:Equity>
+  <ifrs-smes:Equity id="XWAND00000460" decimals="0" contextRef="e2011" unitRef="EUR">2201353</ifrs-smes:Equity>
+  <ifrs-smes:Equity id="XWAND00000459" decimals="0" contextRef="e2010" unitRef="EUR">2033765</ifrs-smes:Equity>
+  <ifrs-smes:EquityAndLiabilities id="XWAND00000462" decimals="0" contextRef="e2012" unitRef="EUR">3334233</ifrs-smes:EquityAndLiabilities>
+  <ifrs-smes:EquityAndLiabilities id="XWAND00000463" decimals="0" contextRef="e2011" unitRef="EUR">3158274</ifrs-smes:EquityAndLiabilities>
+  <ifrs-smes:EquityAndLiabilities id="XWAND00000464" decimals="0" contextRef="e2010" unitRef="EUR">2884669</ifrs-smes:EquityAndLiabilities>
+  <ifrs-smes:AdjustmentsForNoncashFinanceCosts id="XWAND00000468" decimals="0" contextRef="y2012" unitRef="EUR">800</ifrs-smes:AdjustmentsForNoncashFinanceCosts>
+  <ifrs-smes:AdjustmentsForNoncashFinanceCosts id="XWAND00000467" decimals="0" contextRef="y2011" unitRef="EUR">1200</ifrs-smes:AdjustmentsForNoncashFinanceCosts>
+  <ifrs-smes:AdjustmentsForNoncashIncomeTaxExpense id="XWAND00000469" decimals="0" contextRef="y2012" unitRef="EUR">79934</ifrs-smes:AdjustmentsForNoncashIncomeTaxExpense>
+  <ifrs-smes:AdjustmentsForNoncashIncomeTaxExpense id="XWAND00000470" decimals="0" contextRef="y2011" unitRef="EUR">16348</ifrs-smes:AdjustmentsForNoncashIncomeTaxExpense>
+  <ifrs-smes:DepreciationPropertyPlantAndEquipment id="XWAND00000472" decimals="0" contextRef="y2012" unitRef="EUR">270360</ifrs-smes:DepreciationPropertyPlantAndEquipment>
+  <ifrs-smes:DepreciationPropertyPlantAndEquipment id="XWAND00000471" decimals="0" contextRef="y2011" unitRef="EUR">219547</ifrs-smes:DepreciationPropertyPlantAndEquipment>
+  <ifrs-smes:AmortisationIntangibleAssetsOtherThanGoodwill id="XWAND00000474" decimals="0" contextRef="y2012" unitRef="EUR">1700</ifrs-smes:AmortisationIntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:AmortisationIntangibleAssetsOtherThanGoodwill id="XWAND00000475" decimals="0" contextRef="y2011" unitRef="EUR">1700</ifrs-smes:AmortisationIntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets id="XWAND00000476" decimals="0" contextRef="y2012" unitRef="EUR">-63850</ifrs-smes:AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets>
+  <ifrs-smes:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable id="XWAND00000477" decimals="0" contextRef="y2012" unitRef="EUR">-11686</ifrs-smes:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable>
+  <ifrs-smes:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable id="XWAND00000478" decimals="0" contextRef="y2011" unitRef="EUR">-52628</ifrs-smes:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable>
+  <ifrs-smes:AdjustmentsForDecreaseIncreaseInInventories id="XWAND00000480" decimals="0" contextRef="y2012" unitRef="EUR">-9461</ifrs-smes:AdjustmentsForDecreaseIncreaseInInventories>
+  <ifrs-smes:AdjustmentsForDecreaseIncreaseInInventories id="XWAND00000479" decimals="0" contextRef="y2011" unitRef="EUR">-2870</ifrs-smes:AdjustmentsForDecreaseIncreaseInInventories>
+  <ifrs-smes:AdjustmentsForIncreaseDecreaseInTradeAccountPayable id="XWAND00000481" decimals="0" contextRef="y2012" unitRef="EUR">10120</ifrs-smes:AdjustmentsForIncreaseDecreaseInTradeAccountPayable>
+  <ifrs-smes:AdjustmentsForIncreaseDecreaseInTradeAccountPayable id="XWAND00000482" decimals="0" contextRef="y2011" unitRef="EUR">10870</ifrs-smes:AdjustmentsForIncreaseDecreaseInTradeAccountPayable>
+  <ifrs-full:AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities id="XWAND00000484" decimals="0" contextRef="y2012" unitRef="EUR">793</ifrs-full:AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities>
+  <ifrs-full:AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities id="XWAND00000483" decimals="0" contextRef="y2011" unitRef="EUR">193</ifrs-full:AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities>
+  <ifrs-smes:CashFlowsFromUsedInOperatingActivities id="XWAND00000485" decimals="0" contextRef="y2012" unitRef="EUR">693416</ifrs-smes:CashFlowsFromUsedInOperatingActivities>
+  <ifrs-smes:CashFlowsFromUsedInOperatingActivities id="XWAND00000486" decimals="0" contextRef="y2011" unitRef="EUR">461948</ifrs-smes:CashFlowsFromUsedInOperatingActivities>
+  <ifrs-smes:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities id="XWAND00000487" decimals="0" contextRef="y2012" unitRef="EUR">100000</ifrs-smes:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities>
+  <ifrs-smes:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities id="XWAND00000488" decimals="0" contextRef="y2012" unitRef="EUR">485000</ifrs-smes:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities>
+  <ifrs-smes:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities id="XWAND00000489" decimals="0" contextRef="y2011" unitRef="EUR">435000</ifrs-smes:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities>
+  <ifrs-smes:CashFlowsFromUsedInInvestingActivities id="XWAND00000491" decimals="0" contextRef="y2012" unitRef="EUR">-385000</ifrs-smes:CashFlowsFromUsedInInvestingActivities>
+  <ifrs-smes:CashFlowsFromUsedInInvestingActivities id="XWAND00000490" decimals="0" contextRef="y2011" unitRef="EUR">-435000</ifrs-smes:CashFlowsFromUsedInInvestingActivities>
+  <ifrs-smes:PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities id="XWAND00000492" decimals="0" contextRef="y2012" unitRef="EUR">19884</ifrs-smes:PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities>
+  <ifrs-smes:PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities id="XWAND00000493" decimals="0" contextRef="y2011" unitRef="EUR">18423</ifrs-smes:PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities>
+  <ifrs-smes:RepaymentsOfBorrowingsClassifiedAsFinancingActivities id="XWAND00000494" decimals="0" contextRef="y2012" unitRef="EUR">100000</ifrs-smes:RepaymentsOfBorrowingsClassifiedAsFinancingActivities>
+  <ifrs-smes:DividendsPaidClassifiedAsFinancingActivities id="XWAND00000495" decimals="0" contextRef="y2012" unitRef="EUR">150000</ifrs-smes:DividendsPaidClassifiedAsFinancingActivities>
+  <ifrs-smes:DividendsPaidClassifiedAsFinancingActivities id="XWAND00000496" decimals="0" contextRef="y2011" unitRef="EUR">100000</ifrs-smes:DividendsPaidClassifiedAsFinancingActivities>
+  <ifrs-smes:CashFlowsFromUsedInFinancingActivities id="XWAND00000498" decimals="0" contextRef="y2012" unitRef="EUR">-269884</ifrs-smes:CashFlowsFromUsedInFinancingActivities>
+  <ifrs-smes:CashFlowsFromUsedInFinancingActivities id="XWAND00000497" decimals="0" contextRef="y2011" unitRef="EUR">-118423</ifrs-smes:CashFlowsFromUsedInFinancingActivities>
+  <ifrs-smes:IncreaseDecreaseInCashAndCashEquivalents id="XWAND00000499" decimals="0" contextRef="y2012" unitRef="EUR">38532</ifrs-smes:IncreaseDecreaseInCashAndCashEquivalents>
+  <ifrs-smes:IncreaseDecreaseInCashAndCashEquivalents id="XWAND00000500" decimals="0" contextRef="y2011" unitRef="EUR">-91475</ifrs-smes:IncreaseDecreaseInCashAndCashEquivalents>
+  <example1:FinanceCostsPaidInCash id="XWAND00000507" decimals="0" contextRef="y2012" unitRef="EUR">25566</example1:FinanceCostsPaidInCash>
+  <example1:FinanceCostsPaidInCash id="XWAND00000506" decimals="0" contextRef="y2011" unitRef="EUR">35512</example1:FinanceCostsPaidInCash>
+  <example1:IncomeTaxesPaidInCash id="XWAND00000508" decimals="0" contextRef="y2012" unitRef="EUR">190316</example1:IncomeTaxesPaidInCash>
+  <example1:IncomeTaxesPaidInCash id="XWAND00000509" decimals="0" contextRef="y2011" unitRef="EUR">173211</example1:IncomeTaxesPaidInCash>
+  <ifrs-smes:GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss id="XWAND00000510" decimals="0" contextRef="y2012" unitRef="EUR">1000</ifrs-smes:GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss>
+  <ifrs-smes:RevenueFromSaleOfGoods id="XWAND00000540" decimals="0" contextRef="y2012" unitRef="EUR">6743545</ifrs-smes:RevenueFromSaleOfGoods>
+  <ifrs-smes:RevenueFromSaleOfGoods id="XWAND00000541" decimals="0" contextRef="y2011" unitRef="EUR">5688653</ifrs-smes:RevenueFromSaleOfGoods>
+  <ifrs-smes:RevenueFromRoyalties id="XWAND00000543" decimals="0" contextRef="y2012" unitRef="EUR">120000</ifrs-smes:RevenueFromRoyalties>
+  <ifrs-smes:RevenueFromRoyalties id="XWAND00000542" decimals="0" contextRef="y2011" unitRef="EUR">120000</ifrs-smes:RevenueFromRoyalties>
+  <ifrs-smes:DividendsAndOtherDistributionsRecognisedAsIncome id="XWAND00000547" decimals="0" contextRef="y2012" unitRef="EUR">25000</ifrs-smes:DividendsAndOtherDistributionsRecognisedAsIncome>
+  <ifrs-full:GainsOnDisposalsOfPropertyPlantAndEquipment id="XWAND00000549" decimals="0" contextRef="y2012" unitRef="EUR">63850</ifrs-full:GainsOnDisposalsOfPropertyPlantAndEquipment>
+  <ifrs-full:InterestExpenseOnBankLoansAndOverdrafts id="XWAND00000555" decimals="0" contextRef="y2012" unitRef="EUR">21250</ifrs-full:InterestExpenseOnBankLoansAndOverdrafts>
+  <ifrs-full:InterestExpenseOnBankLoansAndOverdrafts id="XWAND00000552" decimals="0" contextRef="y2011" unitRef="EUR">30135</ifrs-full:InterestExpenseOnBankLoansAndOverdrafts>
+  <ifrs-full:InterestExpenseOnFinanceLeases id="XWAND00000553" decimals="0" contextRef="y2012" unitRef="EUR">5116</ifrs-full:InterestExpenseOnFinanceLeases>
+  <ifrs-full:InterestExpenseOnFinanceLeases id="XWAND00000554" decimals="0" contextRef="y2011" unitRef="EUR">6577</ifrs-full:InterestExpenseOnFinanceLeases>
+  <ifrs-smes:CostOfInventoriesRecognisedAsExpenseDuringPeriod id="XWAND00000559" decimals="0" contextRef="y2012" unitRef="EUR">5178530</ifrs-smes:CostOfInventoriesRecognisedAsExpenseDuringPeriod>
+  <ifrs-smes:CostOfInventoriesRecognisedAsExpenseDuringPeriod id="XWAND00000560" decimals="0" contextRef="y2011" unitRef="EUR">4422575</ifrs-smes:CostOfInventoriesRecognisedAsExpenseDuringPeriod>
+  <ifrs-smes:ResearchAndDevelopmentExpense id="XWAND00000561" decimals="0" contextRef="y2012" unitRef="EUR">31620</ifrs-smes:ResearchAndDevelopmentExpense>
+  <ifrs-smes:ResearchAndDevelopmentExpense id="XWAND00000562" decimals="0" contextRef="y2011" unitRef="EUR">22778</ifrs-smes:ResearchAndDevelopmentExpense>
+  <example1:WarrantyExpense id="XWAND00000564" decimals="0" contextRef="y2012" unitRef="EUR">5260</example1:WarrantyExpense>
+  <example1:WarrantyExpense id="XWAND00000565" decimals="0" contextRef="y2011" unitRef="EUR">7340</example1:WarrantyExpense>
+  <ifrs-smes:CurrentTaxExpenseIncome id="XWAND00000567" decimals="0" contextRef="y2012" unitRef="EUR">271647</ifrs-smes:CurrentTaxExpenseIncome>
+  <ifrs-smes:CurrentTaxExpenseIncome id="XWAND00000568" decimals="0" contextRef="y2011" unitRef="EUR">190316</ifrs-smes:CurrentTaxExpenseIncome>
+  <ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss id="XWAND00000569" decimals="0" contextRef="y2012" unitRef="EUR">-1397</ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss>
+  <ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss id="XWAND00000570" decimals="0" contextRef="y2011" unitRef="EUR">-757</ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss>
+  <ifrs-full:ApplicableTaxRate id="XWAND00000573" decimals="0" contextRef="y2012" unitRef="Pure">0.40</ifrs-full:ApplicableTaxRate>
+  <ifrs-full:ApplicableTaxRate id="XWAND00000574" decimals="0" contextRef="y2011" unitRef="Pure">0.40</ifrs-full:ApplicableTaxRate>
+  <example1:EmployeeCompensationExpenses id="XWAND00000577" decimals="0" contextRef="y2012" unitRef="EUR">20670</example1:EmployeeCompensationExpenses>
+  <example1:EmployeeCompensationExpenses id="XWAND00000578" decimals="0" contextRef="y2011" unitRef="EUR">16750</example1:EmployeeCompensationExpenses>
+  <ifrs-full:CurrentTradeReceivables id="XWAND00000580" decimals="0" contextRef="e2012" unitRef="EUR">528788</ifrs-full:CurrentTradeReceivables>
+  <ifrs-full:CurrentTradeReceivables id="XWAND00000581" decimals="0" contextRef="e2011" unitRef="EUR">528384</ifrs-full:CurrentTradeReceivables>
+  <ifrs-full:CurrentPrepayments id="XWAND00000583" decimals="0" contextRef="e2012" unitRef="EUR">56760</ifrs-full:CurrentPrepayments>
+  <ifrs-full:CurrentPrepayments id="XWAND00000582" decimals="0" contextRef="e2011" unitRef="EUR">45478</ifrs-full:CurrentPrepayments>
+  <ifrs-full:RawMaterials id="XWAND00000587" decimals="0" contextRef="e2012" unitRef="EUR">42601</ifrs-full:RawMaterials>
+  <ifrs-full:RawMaterials id="XWAND00000588" decimals="0" contextRef="e2011" unitRef="EUR">36450</ifrs-full:RawMaterials>
+  <ifrs-smes:WorkInProgress id="XWAND00000590" decimals="0" contextRef="e2012" unitRef="EUR">1140</ifrs-smes:WorkInProgress>
+  <ifrs-smes:WorkInProgress id="XWAND00000589" decimals="0" contextRef="e2011" unitRef="EUR">900</ifrs-smes:WorkInProgress>
+  <ifrs-full:FinishedGoods id="XWAND00000591" decimals="0" contextRef="e2012" unitRef="EUR">13640</ifrs-full:FinishedGoods>
+  <ifrs-full:FinishedGoods id="XWAND00000592" decimals="0" contextRef="e2011" unitRef="EUR">10570</ifrs-full:FinishedGoods>
+  <ifrs-full:ProportionOfOwnershipInterestInAssociate id="XWAND00000600" decimals="0" contextRef="y2012" unitRef="Pure">0.35</ifrs-full:ProportionOfOwnershipInterestInAssociate>
+  <ifrs-smes:DividendsAndOtherDistributionsRecognisedAsIncome id="XWAND00000598" decimals="0" contextRef="y2011" unitRef="EUR">25000</ifrs-smes:DividendsAndOtherDistributionsRecognisedAsIncome>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000551" decimals="0" contextRef="e2012_GrossCarryingAmountMember_LandAndBuildingsMember" unitRef="EUR">1960000</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000513" decimals="0" contextRef="e2011_GrossCarryingAmountMember_FixturesAndFittingsMember" unitRef="EUR">1102045</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000601" decimals="0" contextRef="e2011_GrossCarryingAmountMember" unitRef="EUR">3062045</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment id="XWAND00000602" decimals="0" contextRef="y2012_GrossCarryingAmountMember_FixturesAndFittingsMember" unitRef="EUR">485000</ifrs-smes:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment>
+  <ifrs-smes:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment id="XWAND00000603" decimals="0" contextRef="y2012_GrossCarryingAmountMember" unitRef="EUR">485000</ifrs-smes:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment>
+  <ifrs-smes:DisposalsPropertyPlantAndEquipment id="XWAND00000604" decimals="0" contextRef="y2012_GrossCarryingAmountMember_FixturesAndFittingsMember" unitRef="EUR">241000</ifrs-smes:DisposalsPropertyPlantAndEquipment>
+  <ifrs-smes:DisposalsPropertyPlantAndEquipment id="XWAND00000605" decimals="0" contextRef="y2012_GrossCarryingAmountMember" unitRef="EUR">241000</ifrs-smes:DisposalsPropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000607" decimals="0" contextRef="e2012_GrossCarryingAmountMember_FixturesAndFittingsMember" unitRef="EUR">1346045</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000608" decimals="0" contextRef="e2012_GrossCarryingAmountMember" unitRef="EUR">3306045</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000609" decimals="0" contextRef="e2011_AccumulatedDepreciationAmortisationAndImpairmentMember_LandAndBuildingsMember" unitRef="EUR">-390000</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000610" decimals="0" contextRef="e2011_AccumulatedDepreciationAmortisationAndImpairmentMember_FixturesAndFittingsMember" unitRef="EUR">-270590</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000611" decimals="0" contextRef="e2011_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="EUR">-660590</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:DepreciationPropertyPlantAndEquipment id="XWAND00000612" decimals="0" contextRef="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember_LandAndBuildingsMember" unitRef="EUR">30000</ifrs-smes:DepreciationPropertyPlantAndEquipment>
+  <ifrs-smes:DepreciationPropertyPlantAndEquipment id="XWAND00000613" decimals="0" contextRef="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember_FixturesAndFittingsMember" unitRef="EUR">240360</ifrs-smes:DepreciationPropertyPlantAndEquipment>
+  <ifrs-smes:DepreciationPropertyPlantAndEquipment id="XWAND00000614" decimals="0" contextRef="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="EUR">270360</ifrs-smes:DepreciationPropertyPlantAndEquipment>
+  <ifrs-smes:ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment id="XWAND00000615" decimals="0" contextRef="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember_FixturesAndFittingsMember" unitRef="EUR">30000</ifrs-smes:ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment>
+  <ifrs-smes:ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment id="XWAND00000616" decimals="0" contextRef="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="EUR">30000</ifrs-smes:ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment>
+  <ifrs-smes:DisposalsPropertyPlantAndEquipment id="XWAND00000617" decimals="0" contextRef="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember_FixturesAndFittingsMember" unitRef="EUR">-204850</ifrs-smes:DisposalsPropertyPlantAndEquipment>
+  <ifrs-smes:DisposalsPropertyPlantAndEquipment id="XWAND00000618" decimals="0" contextRef="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="EUR">-204850</ifrs-smes:DisposalsPropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000619" decimals="0" contextRef="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_LandAndBuildingsMember" unitRef="EUR">-420000</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000620" decimals="0" contextRef="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_FixturesAndFittingsMember" unitRef="EUR">-336100</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000621" decimals="0" contextRef="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="EUR">-756100</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000622" decimals="0" contextRef="e2012_LandAndBuildingsMember" unitRef="EUR">1540000</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:PropertyPlantAndEquipment id="XWAND00000623" decimals="0" contextRef="e2012_FixturesAndFittingsMember" unitRef="EUR">1009945</ifrs-smes:PropertyPlantAndEquipment>
+  <ifrs-smes:RecognisedFinanceLeaseAsAssets id="XWAND00000626" decimals="0" contextRef="e2012" unitRef="EUR">40000</ifrs-smes:RecognisedFinanceLeaseAsAssets>
+  <ifrs-smes:RecognisedFinanceLeaseAsAssets id="XWAND00000627" decimals="0" contextRef="e2011" unitRef="EUR">60000</ifrs-smes:RecognisedFinanceLeaseAsAssets>
+  <example1:MachinesCarryingAmount id="XWAND00000628" decimals="0" contextRef="e2012" unitRef="EUR">1472</example1:MachinesCarryingAmount>
+  <example1:RemainingObligation id="XWAND00000629" decimals="0" contextRef="e2012" unitRef="EUR">1550</example1:RemainingObligation>
+  <ifrs-smes:IntangibleAssetsOtherThanGoodwill id="XWAND00000631" decimals="0" contextRef="e2011_GrossCarryingAmountMember_ComputerSoftwareMember" unitRef="EUR">8500</ifrs-smes:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:IntangibleAssetsOtherThanGoodwill id="XWAND00000632" decimals="0" contextRef="e2012_GrossCarryingAmountMember_ComputerSoftwareMember" unitRef="EUR">8500</ifrs-smes:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:IntangibleAssetsOtherThanGoodwill id="XWAND00000633" decimals="0" contextRef="e2011_AccumulatedDepreciationAmortisationAndImpairmentMember_ComputerSoftwareMember" unitRef="EUR">-5950</ifrs-smes:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:AmortisationIntangibleAssetsOtherThanGoodwill id="XWAND00000634" decimals="0" contextRef="y2012_AccumulatedDepreciationAmortisationAndImpairmentMember_ComputerSoftwareMember" unitRef="EUR">1700</ifrs-smes:AmortisationIntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:IntangibleAssetsOtherThanGoodwill id="XWAND00000635" decimals="0" contextRef="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_ComputerSoftwareMember" unitRef="EUR">-7650</ifrs-smes:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000638" decimals="0" contextRef="e2010_ComputerSoftwareMember" unitRef="EUR">1700</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000645" decimals="0" contextRef="e2010_LongServiceBenefit" unitRef="EUR">-3855</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss id="XWAND00000639" decimals="0" contextRef="y2011_ComputerSoftwareMember" unitRef="EUR">-680</ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss>
+  <ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss id="XWAND00000646" decimals="0" contextRef="y2011_LongServiceBenefit" unitRef="EUR">-77</ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000640" decimals="0" contextRef="e2011_ComputerSoftwareMember" unitRef="EUR">1020</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000647" decimals="0" contextRef="e2011_LongServiceBenefit" unitRef="EUR">-3932</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss id="XWAND00000641" decimals="0" contextRef="y2012_ComputerSoftwareMember" unitRef="EUR">-680</ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss>
+  <ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss id="XWAND00000648" decimals="0" contextRef="y2012_LongServiceBenefit" unitRef="EUR">-317</ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000642" decimals="0" contextRef="e2012_ComputerSoftwareMember" unitRef="EUR">340</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-smes:DeferredTaxLiabilityAsset id="XWAND00000649" decimals="0" contextRef="e2012_LongServiceBenefit" unitRef="EUR">-4249</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-smes:DeferredTaxLiabilities id="XWAND00000655" decimals="0" contextRef="e2012" unitRef="EUR">340</ifrs-smes:DeferredTaxLiabilities>
+  <ifrs-smes:DeferredTaxLiabilities id="XWAND00000658" decimals="0" contextRef="e2011" unitRef="EUR">1020</ifrs-smes:DeferredTaxLiabilities>
+  <ifrs-smes:DeferredTaxAssets id="XWAND00000656" decimals="0" contextRef="e2012" unitRef="EUR">4649</ifrs-smes:DeferredTaxAssets>
+  <ifrs-smes:DeferredTaxAssets id="XWAND00000659" decimals="0" contextRef="e2011" unitRef="EUR">3932</ifrs-smes:DeferredTaxAssets>
+  <ifrs-smes:Borrowings id="XWAND00000664" decimals="0" contextRef="e2012" unitRef="EUR">133600</ifrs-smes:Borrowings>
+  <ifrs-smes:Borrowings id="XWAND00000667" decimals="0" contextRef="e2011" unitRef="EUR">265507</ifrs-smes:Borrowings>
+  <example1:LandAndBuildingCarryingAmount id="XWAND00000668" decimals="0" contextRef="e2012" unitRef="EUR">266000</example1:LandAndBuildingCarryingAmount>
+  <example1:LandAndBuildingCarryingAmount id="XWAND00000669" decimals="0" contextRef="e2011" unitRef="EUR">412000</example1:LandAndBuildingCarryingAmount>
+  <example1:InterestPayableOnBankOverdraft id="XWAND00000670" decimals="0" contextRef="e2012" unitRef="Pure">0.0200</example1:InterestPayableOnBankOverdraft>
+  <example1:InterestPayableOnBankLoan id="XWAND00000791" decimals="0" contextRef="e2012" unitRef="Pure">0.05</example1:InterestPayableOnBankLoan>
+  <example1:ForeignCurrencies id="XWAND00000672" decimals="0" contextRef="e2012" unitRef="EUR">42600</example1:ForeignCurrencies>
+  <ifrs-smes:OtherProvisions id="XWAND00000675" decimals="0" contextRef="e2011_WarrantyProvisionMember" unitRef="EUR">5040</ifrs-smes:OtherProvisions>
+  <ifrs-smes:AdditionalProvisionsOtherProvisions id="XWAND00000676" decimals="0" contextRef="y2012_WarrantyProvisionMember" unitRef="EUR">5260</ifrs-smes:AdditionalProvisionsOtherProvisions>
+  <ifrs-smes:ProvisionUsedOtherProvisions id="XWAND00000677" decimals="0" contextRef="y2012_WarrantyProvisionMember" unitRef="EUR">6100</ifrs-smes:ProvisionUsedOtherProvisions>
+  <ifrs-smes:OtherProvisions id="XWAND00000678" decimals="0" contextRef="e2012_WarrantyProvisionMember" unitRef="EUR">4200</ifrs-smes:OtherProvisions>
+  <ifrs-full:RecognisedLiabilitiesDefinedBenefitPlan id="XWAND00000680" decimals="0" contextRef="e2011_GovernmentMandatedPlan" unitRef="EUR">9830</ifrs-full:RecognisedLiabilitiesDefinedBenefitPlan>
+  <example1:AdditionalAccrualDuringTheYear id="XWAND00000681" decimals="0" contextRef="y2012_GovernmentMandatedPlan" unitRef="EUR">7033</example1:AdditionalAccrualDuringTheYear>
+  <ifrs-smes:DecreaseThroughBenefitsPaidDefinedBenefitObligationAtPresentValue id="XWAND00000682" decimals="0" contextRef="y2012_GovernmentMandatedPlan" unitRef="EUR">6240</ifrs-smes:DecreaseThroughBenefitsPaidDefinedBenefitObligationAtPresentValue>
+  <ifrs-full:RecognisedLiabilitiesDefinedBenefitPlan id="XWAND00000683" decimals="0" contextRef="e2012_GovernmentMandatedPlan" unitRef="EUR">10623</ifrs-full:RecognisedLiabilitiesDefinedBenefitPlan>
+  <ifrs-smes:ProvisionsForEmployeeBenefits id="XWAND00000686" decimals="0" contextRef="e2012" unitRef="EUR">10623</ifrs-smes:ProvisionsForEmployeeBenefits>
+  <ifrs-smes:ProvisionsForEmployeeBenefits id="XWAND00000689" decimals="0" contextRef="e2011" unitRef="EUR">9830</ifrs-smes:ProvisionsForEmployeeBenefits>
+  <ifrs-smes:MinimumFinanceLeasePaymentsPayable id="XWAND00000301" decimals="0" contextRef="e2012_NotLaterThanOneYearMember" unitRef="EUR">25000</ifrs-smes:MinimumFinanceLeasePaymentsPayable>
+  <ifrs-smes:MinimumFinanceLeasePaymentsPayable id="XWAND00000302" decimals="0" contextRef="e2011_NotLaterThanOneYearMember" unitRef="EUR">25000</ifrs-smes:MinimumFinanceLeasePaymentsPayable>
+  <ifrs-smes:MinimumFinanceLeasePaymentsPayable id="XWAND00000303" decimals="0" contextRef="e2012_LaterThanOneYearAndNotLaterThanFiveYearsMember" unitRef="EUR">25000</ifrs-smes:MinimumFinanceLeasePaymentsPayable>
+  <ifrs-smes:MinimumFinanceLeasePaymentsPayable id="XWAND00000304" decimals="0" contextRef="e2011_LaterThanOneYearAndNotLaterThanFiveYearsMember" unitRef="EUR">50000</ifrs-smes:MinimumFinanceLeasePaymentsPayable>
+  <ifrs-smes:MinimumFinanceLeasePaymentsPayable id="XWAND00000305" decimals="0" contextRef="e2012" unitRef="EUR">50000</ifrs-smes:MinimumFinanceLeasePaymentsPayable>
+  <ifrs-smes:MinimumFinanceLeasePaymentsPayable id="XWAND00000306" decimals="0" contextRef="e2011" unitRef="EUR">75000</ifrs-smes:MinimumFinanceLeasePaymentsPayable>
+  <ifrs-full:FinanceLeaseLiabilities id="XWAND00000311" decimals="0" contextRef="e2012" unitRef="EUR">44624</ifrs-full:FinanceLeaseLiabilities>
+  <ifrs-full:FinanceLeaseLiabilities id="XWAND00000312" decimals="0" contextRef="e2011" unitRef="EUR">64508</ifrs-full:FinanceLeaseLiabilities>
+  <ifrs-smes:LeaseAndSubleasePaymentsRecognisedAsExpense id="XWAND00000314" decimals="0" contextRef="y2012" unitRef="EUR">26100</ifrs-smes:LeaseAndSubleasePaymentsRecognisedAsExpense>
+  <ifrs-smes:LeaseAndSubleasePaymentsRecognisedAsExpense id="XWAND00000315" decimals="0" contextRef="y2011" unitRef="EUR">26100</ifrs-smes:LeaseAndSubleasePaymentsRecognisedAsExpense>
+  <ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease id="XWAND00000316" decimals="0" contextRef="e2012_NotLaterThanOneYearMember" unitRef="EUR">13050</ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease id="XWAND00000317" decimals="0" contextRef="e2011_NotLaterThanOneYearMember" unitRef="EUR">26100</ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease id="XWAND00000318" decimals="0" contextRef="e2011_LaterThanOneYearAndNotLaterThanFiveYearsMember" unitRef="EUR">13050</ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease id="XWAND00000319" decimals="0" contextRef="e2012" unitRef="EUR">13050</ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease id="XWAND00000320" decimals="0" contextRef="e2011" unitRef="EUR">39150</ifrs-smes:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-smes:NumberOfSharesOutstanding id="XWAND00000323" decimals="0" contextRef="e2012_OrdinarySharesMember" unitRef="Shares">30000</ifrs-smes:NumberOfSharesOutstanding>
+  <ifrs-smes:ParValuePerShare id="XWAND00000324" decimals="0" contextRef="e2012_OrdinarySharesMember" unitRef="EURperShare">1.00</ifrs-smes:ParValuePerShare>
+  <example1:NumberOfSharesAuthorisedButUnissued id="XWAND00000325" decimals="0" contextRef="e2012_OrdinarySharesMember" unitRef="Shares">70000</example1:NumberOfSharesAuthorisedButUnissued>
+  <ifrs-smes:EstimatedFinancialEffectOfContingentLiabilities id="XWAND00000698" decimals="0" contextRef="e2012" unitRef="EUR">50000</ifrs-smes:EstimatedFinancialEffectOfContingentLiabilities>
+  <example1:CostOfRefurbishment id="XWAND00000703" decimals="0" contextRef="y2012_FloodInOneOfTheCandleStorageRoomsMember" unitRef="EUR">36000</example1:CostOfRefurbishment>
+  <example1:ReimbursementsFromInsurance id="XWAND00000702" decimals="0" contextRef="y2012_FloodInOneOfTheCandleStorageRoomsMember" unitRef="EUR">16000</example1:ReimbursementsFromInsurance>
+  <ifrs-full:DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwnersPerShare id="XWAND00000707" decimals="0" contextRef="y2012" unitRef="EURperShare">1.00</ifrs-full:DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwnersPerShare>
+  <ifrs-full:DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners id="XWAND00000708" decimals="0" contextRef="y2012" unitRef="EUR">30000</ifrs-full:DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners>
+  <ifrs-smes:RevenueFromSaleOfGoodsRelatedPartyTransactions id="XWAND00000709" decimals="0" contextRef="y2012_AssociatesMember" unitRef="EUR">10000</ifrs-smes:RevenueFromSaleOfGoodsRelatedPartyTransactions>
+  <ifrs-smes:RevenueFromSaleOfGoodsRelatedPartyTransactions id="XWAND00000710" decimals="0" contextRef="y2011_AssociatesMember" unitRef="EUR">8000</ifrs-smes:RevenueFromSaleOfGoodsRelatedPartyTransactions>
+  <ifrs-smes:AmountsPayableRelatedPartyTransactions id="XWAND00000711" decimals="0" contextRef="e2012_AssociatesMember" unitRef="EUR">800</ifrs-smes:AmountsPayableRelatedPartyTransactions>
+  <ifrs-smes:AmountsPayableRelatedPartyTransactions id="XWAND00000712" decimals="0" contextRef="e2011_AssociatesMember" unitRef="EUR">400</ifrs-smes:AmountsPayableRelatedPartyTransactions>
+  <ifrs-smes:KeyManagementPersonnelCompensation id="XWAND00000713" decimals="0" contextRef="y2012" unitRef="EUR">249918</ifrs-smes:KeyManagementPersonnelCompensation>
+  <ifrs-smes:KeyManagementPersonnelCompensation id="XWAND00000714" decimals="0" contextRef="y2011" unitRef="EUR">208260</ifrs-smes:KeyManagementPersonnelCompensation>
+  <ifrs-smes:DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory id="XWAND00000511" contextRef="y2012"> &lt;p&gt;XYZ (Holdings) Limited (the Company) is a limited company incorporated
+    in A Land. The address of its registered office and principal place of business is _________. XYZ Group consists of the Company and its wholly-owned subsidiary XYZ ( Trading) Limited. Their
+    principal activities are the manufacture and sale of candles. &lt;/p&gt; </ifrs-smes:DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory>
+  <ifrs-smes:NameOfParentEntity id="XWAND00000515" contextRef="y2012">XYZ (Holdings) Limited</ifrs-smes:NameOfParentEntity>
+  <ifrs-full:CountryOfIncorporationOfEntityWhoseConsolidatedFinancialStatementsHaveBeenProducedForPublicUse id="XWAND00000517" contextRef="y2012">A Land</ifrs-full:CountryOfIncorporationOfEntityWhoseConsolidatedFinancialStatementsHaveBeenProducedForPublicUse>
+  <ifrs-smes:AddressOfRegisteredOfficeOfEntity id="XWAND00000514" contextRef="y2012"> _________.</ifrs-smes:AddressOfRegisteredOfficeOfEntity>
+  <ifrs-smes:NameOfReportingEntityOrOtherMeansOfIdentification id="XWAND00000516" contextRef="y2012">XYZ Group</ifrs-smes:NameOfReportingEntityOrOtherMeansOfIdentification>
+  <ifrs-full:NameOfSubsidiary id="XWAND00000518" contextRef="y2012">XYZ ( Trading) Limited</ifrs-full:NameOfSubsidiary>
+  <ifrs-smes:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities id="XWAND00000519" contextRef="y2012">manufacture and sale of candles</ifrs-smes:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities>
+  <ifrs-smes:DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory id="XWAND00000521" contextRef="y2012"> &lt;p&gt; These consolidated financial statements have been prepared in accordance
+    with the &lt;i&gt;International Financial Reporting Standard for Small and Medium-sized Entities&lt;/i&gt; issued by the International Accounting Standards Board. They are
+    presented in the currency units (CU) of A Land. &lt;/p&gt; &lt;p&gt;Basis of consolidation&lt;/p&gt; &lt;p title="Name/Code: DescriptionOfBasisOfConsolidation
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; The consolidated financial statements incorporate the financial statements of the Company and its wholly-owned subsidiary. All
+    intragroup transactions, balances, income and expenses are eliminated . &lt;/p&gt; &lt;p&gt;Investments in associates&lt;/p&gt; &lt;p&gt;Investments in associates
+    are accounted for at cost less any accumulated impairment losses.&lt;/p&gt; &lt;p&gt;Dividend income from investments in associates is recognised when the Group’s right to receive
+    payment has been established. It is included in other income.&lt;/p&gt; &lt;p&gt;Revenue recognition&lt;/p&gt; &lt;p&gt;Revenue from sales of goods is recognised
+    when the goods are delivered and title has passed. Royalty revenue from licensing candle-making patents for use by others is recognised in accordance with the relevant licence agreements. Revenue is
+    measured at the fair value of the consideration received or receivable, net of discounts and sales-related taxes collected on behalf of the government of A Land.&lt;/p&gt;
+    &lt;p&gt;Borrowing costs&lt;/p&gt; &lt;p&gt;All borrowing costs are recognised in profit or loss in the period in which they are incurred.&lt;/p&gt;
+    &lt;p&gt;Income tax&lt;/p&gt; &lt;p&gt;Income tax expense represents the sum of the tax currently payable and deferred tax.&lt;/p&gt; &lt;p&gt;The tax
+    currently payable is based on taxable profit for the year.&lt;/p&gt; &lt;p&gt;Deferred tax is recognised on differences between the carrying amounts of assets and liabilities in the 
+	financial statements and their corresponding tax bases (known as temporary differences). Deferred tax liabilities are generally recognised for all temporary differences that will result 
+	in taxable amounts in determining taxable profit (tax loss) of future periods when the carrying amount of the asset or liability is recovered or settled (taxable temporary differences). 
+	Deferred tax assets are generally recognised for all temporary differences that will result in amounts that are deductible in determining taxable profit (tax loss) of future periods when 
+	the carrying amount of the asset or liability is recovered or settled (deductible temporary differences)—but only to the extent that it is probable that taxable profits will be available 
+	against which those deductible temporary differences can be utilised.&lt;/p&gt;
+    &lt;p&gt;The carrying amount of deferred tax assets is reviewed at each reporting date and is adjusted to reflect the current assessment of future taxable profits. Any adjustments are 
+	recognised in profit or loss.&lt;/p&gt; &lt;p&gt;Deferred tax is calculated at the tax rates that are expected to apply to the taxable profit (tax loss) of the periods in which it
+    expects the deferred tax asset to be realised or the deferred tax liability to be settled, on the basis of tax rates that have been enacted or substantively enacted by the end of the reporting
+    period.&lt;/p&gt; &lt;p&gt;Property, plant and equipment&lt;/p&gt; &lt;p&gt;Items of property, plant and equipment are measured at cost less accumulated
+    depreciation and any accumulated impairment losses.&lt;/p&gt; &lt;p&gt;Depreciation is charged so as to allocate the cost of assets less their residual values over their estimated
+    useful lives, using the straight-line method. The following annual rates are used for the depreciation of property, plant and equipment:&lt;/p&gt; &lt;table cellspacing="0"
+    cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Buildings&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;2 per
+    cent&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Fixtures and equipment&lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p&gt;10–30 per cent&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;
+    &lt;p&gt;If there is an indication that there has been a significant change in depreciation rate, useful life or residual value of an asset, the depreciation of that asset is revised
+    prospectively to reflect the new expectations.&lt;/p&gt; &lt;p&gt;Intangible assets&lt;/p&gt; &lt;p&gt;Intangible assets are purchased computer software that is
+    stated at cost less accumulated depreciation and any accumulated impairment losses. It is amortised over its estimated life of five years using the straight-line method. If there is an indication
+    that there has been a significant change in amortisation rate, useful life or residual value of an intangible asset, the amortisation is revised prospectively to reflect the new
+    expectations.&lt;/p&gt; &lt;p&gt;Impairment of assets&lt;/p&gt; &lt;p&gt;At each reporting date, property, plant and equipment, intangible assets and investments
+    in associates are reviewed to determine whether there is any indication that those assets have suffered an impairment loss. If there is an indication of possible impairment, the recoverable amount
+    of any affected asset (or group of related assets) is estimated and compared with its carrying amount. If estimated recoverable amount is lower, the carrying amount is reduced to its estimated
+    recoverable amount and an impairment loss is recognised immediately in profit or loss.&lt;/p&gt; &lt;p&gt;Similarly, at each reporting date, inventories are assessed for
+    impairment by comparing the carrying amount of each item of inventory (or group of similar items) with its selling price less costs to complete and sell. If an item of inventory (or group of
+    similar items) is impaired, its carrying amount is reduced to selling price less costs to complete and sell, and an impairment loss is recognised immediately in profit or loss.&lt;/p&gt;
+    &lt;p&gt;If an impairment loss subsequently reverses, the carrying amount of the asset (or group of related assets) is increased to the revised estimate of its recoverable amount (selling
+    price less costs to complete and sell, in the case of inventories), but not in excess of the amount that would have been determined had no impairment loss been recognised for the asset (group of
+    related assets) in prior years. A reversal of an impairment loss is recognised immediately in profit or loss.&lt;/p&gt; &lt;p&gt;Leases&lt;/p&gt; &lt;p&gt;Leases
+    are classified as finance leases whenever the terms of the lease transfer substantially all the risks and rewards of ownership of the leased asset to the Group. All other leases are classified as
+    operating leases.&lt;/p&gt; &lt;p&gt;Rights to assets held under finance leases are recognised as assets of the Group at the fair value of the leased property (or, if lower, the
+    present value of minimum lease payments) at the inception of the lease. The corresponding liability to the lessor is included in the statement of financial position as a finance lease obligation.
+    Lease payments are apportioned between finance charges and reduction of the lease obligation so as to achieve a constant rate of interest on the remaining balance of the liability. Finance charges
+    are deducted in measuring profit or loss. Assets held under finance leases are included in property, plant and equipment, and depreciated and assessed for impairment losses in the same way as
+    owned assets.&lt;/p&gt; &lt;p&gt;Rentals payable under operating leases are charged to profit or loss on a straight-line basis over the term of the relevant
+    lease.&lt;/p&gt; &lt;p&gt;Inventories&lt;/p&gt; &lt;p&gt;Inventories are stated at the lower of cost and selling price less costs to complete and sell. Cost is
+    calculated using the first-in, first-out (FIFO) method.&lt;/p&gt; &lt;p&gt;Trade and other receivables&lt;/p&gt; &lt;p&gt;Most sales are made on the basis of normal
+    credit terms and the receivables do not bear interest. Where credit is extended beyond normal credit terms, receivables are measured at amortised cost using the effective interest method. At the
+    end of each reporting period, the carrying amounts of trade and other receivables are reviewed to determine whether there is any objective evidence that the amounts are not recoverable. If so, an
+    impairment loss is recognised immediately in profit or loss.&lt;/p&gt; &lt;p&gt;Trade payables&lt;/p&gt; &lt;p&gt;Trade payables are obligations on the basis of
+    normal credit terms and do not bear interest. Trade payables denominated in a foreign currency are translated into CU using the exchange rate at the reporting date. Foreign exchange gains or
+    losses are included in other income or other expenses.&lt;/p&gt; &lt;p&gt;Bank loans and overdrafts&lt;/p&gt; &lt;p&gt;Interest expense is recognised on the basis
+    of the effective interest method and is included in finance costs.&lt;/p&gt; &lt;p&gt;Employee benefits―long-service payment&lt;/p&gt; &lt;p&gt;The liability for
+    employee benefit obligations relates to government-mandated long-service payments. All full-time staff, excluding directors, are covered by the programme. A payment is made of 5 per cent of salary
+    (as determined for the twelve months before the payment) at the end of each of five years of employment. The payment is made as part of the December payroll in the fifth year. The Group does not
+    fund this obligation in advance.&lt;/p&gt; &lt;p&gt;The Group’s cost and obligation to make long-service payments to employees are recognised during the employees’ periods of
+    service. The cost and obligation are measured using the projected unit credit method, assuming a 4 per cent average annual salary increase, with employee turnover based on the Group’s recent
+    experience, discounted using the current market yield for high quality corporate bonds.&lt;/p&gt; &lt;p&gt;Provision for warranty obligations&lt;/p&gt; &lt;p&gt;All
+    goods sold by the Group are warranted to be free of manufacturing defects for a period of one year. Goods are repaired or replaced at the Group’s option. When revenue is recognised, a provision is
+    made for the estimated cost of the warranty obligation.&lt;/p&gt; </ifrs-smes:DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory>
+  <ifrs-smes:StatementOfIFRSCompliance id="XWAND00000522" contextRef="y2012"> &lt;p&gt; These consolidated financial statements have been prepared in accordance with the
+    &lt;i&gt;International Financial Reporting Standard for Small and Medium-sized Entities&lt;/i&gt; issued by the International Accounting Standards Board. They are presented in the
+    currency units (CU) of A Land. &lt;/p&gt; </ifrs-smes:StatementOfIFRSCompliance>
+  <ifrs-full:DisclosureOfBasisOfConsolidationExplanatory id="XWAND00000523" contextRef="y2012">The consolidated financial statements incorporate the financial statements of the Company and its wholly-owned
+    subsidiary. All intragroup transactions, balances, income and expenses are eliminated</ifrs-full:DisclosureOfBasisOfConsolidationExplanatory>
+  <ifrs-smes:DescriptionOfAccountingPolicyForInvestmentInAssociates id="XWAND00000524" contextRef="y2012"> &lt;p&gt;Investments in associates are accounted for at cost less any accumulated
+    impairment losses.&lt;/p&gt; &lt;p&gt;Dividend income from investments in associates is recognised when the Group’s right to receive payment has been established. It is included in
+    other income.&lt;/p&gt; </ifrs-smes:DescriptionOfAccountingPolicyForInvestmentInAssociates>
+  <ifrs-smes:DescriptionOfAccountingPolicyForRecognitionOfRevenue id="XWAND00000525" contextRef="y2012"> &lt;p&gt;Revenue from sales of goods is recognised when the goods are delivered and title
+    has passed. Royalty revenue from licensing candle-making patents for use by others is recognised in accordance with the relevant licence agreements. Revenue is measured at the fair value of the
+    consideration received or receivable, net of discounts and sales-related taxes collected on behalf of the government of A Land.&lt;/p&gt; </ifrs-smes:DescriptionOfAccountingPolicyForRecognitionOfRevenue>
+  <ifrs-full:DescriptionOfAccountingPolicyForBorrowingCostsExplanatory id="XWAND00000526" contextRef="y2012"> &lt;p&gt;All borrowing costs are recognised in profit or loss in the period in which
+    they are incurred.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForBorrowingCostsExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForIncomeTaxExplanatory id="XWAND00000527" contextRef="y2012"> &lt;p&gt;Income tax expense represents the sum of the tax currently payable and deferred
+    tax.&lt;/p&gt; &lt;p&gt;The tax currently payable is based on taxable profit for the year.&lt;/p&gt; &lt;p&gt;Deferred tax is recognised on differences between the carrying amounts of assets and liabilities in the 
+	financial statements and their corresponding tax bases (known as temporary differences). Deferred tax liabilities are generally recognised for all temporary differences that will result 
+	in taxable amounts in determining taxable profit (tax loss) of future periods when the carrying amount of the asset or liability is recovered or settled (taxable temporary differences). 
+	Deferred tax assets are generally recognised for all temporary differences that will result in amounts that are deductible in determining taxable profit (tax loss) of future periods when 
+	the carrying amount of the asset or liability is recovered or settled (deductible temporary differences)—but only to the extent that it is probable that taxable profits will be available 
+	against which those deductible temporary differences can be utilised.&lt;/p&gt; &lt;p&gt;The carrying amount of deferred tax assets is reviewed at each reporting date and is adjusted to reflect the 
+	current assessment of future taxable profits. Any adjustments are recognised in profit or loss.&lt;/p&gt; &lt;p&gt;Deferred tax is calculated at the tax rates that are expected to apply to the taxable profit
+    (tax loss) of the periods in which it expects the deferred tax asset to be realised or the deferred tax liability to be settled, on the basis of tax rates that have been enacted or substantively
+    enacted by the end of the reporting period.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForIncomeTaxExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForPropertyPlantAndEquipmentExplanatory id="XWAND00000528" contextRef="y2012"> &lt;p&gt;Items of property, plant and equipment are measured at cost less
+    accumulated depreciation and any accumulated impairment losses.&lt;/p&gt; &lt;p&gt;Depreciation is charged so as to allocate the cost of assets less their residual values over
+    their estimated useful lives, using the straight-line method. The following annual rates are used for the depreciation of property, plant and equipment:&lt;/p&gt; &lt;table
+    cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Buildings&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;2 per cent&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Fixtures and
+    equipment&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;10–30 per cent&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt;If there is an indication that there has been a significant change in depreciation rate, useful life or residual value of an asset,
+    the depreciation of that asset is revised prospectively to reflect the new expectations.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForPropertyPlantAndEquipmentExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForIntangibleAssetsOtherThanGoodwillExplanatory id="XWAND00000529" contextRef="y2012"> &lt;p&gt;Intangible assets are purchased computer software that is
+    stated at cost less accumulated depreciation and any accumulated impairment losses. It is amortised over its estimated life of five years using the straight-line method. If there is an indication
+    that there has been a significant change in amortisation rate, useful life or residual value of an intangible asset, the amortisation is revised prospectively to reflect the new
+    expectations.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForIntangibleAssetsOtherThanGoodwillExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForImpairmentOfAssetsExplanatory id="XWAND00000530" contextRef="y2012"> &lt;p&gt;At each reporting date, property, plant and equipment, intangible assets
+    and investments in associates are reviewed to determine whether there is any indication that those assets have suffered an impairment loss. If there is an indication of possible impairment, the
+    recoverable amount of any affected asset (or group of related assets) is estimated and compared with its carrying amount. If estimated recoverable amount is lower, the carrying amount is reduced
+    to its estimated recoverable amount, and an impairment loss is recognised immediately in profit or loss.&lt;/p&gt; &lt;p&gt;Similarly, at each reporting date, inventories are
+    assessed for impairment by comparing the carrying amount of each item of inventory (or group of similar items) with its selling price less costs to complete and sell. If an item of inventory (or
+    group of similar items) is impaired, its carrying amount is reduced to selling price less costs to complete and sell and an impairment loss is recognised immediately in profit or
+    loss.&lt;/p&gt; &lt;p&gt;If an impairment loss subsequently reverses, the carrying amount of the asset (or group of related assets) is increased to the revised estimate of its
+    recoverable amount (selling price less costs to complete and sell, in the case of inventories), but not in excess of the amount that would have been determined had no impairment loss been
+    recognised for the asset (group of related assets) in prior years. A reversal of an impairment loss is recognised immediately in profit or loss.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForImpairmentOfAssetsExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForLeasesExplanatory id="XWAND00000531" contextRef="y2012"> &lt;p&gt;Leases are classified as finance leases whenever the terms of the lease transfer
+    substantially all the risks and rewards of ownership of the leased asset to the Group. All other leases are classified as operating leases.&lt;/p&gt; &lt;p&gt;Rights to assets held
+    under finance leases are recognised as assets of the Group at the fair value of the leased property (or, if lower, the present value of minimum lease payments) at the inception of the lease. The
+    corresponding liability to the lessor is included in the statement of financial position as a finance lease obligation. Lease payments are apportioned between finance charges and reduction of the
+    lease obligation so as to achieve a constant rate of interest on the remaining balance of the liability. Finance charges are deducted in measuring profit or loss. Assets held under finance leases
+    are included in property, plant and equipment, and depreciated and assessed for impairment losses in the same way as owned assets.&lt;/p&gt; &lt;p&gt;Rentals payable under
+    operating leases are charged to profit or loss on a straight-line basis over the term of the relevant lease.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForLeasesExplanatory>
+  <ifrs-smes:DescriptionOfAccountingPolicyForMeasuringInventories id="XWAND00000532" contextRef="y2012"> &lt;p&gt;Inventories are stated at the lower of cost and selling price less costs to
+    complete and sell. Cost is calculated using the first-in, first-out (FIFO) method.&lt;/p&gt; </ifrs-smes:DescriptionOfAccountingPolicyForMeasuringInventories>
+  <ifrs-full:DescriptionOfAccountingPolicyForTradeAndOtherReceivablesExplanatory id="XWAND00000533" contextRef="y2012"> &lt;p&gt;Most sales are made on the basis of normal credit terms and the
+    receivables do not bear interest. Where credit is extended beyond normal credit terms, receivables are measured at amortised cost using the effective interest method. At the end of each reporting
+    period, the carrying amounts of trade and other receivables are reviewed to determine whether there is any objective evidence that the amounts are not recoverable. If so, an impairment loss is
+    recognised immediately in profit or loss.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForTradeAndOtherReceivablesExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForTradeAndOtherPayablesExplanatory id="XWAND00000534" contextRef="y2012"> &lt;p&gt;Trade payables are obligations on the basis of normal credit terms and
+    do not bear interest. Trade payables denominated in a foreign currency are translated into CU using the exchange rate at the reporting date. Foreign exchange gains or losses are included in other
+    income or other expenses.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForTradeAndOtherPayablesExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForBorrowingsExplanatory id="XWAND00000535" contextRef="y2012"> &lt;p&gt;Interest expense is recognised on the basis of the effective interest method and
+    is included in finance costs.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForBorrowingsExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForEmployeeBenefitsExplanatory id="XWAND00000536" contextRef="y2012"> &lt;p&gt;The liability for employee benefit obligations relates to
+    government-mandated long-service payments. All full-time staff, excluding directors, are covered by the programme. A payment is made of 5 per cent of salary (as determined for the twelve months
+    before the payment) at the end of each of five years of employment. The payment is made as part of the December payroll in the fifth year. The Group does not fund this obligation in
+    advance.&lt;/p&gt; &lt;p&gt;The Group’s cost and obligation to make long-service payments to employees are recognised during the employees’ periods of service. The cost and
+    obligation are measured using the projected unit credit method, assuming a 4 per cent average annual salary increase, with employee turnover based on the Group’s recent experience, discounted
+    using the current market yield for high quality corporate bonds.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForEmployeeBenefitsExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForProvisionsExplanatory id="XWAND00000537" contextRef="y2012"> &lt;p&gt;All goods sold by the Group are warranted to be free of manufacturing defects for
+    a period of one year. Goods are repaired or replaced at the Group’s option. When revenue is recognised, a provision is made for the estimated cost of the warranty obligation.&lt;/p&gt; </ifrs-full:DescriptionOfAccountingPolicyForProvisionsExplanatory>
+  <example1:LongServicePayments id="XWAND00000520" contextRef="y2012"> &lt;p&gt;In determining the liability for long-service payments (explained in note 19), management must make an estimate
+    of salary increases over the following five years, the discount rate for the next five years to use in the present value calculation, and the number of employees expected to leave before they
+    receive the benefits.&lt;/p&gt; </example1:LongServicePayments>
+  <ifrs-smes:RightsPreferencesAndRestrictionsAttachingToClassOfShareCapital id="XWAND00000538" contextRef="y2012"> &lt;p&gt;Under the terms of the bank loan and bank overdraft agreements, dividends
+    cannot be paid to the extent that they would reduce the balance of retained earnings below the sum of the outstanding balance of the bank loan and the bank overdraft.&lt;/p&gt; </ifrs-smes:RightsPreferencesAndRestrictionsAttachingToClassOfShareCapital>
+  <ifrs-smes:DisclosureOfRevenueExplanatory id="XWAND00000539" contextRef="y2012"> &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Sale of goods&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: RevenueFromSaleOfGoods
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 6,743,545 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: RevenueFromSaleOfGoods
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 5,688,653 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Royalties – licensing of candle-making patents&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: RevenueFromRoyalties
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 120,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: RevenueFromRoyalties
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 120,000 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt;6,863,545&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;5,808,653&lt;/p&gt; &lt;/td&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </ifrs-smes:DisclosureOfRevenueExplanatory>
+  <example1:OtherIncome id="XWAND00000546" contextRef="y2012"> &lt;p title="Name/Code: GainsOnDisposalsOfPropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; Other
+    income includes dividends received from an associate of CU 25,000 in both 20X1 and 20X2 and gain on disposal of property, plant and equipment of CU 63,850 in 20X2. &lt;/p&gt; </example1:OtherIncome>
+  <example1:FinanceCost id="XWAND00000550" contextRef="y2012"> &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt;
+    &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt;Interest on bank loan and overdraft&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: InterestOnBankLoanAndOverdraft
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; ( 21,250 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: InterestOnBankLoanAndOverdraft
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; ( 30,135 ) &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Interest on finance leases&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: InterestOnFinanceLeases
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; ( 5,116 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: InterestOnFinanceLeases
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; ( 6,577 ) &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt;( 26,366)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;( 36,712)&lt;/p&gt; &lt;/td&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </example1:FinanceCost>
+  <example1:ProfitBeforeTax id="XWAND00000558" contextRef="y2012"> &lt;p&gt;The following items have been recognised as expenses (income) in determining profit before tax:&lt;/p&gt;
+    &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Cost of inventories
+    recognised as expense&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: CostOfInventoriesRecognisedAsExpenseDuringPeriod
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 5,178,530 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    CostOfInventoriesRecognisedAsExpenseDuringPeriod [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 4,422,575 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Research and development cost (included in other expenses)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: ResearchAndDevelopmentExpense [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 31,620 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: ResearchAndDevelopmentExpense [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 22,778 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Foreign exchange loss on trade payables (included in other expenses)&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;1,000&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;–&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt;Warranty expense (included in cost of sales*)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: WarrantyExpense
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; 5,260 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: WarrantyExpense
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; 7,340 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td
+    colspan="3"&gt; &lt;p&gt;*If the entity classifies its expenses by nature in its income statement, this would say ‘included in raw materials and consumables used’.&lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </example1:ProfitBeforeTax>
+  <ifrs-smes:DisclosureOfIncomeTaxExplanatory id="XWAND00000566" contextRef="y2012"> &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Current tax&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: CurrentTaxExpenseIncome
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 271,647 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: CurrentTaxExpenseIncome
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 190,316 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Deferred tax (note 15)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DeferredTaxExpenseIncomeRecognisedInProfitOrLoss
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 1,397 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    DeferredTaxExpenseIncomeRecognisedInProfitOrLoss [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 757 ) &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;270,250&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;189,559&lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p title="Name/Code: ApplicableTaxRate
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; Income tax is calculated at 40 per cent (20X1: 40 per cent) of the estimated assessable profit for the year. &lt;/p&gt; &lt;p
+    title="Name/Code: EmployeeCompensationExpenses [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; Income tax expense for the year CU 270,250 in 20X2 (CU 189,559 in 20X1) differs
+    from the amount that would result from applying the tax rate of 40 per cent (both 20X2 and 20X1) to profit before tax because, under the tax laws of A Land, some employee compensation expenses (CU
+    20,670 in 20X2 and CU 16,750 in 20X1) that are recognised in measuring profit before tax are not tax-deductible.. &lt;/p&gt; </ifrs-smes:DisclosureOfIncomeTaxExplanatory>
+  <example1:TradeAndOtherReceivables id="XWAND00000579" contextRef="y2012"> &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Trade debtors&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: CurrentTradeReceivables
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 528,788 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: CurrentTradeReceivables
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 528,384 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Prepayments&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: CurrentPrepayments [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 56,760
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: CurrentPrepayments [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 45,478 &lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;585,548&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;573,862&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </example1:TradeAndOtherReceivables>
+  <ifrs-smes:DisclosureOfInventoriesExplanatory id="XWAND00000586" contextRef="y2012"> &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Raw materials&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: RawMaterials
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 42,601 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: RawMaterials
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   36,450 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Work in progress&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: WorkInProgress [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;  
+    1,140 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: WorkInProgress [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   900 &lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Finished goods&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: FinishedGoods [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 13,640 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: FinishedGoods
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 10,570 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt;57,381&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;47,920&lt;/p&gt; &lt;/td&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </ifrs-smes:DisclosureOfInventoriesExplanatory>
+  <ifrs-smes:DisclosureOfInvestmentInAssociatesExplanatory id="XWAND00000595" contextRef="y2012"> &lt;p title="Name/Code: ProportionOfOwnershipInterestInAssociate
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; The Group owns 35 per cent of an associate whose shares are not publicly traded. &lt;/p&gt; &lt;table cellspacing="0"
+    cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Cost of investment in
+    associate&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;107,500&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;107,500&lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Dividend received from associate (included in other income)&lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p&gt;25,000&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DividendsAndOtherDistributionsRecognisedAsIncome
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 25,000 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </ifrs-smes:DisclosureOfInvestmentInAssociatesExplanatory>
+  <ifrs-smes:DisclosureOfPropertyPlantAndEquipmentExplanatory id="man_1" contextRef="y2012"> &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt;
+    &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;Land and buildings&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;Fixtures and equipment&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;Total&lt;/b&gt; &lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;Cost&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;1 January 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;span title="Name/Code:
+    PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 1,960,000 &lt;/span&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 1,102,045 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   3,062,045 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt;Additions&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 485,000 &lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p title="Name/Code: AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 485,000
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Disposals&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DisposalsPropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 241,000 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DisposalsPropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 241,000 ) &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;31 December 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;1,960,000&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 1,346,045 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 3,306,045 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;Accumulated depreciation and impairment&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;1 January 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 390,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 270,590 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 660,590 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt;Annual depreciation&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DepreciationPropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   30,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DepreciationPropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 240,360 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DepreciationPropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 270,360 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Impairment&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 30,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 30,000 &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Less accumulated depreciation on assets disposed of&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DisposalsPropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 204,850 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DisposalsPropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 204,850 ) &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;31 December 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: PropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 420,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: PropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 336,100 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: PropertyPlantAndEquipment
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 756,100 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt; &lt;b&gt;Carrying amount&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;31 December 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 1,540,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    PropertyPlantAndEquipment [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 1,009,945 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;2,549,945&lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td colspan="4"&gt; &lt;p&gt;During 20X2 the Group noticed a significant decline in the efficiency
+    of a major piece of equipment and so carried out a review of its recoverable amount. The review led to the recognition of an impairment loss of CU 30,000.&lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td colspan="4"&gt; &lt;p title="Name/Code: RecognisedFinanceLeaseAsAssets
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; The carrying amount of the Group’s fixtures and equipment includes an amount of CU 40,000 (20X1: CU 60,000 ) in respect of assets held
+    under finance leases. &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td colspan="4"&gt; &lt;p title="Name/Code:
+    RemainingObligation [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; On 10 December 20X2 the directors resolved to dispose of a machine. The machine’s carrying amount of CU 1,472
+    is included in fixtures and equipment at 31 December 20X2, and trade payables includes the Group’s remaining obligation of CU 1,550 on the acquisition of this machine. Because the proceeds on
+    disposal are expected to exceed the net carrying amount of the asset and related liability, no impairment loss has been recognised. &lt;/p&gt; &lt;/td&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </ifrs-smes:DisclosureOfPropertyPlantAndEquipmentExplanatory>
+  <ifrs-smes:DisclosureOfIntangibleAssetsExplanatory id="XWAND00000630" contextRef="y2012"> &lt;p&gt;Software:&lt;/p&gt; &lt;table cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;Cost&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;1 January
+    20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: IntangibleAssetsOtherThanGoodwill [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   8,500
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Additions&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Disposals&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;31 December 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: IntangibleAssetsOtherThanGoodwill
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 8,500 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt; &lt;b&gt;Accumulated depreciation and impairment&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;1 January 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: IntangibleAssetsOtherThanGoodwill
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 5,950 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Annual amortisation (included in administrative expenses*)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    AmortisationIntangibleAssetsOtherThanGoodwill [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   1,700 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;31 December 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: IntangibleAssetsOtherThanGoodwill
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   7,650 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt; &lt;b&gt;Carrying amount&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt;31 December 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;850&lt;/p&gt; &lt;/td&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;tr&gt; &lt;td colspan="2"&gt; &lt;p&gt;*If the entity classifies its expenses by nature in its income statement, this would say ‘included in
+    depreciation and amortisation expense’.&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </ifrs-smes:DisclosureOfIntangibleAssetsExplanatory>
+  <example1:DeferredTax id="XWAND00000637" contextRef="y2012"> &lt;p&gt;Differences between amounts recognised in the income statement and amounts reported to tax authorities in connection
+    with investments in the subsidiary and associate are insignificant.&lt;/p&gt; &lt;p&gt;The deferred tax assets are the tax effects of expected future income tax benefits relating
+    to:&lt;/p&gt; &lt;p&gt;(a)            the long-service benefit (note 19), which will not be tax-deductible until the benefit is actually paid but has already been recognised as an
+    expense in measuring the Group’s profit for the year.&lt;/p&gt; &lt;p&gt;(b)            the foreign exchange loss on trade payables, which will not be tax-deductible until the
+    payables are settled but has already been recognised as an expense in measuring the Group’s profit for the year.&lt;/p&gt; &lt;p&gt;Management considers it probable that taxable profits 
+	will be available against which the future income tax deductions can be utilised.&lt;/p&gt; &lt;p&gt;The following are the deferred tax liabilities (assets) recognised by the Group:&lt;/p&gt; &lt;table
+    cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;Software&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;Foreign exchange loss&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt; &lt;b&gt;Long-service benefit&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;Total&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;1 January 20X1&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    DeferredTaxLiabilityAsset [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 1,700 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;-&lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DeferredTaxLiabilityAsset [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 3,855 ) &lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p&gt;( 2,155)&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Charge (credit) to profit or loss for the year&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    DeferredTaxExpenseIncomeRecognisedInProfitOrLoss [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 680 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DeferredTaxExpenseIncomeRecognisedInProfitOrLoss
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 77 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;( 757)&lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;1 January 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    DeferredTaxLiabilityAsset [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 1,020 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;-&lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DeferredTaxLiabilityAsset [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 3,932 ) &lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p&gt;( 2,912)&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Charge (credit) to profit or loss for the year&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    DeferredTaxExpenseIncomeRecognisedInProfitOrLoss [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 680 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: DeferredTaxExpenseIncomeRecognisedInProfitOrLoss [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 400 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p title="Name/Code: DeferredTaxExpenseIncomeRecognisedInProfitOrLoss [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 317 ) &lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;( 1,397)&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;31 December
+    20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DeferredTaxLiabilityAsset [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 340 &lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DeferredTaxLiabilityAsset [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 400 ) &lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p title="Name/Code: DeferredTaxLiabilityAsset [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 4,249 ) &lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;( 4,309)&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt;The
+    deferred tax assets for the foreign exchange loss and the long-service benefits and the deferred tax liability for software relate to income tax in the same jurisdiction, and the law allows net
+    settlement. Therefore, they have been offset in the statement of financial position as follows:&lt;/p&gt; &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt;
+    &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Deferred tax liability&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: DeferredTaxLiabilities [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   340 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    DeferredTaxLiabilities [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 1,020 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt;Deferred tax asset&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DeferredTaxAssets
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 4,649 ) &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: DeferredTaxAssets
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 3,932 ) &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt;( 4,309)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;( 2,912)&lt;/p&gt; &lt;/td&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </example1:DeferredTax>
+  <example1:DisclosureOfBankOverdraftAndLoan id="XWAND00000661" contextRef="y2012"> &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Bank overdraft&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;  83,600&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;115,507&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Bank loan—fully
+    repayable in 20X4, prepayable without penalty&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;50,000&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;150,000&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p title="Name/Code:
+    Borrowings [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 133,600 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: Borrowings
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 265,507 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;
+    &lt;p title="Name/Code: LandAndBuildingCarryingAmount [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; The bank overdraft and loan are secured by a floating lien over land and
+    buildings owned by the Group with a carrying amount of CU 266,000 at 31 December 20X2 (CU 412,000 at 31 December 20X1). &lt;/p&gt; &lt;p&gt;Interest is payable on the bank
+    overdraft at 200 points above the London Interbank Borrowing Rate (LIBOR). Interest is payable on the seven-year bank loan at a fixed rate of 5 per cent of the principal amount. &lt;/p&gt; </example1:DisclosureOfBankOverdraftAndLoan>
+  <example1:DisclosureOfTradePayables id="XWAND00000671" contextRef="y2012"> Trade payables at 31 December 20X2 include CU 42,600 denominated in foreign currencies (nil at 31 December 20X1). </example1:DisclosureOfTradePayables>
+  <ifrs-smes:DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory id="XWAND00000674" contextRef="y2012"> &lt;p&gt;Changes in the provision for warranty obligations during
+    20X2 were:&lt;/p&gt; &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;1 January
+    20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: OtherProvisions [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 5,040 &lt;/p&gt;
+    &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Additional accrual during the year&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p title="Name/Code: AdditionalProvisionsOtherProvisions [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 5,260 &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Cost of warranty repairs and replacement during the year&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p title="Name/Code: ProvisionUsedOtherProvisions [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 6,100 ) &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;31 December 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    OtherProvisions [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 4,200 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt;
+    &lt;/table&gt; &lt;p&gt;The obligation is classified as a current liability because the warranty is limited to twelve months.&lt;/p&gt; </ifrs-smes:DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory>
+  <ifrs-smes:DisclosureOfEmployeeBenefitsExplanatory id="XWAND00000679" contextRef="y2012"> &lt;p&gt;The Group’s employee benefit obligation for long-service payments under a government-mandated
+    plan is based on a comprehensive actuarial valuation as of 31 December 20X2 and is as follows:&lt;/p&gt; &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt;
+    &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Obligation at 1 January 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    RecognisedLiabilitiesDefinedBenefitPlan [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 9,830 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Additional accrual during the year&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    AdditionalAccrualDuringTheYear [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; 7,033 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Benefit payments made in year&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    DecreaseThroughBenefitsPaidDefinedBenefitObligationAtPresentValue [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; ( 6,240 ) &lt;/p&gt; &lt;/td&gt; &lt;td/&gt;
+    &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Obligation at 31 December 20X2&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    RecognisedLiabilitiesDefinedBenefitPlan [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 10,623 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt;The obligation is classified as:&lt;/p&gt; &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt;
+    &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Current liability&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;4,944&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;4,754&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Non-current liability&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;5,679&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;5,076&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Total&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: ProvisionsForEmployeeBenefits [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;
+    10,623 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: ProvisionsForEmployeeBenefits [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 9,830
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </ifrs-smes:DisclosureOfEmployeeBenefitsExplanatory>
+  <example1:DisclosureOfObligationsUnderFinanceLeases id="XWAND00000300" contextRef="y2012"> &lt;p&gt;The Group holds one piece of specialised machinery with an estimated useful life of five
+    years under a five-year finance lease. The future minimum lease payments are as follows:&lt;/p&gt; &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt;
+    &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Within one year&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    MinimumFinanceLeasePaymentsPayable [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 25,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    MinimumFinanceLeasePaymentsPayable [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 25,000 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt;Later than one year but within five years&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    MinimumFinanceLeasePaymentsPayable [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 25,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    MinimumFinanceLeasePaymentsPayable [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 50,000 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td&gt; &lt;p&gt;Later than five years&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p title="Name/Code:
+    MinimumFinanceLeasePaymentsPayable [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 50,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    MinimumFinanceLeasePaymentsPayable [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 75,000 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt;
+    &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt;The obligation is classified
+    as:&lt;/p&gt; &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Current liability&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;21,461&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;19,884&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Non-current liability&lt;/p&gt;
+    &lt;/td&gt; &lt;td&gt; &lt;p&gt;23,163&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;44,624&lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p title="Name/Code: ObligationTotal
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; 44,624 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: ObligationTotal
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; 64,508 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt;
+    &lt;/table&gt; </example1:DisclosureOfObligationsUnderFinanceLeases>
+  <example1:DisclosureOfCommitmentsUnderFinanceLeases id="XWAND00000313" contextRef="y2012"> &lt;p&gt;The Group rents several sales offices under operating leases. The leases are for an
+    average period of three years, with fixed rentals over the same period.&lt;/p&gt; &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt;
+    &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Minimum lease payments under operating leases recognised as an expense during the
+    year&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: LeaseAndSubleasePaymentsRecognisedAsExpense [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;
+    26,100 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: LeaseAndSubleasePaymentsRecognisedAsExpense [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;
+    26,100 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td colspan="3"&gt; &lt;p&gt;At year-end, the Group has outstanding
+    commitments under non-cancellable operating leases that fall due as follows:&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt;
+    &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Within one year&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 13,050 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 26,100 &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Later than one year but within five years&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code: MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease
+    [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 13,050 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;
+    &lt;p&gt;Later than five years&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;-&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p title="Name/Code:
+    MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 13,050 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 39,150 &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; </example1:DisclosureOfCommitmentsUnderFinanceLeases>
+  <ifrs-smes:DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory id="XWAND00000321" contextRef="y2012"> &lt;p title="Name/Code: NumberOfSharesAuthorisedButUnissued
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; Balances as at 31 December 20X2 and 20X1 of CU 30,000 comprise 30,000 ordinary shares with par value CU 1.00 fully paid, issued
+    and outstanding. An additional 70,000 shares are legally authorised but unissued. &lt;/p&gt; </ifrs-smes:DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory>
+  <ifrs-smes:DisclosureOfCashFlowStatementExplanatory id="XWAND00000690" contextRef="y2012"> &lt;table cellspacing="0" cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt;
+    &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Cash on hand&lt;/p&gt; &lt;/td&gt; &lt;td&gt;
+    &lt;p&gt;28,700&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;22,075&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; &lt;p&gt;Overdrafts&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;( 83,600)&lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt;( 115,507)&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt;
+    &lt;p&gt;( 54,900)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;( 93,432)&lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;/tbody&gt; &lt;/table&gt; </ifrs-smes:DisclosureOfCashFlowStatementExplanatory>
+  <ifrs-smes:DisclosureOfContingentLiabilitiesExplanatory id="XWAND00000697" contextRef="y2012"> &lt;p title="Name/Code: EstimatedFinancialEffectsOfContigentLiabilities
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; During 20X2 a customer initiated proceedings against XYZ (Trading) Limited for a fire caused by a faulty candle. The customer
+    asserts that its total losses are CU 50,000 and has initiated litigation claiming this amount. &lt;/p&gt; &lt;p&gt;The Group’s legal counsel do not consider that the claim has
+    merit, and the Company intends to contest it. No provision has been recognised in these financial statements as the Group’s management does not consider it probable that a loss will
+    arise.&lt;/p&gt; </ifrs-smes:DisclosureOfContingentLiabilitiesExplanatory>
+  <ifrs-smes:DisclosureOfEventsAfterReportingPeriodExplanatory id="XWAND00000699" contextRef="y2012"> &lt;p title="Name/Code: ReimbursementsFromInsurance
+    [http://www.ifrs.org/xbrl/illustrativeExamples/Example1]"&gt; On 25 January 20X3 there was a flood in one of the candle storage rooms. The cost of refurbishment is expected to be CU 36,000 .
+    The reimbursements from insurance are estimated to be CU 16,000 . &lt;/p&gt; &lt;p title="Name/Code:
+    DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; On 14 February 20X3 the
+    directors voted to declare a dividend of CU 1.00 per share (CU 30,000 total) payable on 15 April 20X3 to registered shareholders on 31 March 20X3. Because the obligation arose in 20X3, a liability
+    is not shown in the statement of financial position at 31 December 20X2. &lt;/p&gt; </ifrs-smes:DisclosureOfEventsAfterReportingPeriodExplanatory>
+  <ifrs-smes:DisclosureOfRelatedPartyExplanatory id="XWAND00000700" contextRef="y2012"> &lt;p&gt;Transactions between the Company and its subsidiary, which is a related party, have been eliminated
+    in consolidation.&lt;/p&gt; &lt;p&gt;The Group sells goods to its associate (see note 12), which is a related party, as follows:&lt;/p&gt; &lt;table cellspacing="0"
+    cellpadding="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt; &lt;td colspan="2"&gt; &lt;p&gt; &lt;b&gt;Sales of goods&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td colspan="2"&gt; &lt;p&gt; &lt;b&gt;Amounts owed to the Group by the related party and included in trade receivables at
+    year-end&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;p&gt; &lt;b&gt;20X2&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;20X1&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td/&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt;
+    &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;
+    &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt; &lt;b&gt;CU&lt;/b&gt; &lt;/p&gt; &lt;/td&gt;
+    &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;Associate&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    RevenueFromSaleOfGoodsRelatedPartyTransactions [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 10,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p title="Name/Code:
+    RevenueFromSaleOfGoodsRelatedPartyTransactions [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt;   8,000 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: AmountsPayableRelatedPartyTransactions [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 800 &lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p
+    title="Name/Code: AmountsPayableRelatedPartyTransactions [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; 400 &lt;/p&gt; &lt;/td&gt; &lt;td/&gt; &lt;/tr&gt;
+    &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt;The payments under the finance lease (see note 20) are personally guaranteed by a principal shareholder of the Company. No charge has
+    been requested for this guarantee.&lt;/p&gt; &lt;p title="Name/Code: KeyManagementPersonnelCompensation [http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs]"&gt; The total remuneration
+    of directors and other members of key management in 20X2 (including salaries and benefits) was CU 249,918 (20X1: CU 208,260 ). &lt;/p&gt; </ifrs-smes:DisclosureOfRelatedPartyExplanatory>
+  <example1:ApprovalOfFinancialStatements id="XWAND00000701" contextRef="y2012">&lt;p&gt;These financial statements were approved by the board of directors and authorised for issue on 10 March
+    2013&lt;/p&gt; </example1:ApprovalOfFinancialStatements>
+  <ifrs-smes:DateOfAuthorisationForIssueOfFinancialStatements2013 id="XWAND00000790" contextRef="y2012">2013-03-10</ifrs-smes:DateOfAuthorisationForIssueOfFinancialStatements2013>
+  <ifrs-smes:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition decimals="0" contextRef="e2010" unitRef="EUR">-1957</ifrs-smes:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition>
+  <ifrs-smes:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition decimals="0" contextRef="e2011" unitRef="EUR">-93432</ifrs-smes:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition>
+  <ifrs-smes:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition decimals="0" contextRef="e2012" unitRef="EUR">-54900</ifrs-smes:CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition>
+  <ifrs-smes:DeferredTaxLiabilityAsset decimals="0" contextRef="e2012_UnrealisedForeignExchangeGainsLossesMember" unitRef="EUR">-400</ifrs-smes:DeferredTaxLiabilityAsset>
+  <ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss decimals="0" contextRef="y2012_UnrealisedForeignExchangeGainsLossesMember" unitRef="EUR">-400</ifrs-full:DeferredTaxExpenseIncomeRecognisedInProfitOrLoss>
+</xbrli:xbrl>

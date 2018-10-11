@@ -1,0 +1,18 @@
+﻿Load-Taxonomy -file "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\IFRST_2017-03-09\full_ifrs_entry_point_2017-03-09.xsd"
+Save-Taxonomy -format Excel -file "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\IFRST_2017-03-09\full_ifrs_2017-03-09.xlsx"
+
+Load-Instance
+Save-Instance -format XML -file "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\exportedInstance.xml"
+Save-Instance -format HTML -file "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\exportedInstance.html" -template "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\Templates\iXBRL1.cshtml"
+
+
+
+
+Load-Taxonomy -dir "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\IFRST_2017-03-09\" -entry "full_ifrs_entry_point_2017-03-09.xsd"
+Load-Taxonomy -manifest "IFRST_2017-03-09.zip" -entry "full_ifrs_entry_point_2017-03-09.xsd"
+
+Load-Instance
+Add-BaseTaxonomy -archive "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\IFRST_2017-03-09.zip" -entry "http://xbrl.ifrs.org/taxonomy/YYYY-MM-DD/full_ifrs_doc_entry_point_2017-03-09.xsd"
+Add-ExtensionTaxonomy
+Save-Instance -format XHTML -file "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\exportedInstance2.xhtml" -template "C:\Data\Banan\TFS\banantfs\Scrum\Tools\XbrlWorkbench\UI\Samples\Templates\iXBRL.xhtml"
+

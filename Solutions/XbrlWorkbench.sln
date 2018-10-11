@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XbrlWorkbench.UI", "..\UI\XbrlWorkbench.UI.csproj", "{6602A411-C7EC-4FFA-8588-F3F528DB6D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Xbrl", "..\Xbrl\Tools.Xbrl.csproj", "{28F280CA-7EB5-495B-BF2F-608B50A08784}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{F11E5C78-03FE-4317-A667-E60E447922A7}"
+	ProjectSection(SolutionItems) = preProject
+		.tfignore = .tfignore
+		test.runsettings = test.runsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Xbrl.Tests", "..\Xbrl.Tests\Tools.Xbrl.Tests.csproj", "{1543B986-AC9E-464E-9D55-F1F87AAE90A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6602A411-C7EC-4FFA-8588-F3F528DB6D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6602A411-C7EC-4FFA-8588-F3F528DB6D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6602A411-C7EC-4FFA-8588-F3F528DB6D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6602A411-C7EC-4FFA-8588-F3F528DB6D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F280CA-7EB5-495B-BF2F-608B50A08784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F280CA-7EB5-495B-BF2F-608B50A08784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F280CA-7EB5-495B-BF2F-608B50A08784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F280CA-7EB5-495B-BF2F-608B50A08784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1543B986-AC9E-464E-9D55-F1F87AAE90A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1543B986-AC9E-464E-9D55-F1F87AAE90A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1543B986-AC9E-464E-9D55-F1F87AAE90A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1543B986-AC9E-464E-9D55-F1F87AAE90A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://banantfs.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\UI\\XbrlWorkbench.UI.csproj
+		SccProjectName1 = ../UI
+		SccLocalPath1 = ..\\UI
+		SccProjectUniqueName2 = ..\\Xbrl\\Tools.Xbrl.csproj
+		SccProjectName2 = ../Xbrl
+		SccLocalPath2 = ..\\Xbrl
+		SccProjectUniqueName3 = ..\\Xbrl.Tests\\Tools.Xbrl.Tests.csproj
+		SccProjectName3 = ../Xbrl.Tests
+		SccLocalPath3 = ..\\Xbrl.Tests
+	EndGlobalSection
+EndGlobal

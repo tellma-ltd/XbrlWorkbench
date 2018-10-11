@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Banan.Tools.Xbrl.Instances.Entity" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAAAAAAAAQAAAAAAAAAACAAQAAAAAA=</HashCode>
+      <FileName>Instances\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Period">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="ToXbrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Period.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Fact">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="ToXbrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAABAAAAIgAAAAAAIAAAAEEAAAAAAAAAAAAhAAAAAQI=</HashCode>
+      <FileName>Instances\Fact.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Period" />
+      <Property Name="Entity" />
+      <Property Name="Unit" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ExplicitMembers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.Unit">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="ToXbrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.CurrencyUnit">
+    <Position X="8" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="CurrencyUnit" Hidden="true" />
+      <Method Name="ToXbrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\CurrencyUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.PureUnit">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="PureUnit" Hidden="true" />
+      <Method Name="ToXbrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\PureUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.ForeverPeriod">
+    <Position X="4" Y="4.5" Width="1.25" />
+    <Members>
+      <Method Name="ToXbrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\ForeverPeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.InstantPeriod">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="ToXbrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\InstantPeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.DurationPeriod">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="ToXbrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAIAAAAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Instances\DurationPeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Instances.ExplicitMember" Collapsed="true">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instances\ExplicitMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

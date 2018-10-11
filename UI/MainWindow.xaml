@@ -1,0 +1,23 @@
+﻿<Window x:Class="Banan.Tools.XbrlBench.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="XBRL Workbench"
+        Width="630.686"
+        Height="382.941"
+        Loaded="Window_Loaded"
+        mc:Ignorable="d">
+    <DockPanel>
+        <TextBox x:Name="txtCommand"
+                 Margin="0,6,0,0"
+                 AcceptsReturn="True"
+                 Background="#FFEBFFCE"
+                 DockPanel.Dock="Bottom"
+                 PreviewKeyDown="txtCommand_KeyDown"
+                 TextWrapping="Wrap" />
+        <TextBox x:Name="txtLog"
+                 Text=""
+                 TextWrapping="Wrap" />
+    </DockPanel>
+</Window>

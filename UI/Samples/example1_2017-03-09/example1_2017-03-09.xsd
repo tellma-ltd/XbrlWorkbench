@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright © 2017 IFRS Foundation.   All rights reserved.  Reproduction and use rights are strictly limited.  For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.  The Foundation has trade marks registered around the world (Marks) including ‘IAS®’, ‘IASB®’, ‘IFRIC®’, ‘IFRS®’, the IFRS® logo, ‘IFRS for SMEs®’, IFRS for SMEs® logo, the ‘Hexagon Device’, ‘International Accounting Standards®’, ‘International Financial Reporting Standards®’, ‘IFRS Taxonomy®’ and ‘SIC®’. Further details of the Foundation’s Marks are available from the Licensor on request.  -->
+<schema targetNamespace="http://www.ifrs.org/xbrl/illustrativeExamples/Example1" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:example1="http://www.ifrs.org/xbrl/illustrativeExamples/Example1" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs-full" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifrs-smes="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs-smes">
+	<annotation>
+		<appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="example1_2017-03-09-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="example1_2017-03-09-calculation.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="example1_2017-03-09-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="example1_2017-03-09-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00002" id="_00002">
+				<link:definition>[00002] Consolidated statement of comprehensive income and retained earnings (by nature)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00003" id="_00003">
+				<link:definition>[00003] Consolidated statement of financial position</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00001" id="_00001">
+				<link:definition>[00001] Consolidated statement of comprehensive income and retained earnings (by function)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00004" id="_00004">
+				<link:definition>[00004] Consolidated statement of cash flow</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00005" id="_00005">
+				<link:definition>[00005] 1. General information</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00006" id="_00006">
+				<link:definition>[00006] 2. Basis of preparation and accounting policies</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00007" id="_00007">
+				<link:definition>[00007] 3. Key sources of estimation uncertainty</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00008" id="_00008">
+				<link:definition>[00008] 4. Restriction on payment of dividend</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00009" id="_00009">
+				<link:definition>[00009] 5. Revenue</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00010" id="_00010">
+				<link:definition>[00010] 6. Other income</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00011" id="_00011">
+				<link:definition>[00011] 7. Finance costs</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00012" id="_00012">
+				<link:definition>[00012] 8. Profit before tax</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00013" id="_00013">
+				<link:definition>[00013] 9. Income tax expense</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00014" id="_00014">
+				<link:definition>[00014] 10. Trade and other receivables</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00015" id="_00015">
+				<link:definition>[00015] 11. Inventories</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00016" id="_00016">
+				<link:definition>[00016] 12. Investment in associate</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00017" id="_00017">
+				<link:definition>[00017] 13. Property, plant and equipment</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00018" id="_00018">
+				<link:definition>[00018] 14. Intangible assets</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00019" id="_00019">
+				<link:definition>[00019] 15. Deferred tax</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00020" id="_00020">
+				<link:definition>[00020] 16. Bank overdraft and loan</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00021" id="_00021">
+				<link:definition>[00021] 17. Trade payables</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00024" id="_00024">
+				<link:definition>[00024] 20. Obligations under finance leases</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00025" id="_00025">
+				<link:definition>[00025] 21. Commitments under operating leases</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00026" id="_00026">
+				<link:definition>[00026] 22. Share capital</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00027" id="_00027">
+				<link:definition>[00027] 23.Cash and cash equivalents</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00028" id="_00028">
+				<link:definition>[00028] 24. Contingent liabilities</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00029" id="_00029">
+				<link:definition>[00029] 25. Events after the end of the reporting period</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00030" id="_00030">
+				<link:definition>[00030] 26. Related party transactions</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00031" id="_00031">
+				<link:definition>[00031] 27. Approval of financial statement</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00022" id="_00022">
+				<link:definition>[00022] 18. Provision for warranty obligations</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.ifrs.org/xbrl/illustrativeExamples/Example1/00023" id="_00023">
+				<link:definition>[00023] 19. Employee benefit obligation-long-service payments</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</appinfo>
+	</annotation>
+	<import namespace="http://www.xbrl.org/2006/ref" schemaLocation="http://www.xbrl.org/2006/ref-2006-02-27.xsd"/>
+	<import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"/>
+	<import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+	<import namespace="http://www.xbrl.org/2009/role/negated" schemaLocation="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd"/>
+	<element name="RemainingObligation" id="example1_RemainingObligation" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+	<element name="AdjustmentForNonCashIncomeAndExpenses" id="example1_AdjustmentForNonCashIncomeAndExpenses" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="CashFlowIncludedInInvestingActivities" id="example1_CashFlowIncludedInInvestingActivities" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="ChangesInOperatingAssetsAndLiabilities" id="example1_ChangesInOperatingAssetsAndLiabilities" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="KeySourcesOfEstimationUncertainty" id="example1_KeySourcesOfEstimationUncertainty" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="LongServicePayments" id="example1_LongServicePayments" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="FinanceCosts" id="example1_FinanceCosts" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="FinanceCost" id="example1_FinanceCost" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+	<element name="ForeignCurrencies" id="example1_ForeignCurrencies" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="instant"/>
+	<element name="RestrictionOnPaymentOfDividend" id="example1_RestrictionOnPaymentOfDividend" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="DisclosureOfTradePayables" id="example1_DisclosureOfTradePayables" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="TradePayables" id="example1_TradePayables" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="WarrantyExpense" id="example1_WarrantyExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+	<element name="ProfitBeforeTaxAbstract" id="example1_ProfitBeforeTaxAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="FinanceCostsPaidInCash" id="example1_FinanceCostsPaidInCash" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+	<element name="IncomeTaxesPaidInCash" id="example1_IncomeTaxesPaidInCash" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+	<element name="IncomeTaxExpenseAbstract" id="example1_IncomeTaxExpenseAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="Inventories" id="example1_Inventories" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="ProfitBeforeTax" id="example1_ProfitBeforeTax" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration"/>
+	<element name="ReimbursementsFromInsurance" id="example1_ReimbursementsFromInsurance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+	<element name="BankOverdraftAndLoanAbstract" id="example1_BankOverdraftAndLoanAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="InterestPayableOnBankOverdraft" id="example1_InterestPayableOnBankOverdraft" type="num:percentItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+	<element name="InterestPayableOnBankLoan" id="example1_InterestPayableOnBankLoan" type="num:percentItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+	<element name="DisclosureOfBankOverdraftAndLoan" id="example1_DisclosureOfBankOverdraftAndLoan" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="InvestmentInAssociate" id="example1_InvestmentInAssociate" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+	<element name="MachinesCarryingAmount" id="example1_MachinesCarryingAmount" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+	<element name="LandAndBuildingCarryingAmount" id="example1_LandAndBuildingCarryingAmount" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="instant"/>
+	<element name="CostOfRefurbishment" id="example1_CostOfRefurbishment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+	<element name="OtherIncome" id="example1_OtherIncome" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="TradeAndOtherReceivables" id="example1_TradeAndOtherReceivables" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="GovernnmentMandatedPlanMember" id="example1_GovernnmentMandatedPlanMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="FloodInOneOfTheCandleStorageRoomsMember" id="example1_FloodInOneOfTheCandleStorageRoomsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="ApprovalOfFinancialStatements" id="example1_ApprovalOfFinancialStatements" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="EmployeeCompensationExpenses" id="example1_EmployeeCompensationExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+	<element name="ForeignExchangeLossMember" id="example1_ForeignExchangeLossMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="LongServiceBenefitMember" id="example1_LongServiceBenefitMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="AdditionalAccrualDuringTheYear" id="example1_AdditionalAccrualDuringTheYear" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+	<element name="DeferredTax" id="example1_DeferredTax" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="DisclosureOfObligationsUnderFinanceLeases" id="example1_DisclosureOfObligationsUnderFinanceLeases" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="DisclosureOfCommitmentsUnderFinanceLeases" id="example1_DisclosureOfCommitmentsUnderFinanceLeases" type="nonnum:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration"/>
+	<element name="NumberOfSharesAuthorisedButUnissued" id="example1_NumberOfSharesAuthorisedButUnissued" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</schema>

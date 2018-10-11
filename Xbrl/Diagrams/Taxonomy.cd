@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.Taxonomy" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="6.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="EntryPoint" Type="Banan.Tools.Xbrl.Taxonomies.TaxonomyFile">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.188" Y="0.31" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIBAIAAAAAAAAAAAAAAAAAAAABABAAAAAABAAAAAAA=</HashCode>
+      <FileName>Taxonomies\Taxonomy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EntryPoint" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.Link" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <AssociationLine Name="Arcs" Type="Banan.Tools.Xbrl.Taxonomies.Arc" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="6.375" />
+        <Point X="3.125" Y="6.375" />
+        <Point X="3.125" Y="8.096" />
+        <Point X="3.5" Y="8.096" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAEAAAEIAAAAAAAAAEAAIAEAAMAIA=</HashCode>
+      <FileName>Taxonomies\Link.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RoleType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="NodesMap" />
+      <Property Name="Arcs" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.Node" Collapsed="true">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEABAAAAAAAAAAAAAAAAACAAEAAABQAAAAAA=</HashCode>
+      <FileName>Taxonomies\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.Arc" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAAAAAAAAAAAAEAAAAAAAAAAICAAEAAAAUAAAAAA=</HashCode>
+      <FileName>Taxonomies\Arc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="From" />
+      <Property Name="To" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.Item" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAEAFIAAAAIAAAAAAQEAIAAAAAEQAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Nodes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.RoleType" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAACAAAEAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\RoleType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.LabelNode" Collapsed="true">
+    <Position X="5.5" Y="7" Width="1.5" />
+    <InheritanceLine Type="Banan.Tools.Xbrl.Taxonomies.Node" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="6.312" />
+        <Point X="5.24" Y="6.312" />
+        <Point X="5.24" Y="7.346" />
+        <Point X="5.5" Y="7.346" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAEAAAAAAAAAAAAAAEAAAACAAAAAA=</HashCode>
+      <FileName>Taxonomies\LabelNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.LocationNode" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="Banan.Tools.Xbrl.Taxonomies.Node" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="6.312" />
+        <Point X="5.24" Y="6.312" />
+        <Point X="5.24" Y="6.627" />
+        <Point X="5.5" Y="6.627" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAACAAAAAAAABAAAAAIAEAAAAAAAEAAAAAAAACAA=</HashCode>
+      <FileName>Taxonomies\LocationNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.CalculationArc" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\CalculationArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.LabelArc" Collapsed="true">
+    <Position X="5.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAgAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\LabelArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.PresentationArc" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\PresentationArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.ReferenceArc" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAgAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\ReferenceArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.ReferenceNode" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="Banan.Tools.Xbrl.Taxonomies.Node" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="6.312" />
+        <Point X="5.24" Y="6.312" />
+        <Point X="5.24" Y="8.096" />
+        <Point X="5.5" Y="8.096" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EBgAAAAAAAAgAAAAEEgAAAQAAAAAAACECAAAAIEAIAA=</HashCode>
+      <FileName>Taxonomies\ReferenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.PresentationLink" Collapsed="true">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIA=</HashCode>
+      <FileName>Taxonomies\PresentationLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.HierarchicalArc" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\HierarchicalArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.DefinitionArc" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\DefinitionArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.InterConceptArc" Collapsed="true">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\InterConceptArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.Linkbase" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAACAAAAAAAAAAAAAECAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\Linkbase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Links" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.Schema" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAACAAAAACAhAAAAAAAIAgAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Taxonomies\Schema.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="RoleTypes" />
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.TaxonomyFile" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAACAAAAAQAAAAAAAAAAEAAAEAABAAAA=</HashCode>
+      <FileName>Taxonomies\TaxonomyFile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Dependencies" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.CalculationLink" Collapsed="true">
+    <Position X="0.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Taxonomies\CalculationLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.DefinitionLink" Collapsed="true">
+    <Position X="0.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Taxonomies\DefinitionLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.LabelLink" Collapsed="true">
+    <Position X="0.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Taxonomies\LabelLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Banan.Tools.Xbrl.Taxonomies.ReferenceLink" Collapsed="true">
+    <Position X="0.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Taxonomies\ReferenceLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

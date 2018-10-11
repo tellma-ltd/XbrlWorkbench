@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright © 2017 IFRS Foundation.   All rights reserved.  Reproduction and use rights are strictly limited.  For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.  The Foundation has trade marks registered around the world (Marks) including ‘IAS®’, ‘IASB®’, ‘IFRIC®’, ‘IFRS®’, the IFRS® logo, ‘IFRS for SMEs®’, IFRS for SMEs® logo, the ‘Hexagon Device’, ‘International Accounting Standards®’, ‘International Financial Reporting Standards®’, ‘IFRS Taxonomy®’ and ‘SIC®’. Further details of the Foundation’s Marks are available from the Licensor on request.  -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:example1="http://www.ifrs.org/xbrl/illustrativeExamples/Example1" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs-full" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifrs-smes="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs-smes">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AssetsAbstract" xlink:label="loc_8"/>
+    <link:label xlink:type="resource" xlink:label="res_8" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AssetsAbstract_label">ASSETS</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_8" xlink:to="res_8"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_EquityAndLiabilitiesAbstract" xlink:label="loc_17"/>
+    <link:label xlink:type="resource" xlink:label="res_18" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_EquityAndLiabilitiesAbstract_label">LIABILITIES AND EQUITY</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_17" xlink:to="res_18"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CurrentAssetsAbstract" xlink:label="loc_18"/>
+    <link:label xlink:type="resource" xlink:label="res_19" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentAssetsAbstract_label">Current assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_18" xlink:to="res_19"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NoncurrentAssetsAbstract" xlink:label="loc_19"/>
+    <link:label xlink:type="resource" xlink:label="res_20" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NoncurrentAssetsAbstract_label">Non-current assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_19" xlink:to="res_20"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_Cash" xlink:label="loc_20"/>
+    <link:label xlink:type="resource" xlink:label="res_21" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_Cash_label">Cash</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_20" xlink:to="res_21"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_TradeAndOtherCurrentReceivables" xlink:label="loc_21"/>
+    <link:label xlink:type="resource" xlink:label="res_22" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_TradeAndOtherCurrentReceivables_label">Trade and other receivables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_21" xlink:to="res_22"/>
+    <link:label xlink:type="resource" xlink:label="res_23" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_TradeAndOtherCurrentReceivables_totalLabel">Trade and other receivables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_21" xlink:to="res_23"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_Inventories" xlink:label="loc_22"/>
+    <link:label xlink:type="resource" xlink:label="res_24" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_Inventories_label">Inventories</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_22" xlink:to="res_24"/>
+    <link:label xlink:type="resource" xlink:label="res_25" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_Inventories_totalLabel">Inventories</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_22" xlink:to="res_25"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CurrentAssets" xlink:label="loc_23"/>
+    <link:label xlink:type="resource" xlink:label="res_26" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_CurrentAssets_totalLabel">Total current assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_23" xlink:to="res_26"/>
+    <link:label xlink:type="resource" xlink:label="res_27" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentAssets_label">Current assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_23" xlink:to="res_27"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_PropertyPlantAndEquipment" xlink:label="loc_24"/>
+    <link:label xlink:type="resource" xlink:label="res_28" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_PropertyPlantAndEquipment_label">Property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_24" xlink:to="res_28"/>
+    <link:label xlink:type="resource" xlink:label="res_29" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="ifrs-smes_PropertyPlantAndEquipment_periodStartLabel">Property, plant and equipment at beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_24" xlink:to="res_29"/>
+    <link:label xlink:type="resource" xlink:label="res_30" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en" id="ifrs-smes_PropertyPlantAndEquipment_periodEndLabel">Property, plant and equipment at end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_24" xlink:to="res_30"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_IntangibleAssetsOtherThanGoodwill" xlink:label="loc_25"/>
+    <link:label xlink:type="resource" xlink:label="res_31" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_IntangibleAssetsOtherThanGoodwill_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_25" xlink:to="res_31"/>
+    <link:label xlink:type="resource" xlink:label="res_32" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en" id="ifrs-smes_IntangibleAssetsOtherThanGoodwill_periodEndLabel">Intangible assets at end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_25" xlink:to="res_32"/>
+    <link:label xlink:type="resource" xlink:label="res_33" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="ifrs-smes_IntangibleAssetsOtherThanGoodwill_periodStartLabel">Intangible assets at beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_25" xlink:to="res_33"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DeferredTaxAssets" xlink:label="loc_26"/>
+    <link:label xlink:type="resource" xlink:label="res_34" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DeferredTaxAssets_label">Deferred tax asset</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_26" xlink:to="res_34"/>
+    <link:label xlink:type="resource" xlink:label="res_43" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DeferredTaxAssets_negatedLabel">Deferred tax asset</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_26" xlink:to="res_43"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NoncurrentAssets" xlink:label="loc_27"/>
+    <link:label xlink:type="resource" xlink:label="res_35" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_NoncurrentAssets_totalLabel">Total non-current assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_27" xlink:to="res_35"/>
+    <link:label xlink:type="resource" xlink:label="res_36" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NoncurrentAssets_label">Non-current assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_27" xlink:to="res_36"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_Assets" xlink:label="loc_28"/>
+    <link:label xlink:type="resource" xlink:label="res_37" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_Assets_totalLabel">Total assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_28" xlink:to="res_37"/>
+    <link:label xlink:type="resource" xlink:label="res_38" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_Assets_label">Assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_28" xlink:to="res_38"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_LiabilitiesAbstract" xlink:label="loc_29"/>
+    <link:label xlink:type="resource" xlink:label="res_39" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_LiabilitiesAbstract_label">Liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_29" xlink:to="res_39"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CurrentLiabilitiesAbstract" xlink:label="loc_30"/>
+    <link:label xlink:type="resource" xlink:label="res_40" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentLiabilitiesAbstract_label">Current liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_30" xlink:to="res_40"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_BankOverdraftsClassifiedAsCashEquivalents" xlink:label="loc_31"/>
+    <link:label xlink:type="resource" xlink:label="res_41" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_BankOverdraftsClassifiedAsCashEquivalents_label">Bank overdraft</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_31" xlink:to="res_41"/>
+    <link:label xlink:type="resource" xlink:label="res_138" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_BankOverdraftsClassifiedAsCashEquivalents_negatedLabel">Bank overdraft</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_31" xlink:to="res_138"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_TradeAndOtherCurrentPayables" xlink:label="loc_32"/>
+    <link:label xlink:type="resource" xlink:label="res_42" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_TradeAndOtherCurrentPayables_label">Trade payables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_32" xlink:to="res_42"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ShorttermWarrantyProvision" xlink:label="loc_33"/>
+    <link:label xlink:type="resource" xlink:label="res_44" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ShorttermWarrantyProvision_label">Provision for warranty obligations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_33" xlink:to="res_44"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CurrentProvisionsForEmployeeBenefits" xlink:label="loc_35"/>
+    <link:label xlink:type="resource" xlink:label="res_45" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentProvisionsForEmployeeBenefits_label">Current portion of employee benefit obligations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_35" xlink:to="res_45"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CurrentLiabilities" xlink:label="loc_36"/>
+    <link:label xlink:type="resource" xlink:label="res_46" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_CurrentLiabilities_totalLabel">Total current liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_36" xlink:to="res_46"/>
+    <link:label xlink:type="resource" xlink:label="res_47" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentLiabilities_label">Current liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_36" xlink:to="res_47"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NoncurrentLiabilitiesAbstract" xlink:label="loc_37"/>
+    <link:label xlink:type="resource" xlink:label="res_48" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NoncurrentLiabilitiesAbstract_label">Non-current liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_37" xlink:to="res_48"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NoncurrentProvisionsForEmployeeBenefits" xlink:label="loc_38"/>
+    <link:label xlink:type="resource" xlink:label="res_49" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NoncurrentProvisionsForEmployeeBenefits_label">Long-term employee benefit obligations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_38" xlink:to="res_49"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NoncurrentLiabilities" xlink:label="loc_39"/>
+    <link:label xlink:type="resource" xlink:label="res_50" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_NoncurrentLiabilities_totalLabel">Total non-current liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_39" xlink:to="res_50"/>
+    <link:label xlink:type="resource" xlink:label="res_51" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NoncurrentLiabilities_label">Non-current liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_39" xlink:to="res_51"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_Liabilities" xlink:label="loc_40"/>
+    <link:label xlink:type="resource" xlink:label="res_52" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_Liabilities_totalLabel">Total liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_40" xlink:to="res_52"/>
+    <link:label xlink:type="resource" xlink:label="res_53" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_Liabilities_label">Liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_40" xlink:to="res_53"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_IssuedCapital" xlink:label="loc_41"/>
+    <link:label xlink:type="resource" xlink:label="res_54" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_IssuedCapital_label">Share capital</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_41" xlink:to="res_54"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_Equity" xlink:label="loc_42"/>
+    <link:label xlink:type="resource" xlink:label="res_55" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_Equity_totalLabel">Total equity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_42" xlink:to="res_55"/>
+    <link:label xlink:type="resource" xlink:label="res_56" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_Equity_label">Equity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_42" xlink:to="res_56"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_EquityAbstract" xlink:label="loc_43"/>
+    <link:label xlink:type="resource" xlink:label="res_57" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_EquityAbstract_label">Equity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_43" xlink:to="res_57"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_EquityAndLiabilities" xlink:label="loc_44"/>
+    <link:label xlink:type="resource" xlink:label="res_58" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_EquityAndLiabilities_totalLabel">Total liabilities and equity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_44" xlink:to="res_58"/>
+    <link:label xlink:type="resource" xlink:label="res_59" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_EquityAndLiabilities_label">Liabilities and equity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_44" xlink:to="res_59"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_LongtermBorrowings" xlink:label="loc_45"/>
+    <link:label xlink:type="resource" xlink:label="res_60" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_LongtermBorrowings_label">Bank loan</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_45" xlink:to="res_60"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_NoncurrentFinanceLeaseLiabilities" xlink:label="loc_46"/>
+    <link:label xlink:type="resource" xlink:label="res_61" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ObligationsUnderFinanceLeases_label">Obligations under finance leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_46" xlink:to="res_61"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_InvestmentsInAssociates" xlink:label="loc_47"/>
+    <link:label xlink:type="resource" xlink:label="res_62" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_InvestmentsInAssociates_label">Investment in associate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_47" xlink:to="res_62"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_CurrentInterestPayable" xlink:label="loc_48"/>
+    <link:label xlink:type="resource" xlink:label="res_63" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_InterestPayable_label">Interest payable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_48" xlink:to="res_63"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_CurrentFinanceLeaseLiabilities" xlink:label="loc_49"/>
+    <link:label xlink:type="resource" xlink:label="res_64" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_CurrentPortionOfObligationsUnderFinanceLeases_label">Current portion of obligations under finance leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_49" xlink:to="res_64"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_Revenue" xlink:label="loc_50"/>
+    <link:label xlink:type="resource" xlink:label="res_65" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_Revenue_label">Revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_50" xlink:to="res_65"/>
+    <link:label xlink:type="resource" xlink:label="res_66" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_Revenue_totalLabel">Total revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_50" xlink:to="res_66"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CostOfSales" xlink:label="loc_51"/>
+    <link:label xlink:type="resource" xlink:label="res_67" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CostOfSales_label">Cost of sales</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_51" xlink:to="res_67"/>
+    <link:label xlink:type="resource" xlink:label="res_68" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_CostOfSales_negatedLabel">Cost of sales</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_51" xlink:to="res_68"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_GrossProfit" xlink:label="loc_52"/>
+    <link:label xlink:type="resource" xlink:label="res_69" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_GrossProfit_totalLabel">Gross profit</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_52" xlink:to="res_69"/>
+    <link:label xlink:type="resource" xlink:label="res_70" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_GrossProfit_label">Gross profit</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_52" xlink:to="res_70"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_OtherIncome" xlink:label="loc_53"/>
+    <link:label xlink:type="resource" xlink:label="res_71" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_OtherIncome_label">Other income</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_53" xlink:to="res_71"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DistributionCosts" xlink:label="loc_54"/>
+    <link:label xlink:type="resource" xlink:label="res_72" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DistributionCosts_label">Distribution costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_54" xlink:to="res_72"/>
+    <link:label xlink:type="resource" xlink:label="res_73" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DistributionCosts_negatedLabel">Distribution costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_54" xlink:to="res_73"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdministrativeExpense" xlink:label="loc_55"/>
+    <link:label xlink:type="resource" xlink:label="res_74" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdministrativeExpense_label">Administrative expenses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_55" xlink:to="res_74"/>
+    <link:label xlink:type="resource" xlink:label="res_75" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_AdministrativeExpense_negatedLabel">Administrative expenses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_55" xlink:to="res_75"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_OtherExpenseByFunction" xlink:label="loc_56"/>
+    <link:label xlink:type="resource" xlink:label="res_76" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_OtherExpenseByFunction_label">Other expenses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_56" xlink:to="res_76"/>
+    <link:label xlink:type="resource" xlink:label="res_77" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_OtherExpenseByFunction_negatedLabel">Other expenses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_56" xlink:to="res_77"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_FinanceCosts" xlink:label="loc_57"/>
+    <link:label xlink:type="resource" xlink:label="res_78" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_FinanceCosts_label">Finance costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_57" xlink:to="res_78"/>
+    <link:label xlink:type="resource" xlink:label="res_79" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_FinanceCosts_totalLabel">Finance costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_57" xlink:to="res_79"/>
+    <link:label xlink:type="resource" xlink:label="res_80" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_FinanceCosts_negatedLabel">Finance costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_57" xlink:to="res_80"/>
+    <link:label xlink:type="resource" xlink:label="res_163" xlink:role="http://www.xbrl.org/2009/role/negatedTotalLabel" xml:lang="en" id="ifrs-smes_FinanceCosts_negatedTotalLabel">Finance costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_57" xlink:to="res_163"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ProfitLossBeforeTax" xlink:label="loc_58"/>
+    <link:label xlink:type="resource" xlink:label="res_81" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ProfitLossBeforeTax_label">Profit before tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_58" xlink:to="res_81"/>
+    <link:label xlink:type="resource" xlink:label="res_82" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_ProfitLossBeforeTax_totalLabel">Profit before tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_58" xlink:to="res_82"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_IncomeTaxExpenseContinuingOperations" xlink:label="loc_59"/>
+    <link:label xlink:type="resource" xlink:label="res_83" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_IncomeTaxExpenseContinuingOperations_label">Income tax expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_59" xlink:to="res_83"/>
+    <link:label xlink:type="resource" xlink:label="res_84" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_IncomeTaxExpenseContinuingOperations_totalLabel">Income tax expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_59" xlink:to="res_84"/>
+    <link:label xlink:type="resource" xlink:label="res_85" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_IncomeTaxExpenseContinuingOperations_negatedLabel">Income tax expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_59" xlink:to="res_85"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ProfitLoss" xlink:label="loc_60"/>
+    <link:label xlink:type="resource" xlink:label="res_86" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ProfitLoss_label">Profit for the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_60" xlink:to="res_86"/>
+    <link:label xlink:type="resource" xlink:label="res_87" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_ProfitLoss_totalLabel">Profit for the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_60" xlink:to="res_87"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RetainedEarnings" xlink:label="loc_61"/>
+    <link:label xlink:type="resource" xlink:label="res_88" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="ifrs-smes_RetainedEarnings_periodStartLabel">Retained earnings at start of year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_61" xlink:to="res_88"/>
+    <link:label xlink:type="resource" xlink:label="res_89" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en" id="ifrs-smes_RetainedEarnings_periodEndLabel">Retained earnings at end of year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_61" xlink:to="res_89"/>
+    <link:label xlink:type="resource" xlink:label="res_90" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RetainedEarnings_label">Retained earnings</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_61" xlink:to="res_90"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ChangesInInventoriesOfFinishedGoodsAndWorkInProgress" xlink:label="loc_62"/>
+    <link:label xlink:type="resource" xlink:label="res_91" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ChangesInInventoriesOfFinishedGoodsAndWorkInProgress_label">Changes in inventories of finished goods and work in progress</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_62" xlink:to="res_91"/>
+    <link:label xlink:type="resource" xlink:label="res_16" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_ChangesInInventoriesOfFinishedGoodsAndWorkInProgress_negatedLabel">Changes in inventories of finished goods and work in progress</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_62" xlink:to="res_16"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RawMaterialsAndConsumablesUsed" xlink:label="loc_63"/>
+    <link:label xlink:type="resource" xlink:label="res_92" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RawMaterialsAndConsumablesUsed_label">Raw material and consumables used</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_63" xlink:to="res_92"/>
+    <link:label xlink:type="resource" xlink:label="res_93" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_RawMaterialsAndConsumablesUsed_negatedLabel">Raw material and consumables used</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_63" xlink:to="res_93"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DepreciationAndAmortisationExpense" xlink:label="loc_64"/>
+    <link:label xlink:type="resource" xlink:label="res_94" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DepreciationAndAmortisationExpense_label">Depreciation and amortisation expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_64" xlink:to="res_94"/>
+    <link:label xlink:type="resource" xlink:label="res_95" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DepreciationAndAmortisationExpense_negatedLabel">Depreciation and amortisation expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_64" xlink:to="res_95"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_OtherExpenseByNature" xlink:label="loc_65"/>
+    <link:label xlink:type="resource" xlink:label="res_96" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_OtherExpenseByNature_label">Other expenses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_65" xlink:to="res_96"/>
+    <link:label xlink:type="resource" xlink:label="res_97" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_OtherExpenseByNature_negatedLabel">Other expenses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_65" xlink:to="res_97"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CashFlowsFromUsedInFinancingActivitiesAbstract" xlink:label="loc_66"/>
+    <link:label xlink:type="resource" xlink:label="res_98" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CashFlowsFromUsedInFinancingActivitiesAbstract_label">Cash flows from financing activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_66" xlink:to="res_98"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_StatementOfComprehensiveIncomeAbstract" xlink:label="loc_67"/>
+    <link:label xlink:type="resource" xlink:label="res_99" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_StatementOfComprehensiveIncomeAbstract_label">Consolidated statement of comprehensive income and retained earnings</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_67" xlink:to="res_99"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_EmployeeBenefitsExpense" xlink:label="loc_68"/>
+    <link:label xlink:type="resource" xlink:label="res_100" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_EmployeeBenefitsExpense_label">Employee salaries and benefits</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_68" xlink:to="res_100"/>
+    <link:label xlink:type="resource" xlink:label="res_101" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_EmployeeBenefitsExpense_negatedLabel">Employee salaries and benefits</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_68" xlink:to="res_101"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities" xlink:label="loc_69"/>
+    <link:label xlink:type="resource" xlink:label="res_102" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities_label">Payment of finance lease liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_69" xlink:to="res_102"/>
+    <link:label xlink:type="resource" xlink:label="res_167" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities_negatedLabel">Payment of finance lease liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_69" xlink:to="res_167"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RepaymentsOfBorrowingsClassifiedAsFinancingActivities" xlink:label="loc_70"/>
+    <link:label xlink:type="resource" xlink:label="res_103" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RepaymentsOfBorrowingsClassifiedAsFinancingActivities_label">Repayment of borrowings</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_70" xlink:to="res_103"/>
+    <link:label xlink:type="resource" xlink:label="res_168" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_RepaymentsOfBorrowingsClassifiedAsFinancingActivities_negatedLabel">Repayment of borrowings</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_70" xlink:to="res_168"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CashFlowsFromUsedInFinancingActivities" xlink:label="loc_71"/>
+    <link:label xlink:type="resource" xlink:label="res_104" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CashFlowsFromUsedInFinancingActivities_label">Net cash used in financing activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_71" xlink:to="res_104"/>
+    <link:label xlink:type="resource" xlink:label="res_105" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_CashFlowsFromUsedInFinancingActivities_totalLabel">Net cash used in financing activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_71" xlink:to="res_105"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_StatementOfCashFlowsAbstract" xlink:label="loc_72"/>
+    <link:label xlink:type="resource" xlink:label="res_106" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_StatementOfCashFlowsAbstract_label">Consolidated statement of cash flows</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_72" xlink:to="res_106"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CashFlowsFromUsedInOperatingActivitiesAbstract" xlink:label="loc_73"/>
+    <link:label xlink:type="resource" xlink:label="res_107" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CashFlowsFromUsedInOperatingActivitiesAbstract_label">Cash flows from operating activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_73" xlink:to="res_107"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment" xlink:label="loc_74"/>
+    <link:label xlink:type="resource" xlink:label="res_108" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment_label">Impairment of property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_74" xlink:to="res_108"/>
+    <link:label xlink:type="resource" xlink:label="res_109" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment_negatedLabel">Impairment of property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_74" xlink:to="res_109"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_AdjustmentForNonCashIncomeAndExpenses" xlink:label="loc_75"/>
+    <link:label xlink:type="resource" xlink:label="res_110" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_AdjustmentForNonCashIncomeAndExpenses_label">Adjustments for non-cash income and expenses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_75" xlink:to="res_110"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdjustmentsForNoncashFinanceCosts" xlink:label="loc_76"/>
+    <link:label xlink:type="resource" xlink:label="res_111" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdjustmentsForNoncashFinanceCosts_label">Non-cash finance costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_76" xlink:to="res_111"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdjustmentsForNoncashIncomeTaxExpense" xlink:label="loc_77"/>
+    <link:label xlink:type="resource" xlink:label="res_112" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdjustmentsForNoncashIncomeTaxExpense_label">Non-cash income tax expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_77" xlink:to="res_112"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DepreciationPropertyPlantAndEquipment" xlink:label="loc_78"/>
+    <link:label xlink:type="resource" xlink:label="res_113" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DepreciationPropertyPlantAndEquipment_label">Depreciation of property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_78" xlink:to="res_113"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_CashFlowIncludedInInvestingActivities" xlink:label="loc_79"/>
+    <link:label xlink:type="resource" xlink:label="res_114" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_CashFlowIncludedInInvestingActivities_label">Cash flow included in investing activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_79" xlink:to="res_114"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_ChangesInOperatingAssetsAndLiabilities" xlink:label="loc_80"/>
+    <link:label xlink:type="resource" xlink:label="res_115" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ChangesInOperatingAssetsAndLiabilities_label">Changes in operating assets and liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_80" xlink:to="res_115"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CashFlowsFromUsedInOperatingActivities" xlink:label="loc_81"/>
+    <link:label xlink:type="resource" xlink:label="res_116" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CashFlowsFromUsedInOperatingActivities_label">Net cash from operating activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_81" xlink:to="res_116"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CashFlowsFromUsedInInvestingActivitiesAbstract" xlink:label="loc_82"/>
+    <link:label xlink:type="resource" xlink:label="res_117" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CashFlowsFromUsedInInvestingActivitiesAbstract_label">Cash flows from investing activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_82" xlink:to="res_117"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities" xlink:label="loc_83"/>
+    <link:label xlink:type="resource" xlink:label="res_118" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities_label">Proceeds from sale of equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_83" xlink:to="res_118"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities" xlink:label="loc_84"/>
+    <link:label xlink:type="resource" xlink:label="res_119" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities_label">Purchases of equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_84" xlink:to="res_119"/>
+    <link:label xlink:type="resource" xlink:label="res_173" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities_negatedLabel">Purchases of equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_84" xlink:to="res_173"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CashFlowsFromUsedInInvestingActivities" xlink:label="loc_85"/>
+    <link:label xlink:type="resource" xlink:label="res_120" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CashFlowsFromUsedInInvestingActivities_label">Net cash used in investing activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_85" xlink:to="res_120"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents" xlink:label="loc_86"/>
+    <link:label xlink:type="resource" xlink:label="res_121" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents_label">Net increase (decrease) in cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_86" xlink:to="res_121"/>
+    <link:label xlink:type="resource" xlink:label="res_122" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_IncreaseDecreaseInCashAndCashEquivalents_totalLabel">Net increase (decrease) in cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_86" xlink:to="res_122"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable" xlink:label="loc_88"/>
+    <link:label xlink:type="resource" xlink:label="res_127" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable_label">Decrease (increase) in trade and other receivables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_88" xlink:to="res_127"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdjustmentsForDecreaseIncreaseInInventories" xlink:label="loc_89"/>
+    <link:label xlink:type="resource" xlink:label="res_128" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdjustmentsForDecreaseIncreaseInInventories_label">Decrease (increase) in inventories</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_89" xlink:to="res_128"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdjustmentsForIncreaseDecreaseInTradeAccountPayable" xlink:label="loc_90"/>
+    <link:label xlink:type="resource" xlink:label="res_129" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdjustmentsForIncreaseDecreaseInTradeAccountPayable_label">Increase (decrease) in trade payables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_90" xlink:to="res_129"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities" xlink:label="loc_91"/>
+    <link:label xlink:type="resource" xlink:label="res_130" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_IncreaseInCurrentAndLongTermEmployeeBenefitPayable_label">Increase in current and long-term employee benefit payable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_91" xlink:to="res_130"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NameOfParentEntity" xlink:label="loc_92"/>
+    <link:label xlink:type="resource" xlink:label="res_131" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NameOfParentEntity_label">Name of parent entity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_92" xlink:to="res_131"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NameOfReportingEntityOrOtherMeansOfIdentification" xlink:label="loc_93"/>
+    <link:label xlink:type="resource" xlink:label="res_132" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NameOfReportingEntityOrOtherMeansOfIdentification_label">Name of reporting entity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_93" xlink:to="res_132"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_CountryOfIncorporationOfEntityWhoseConsolidatedFinancialStatementsHaveBeenProducedForPublicUse" xlink:label="loc_94"/>
+    <link:label xlink:type="resource" xlink:label="res_133" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CountryOfIncorporationOfEntityWhoseConsolidatedFinancialStatementsHaveBeenProducedForPublicUse_label">Country</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_94" xlink:to="res_133"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AddressOfRegisteredOfficeOfEntity" xlink:label="loc_95"/>
+    <link:label xlink:type="resource" xlink:label="res_134" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AddressOfRegisteredOfficeOfEntity_label">Address</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_95" xlink:to="res_134"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_NameOfSubsidiary" xlink:label="loc_96"/>
+    <link:label xlink:type="resource" xlink:label="res_135" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NameOfSubsidiary_label">Name of subsidiary</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_96" xlink:to="res_135"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities" xlink:label="loc_97"/>
+    <link:label xlink:type="resource" xlink:label="res_136" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities_label">Principal activities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_97" xlink:to="res_136"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory" xlink:label="loc_98"/>
+    <link:label xlink:type="resource" xlink:label="res_137" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory_label">1. General information</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_98" xlink:to="res_137"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DisclosureOfBasisOfConsolidationExplanatory" xlink:label="loc_99"/>
+    <link:label xlink:type="resource" xlink:label="res_139" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfBasisOfConsolidation_label">Basis of consolidation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_99" xlink:to="res_139"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory" xlink:label="loc_101"/>
+    <link:label xlink:type="resource" xlink:label="res_140" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory_label">Accounting policies</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_101" xlink:to="res_140"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates" xlink:label="loc_102"/>
+    <link:label xlink:type="resource" xlink:label="res_141" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DescriptionOfAccountingPolicyForInvestmentInAssociates_label">Investments in associates</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_102" xlink:to="res_141"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DescriptionOfAccountingPolicyForMeasuringInventories" xlink:label="loc_103"/>
+    <link:label xlink:type="resource" xlink:label="res_142" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DescriptionOfAccountingPolicyForMeasuringInventories_label">Inventories</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_103" xlink:to="res_142"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue" xlink:label="loc_104"/>
+    <link:label xlink:type="resource" xlink:label="res_143" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DescriptionOfAccountingPolicyForRecognitionOfRevenue_label">Revenue recognition</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_104" xlink:to="res_143"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForBorrowingCostsExplanatory" xlink:label="loc_105"/>
+    <link:label xlink:type="resource" xlink:label="res_144" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForBorrowingCosts_label">Borrowing costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_105" xlink:to="res_144"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForIncomeTaxExplanatory" xlink:label="loc_106"/>
+    <link:label xlink:type="resource" xlink:label="res_145" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForIncomeTax_label">Income tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_106" xlink:to="res_145"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForPropertyPlantAndEquipmentExplanatory" xlink:label="loc_107"/>
+    <link:label xlink:type="resource" xlink:label="res_146" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForPropertyPlantAndEquipment_label">Property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_107" xlink:to="res_146"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForIntangibleAssetsOtherThanGoodwillExplanatory" xlink:label="loc_108"/>
+    <link:label xlink:type="resource" xlink:label="res_147" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForIntangibleAssets_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_108" xlink:to="res_147"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForImpairmentOfAssetsExplanatory" xlink:label="loc_109"/>
+    <link:label xlink:type="resource" xlink:label="res_148" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForImpairmentOfAssets_label">Impairment of assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_109" xlink:to="res_148"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForLeasesExplanatory" xlink:label="loc_110"/>
+    <link:label xlink:type="resource" xlink:label="res_149" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForLeases_label">Leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_110" xlink:to="res_149"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForTradeAndOtherReceivablesExplanatory" xlink:label="loc_111"/>
+    <link:label xlink:type="resource" xlink:label="res_150" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForTradeAndOtherReceivables_label">Trade and other receivables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_111" xlink:to="res_150"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForTradeAndOtherPayablesExplanatory" xlink:label="loc_112"/>
+    <link:label xlink:type="resource" xlink:label="res_151" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForTradePayables_label">Trade payables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_112" xlink:to="res_151"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForEmployeeBenefitsExplanatory" xlink:label="loc_113"/>
+    <link:label xlink:type="resource" xlink:label="res_152" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForEmployeeBenefitsLongServicePayment_label">Employee benefit - long-service payment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_113" xlink:to="res_152"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForProvisionsExplanatory" xlink:label="loc_114"/>
+    <link:label xlink:type="resource" xlink:label="res_153" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ProvisionForWarrantyObligations_label">Provision for warranty obligations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_114" xlink:to="res_153"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_LongServicePayments" xlink:label="loc_115"/>
+    <link:label xlink:type="resource" xlink:label="res_154" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_LongServicePayments_label">Long-service payments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_115" xlink:to="res_154"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RevenueFromSaleOfGoods" xlink:label="loc_116"/>
+    <link:label xlink:type="resource" xlink:label="res_155" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RevenueFromSaleOfGoods_label">Sale of goods</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_116" xlink:to="res_155"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RevenueFromRoyalties" xlink:label="loc_117"/>
+    <link:label xlink:type="resource" xlink:label="res_156" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RevenueFromRoyalties_label">Royalties - licensing of candle-making patents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_117" xlink:to="res_156"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RevenueAbstract" xlink:label="loc_118"/>
+    <link:label xlink:type="resource" xlink:label="res_157" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RevenueAbstract_label">Revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_118" xlink:to="res_157"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_KeySourcesOfEstimationUncertainty" xlink:label="loc_119"/>
+    <link:label xlink:type="resource" xlink:label="res_158" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_KeySourcesOfEstimationUncertainty_label">Key sources of estimation uncertainty</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_119" xlink:to="res_158"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DisclosureOfAnalysisOfOtherComprehensiveIncomeByItemAbstract" xlink:label="loc_120"/>
+    <link:label xlink:type="resource" xlink:label="res_159" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfAnalysisOfOtherComprehensiveIncomeByItemAbstract_label">Other income</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_120" xlink:to="res_159"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_FinanceCosts" xlink:label="loc_121"/>
+    <link:label xlink:type="resource" xlink:label="res_160" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_FinanceCosts_label">Finance costs</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_121" xlink:to="res_160"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_InterestExpenseOnBankLoansAndOverdrafts" xlink:label="loc_122"/>
+    <link:label xlink:type="resource" xlink:label="res_161" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_InterestOnBankLoanAndOverdraft_label">Interest on bank loan and overdraft</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_122" xlink:to="res_161"/>
+    <link:label xlink:type="resource" xlink:label="res_174" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="example1_InterestOnBankLoanAndOverdraft_negatedLabel">Interest on bank loan and overdraft</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_122" xlink:to="res_174"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_InterestExpenseOnFinanceLeases" xlink:label="loc_123"/>
+    <link:label xlink:type="resource" xlink:label="res_162" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_InterestOnFinanceLeases_label">Interest on financial leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_123" xlink:to="res_162"/>
+    <link:label xlink:type="resource" xlink:label="res_175" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="example1_InterestOnFinanceLeases_negatedLabel">Interest on financial leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_123" xlink:to="res_175"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_WarrantyExpense" xlink:label="loc_124"/>
+    <link:label xlink:type="resource" xlink:label="res_164" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_WarrantyExpense_label">Warranty expense (included in cost of sales)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_124" xlink:to="res_164"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CostOfInventoriesRecognisedAsExpenseDuringPeriod" xlink:label="loc_126"/>
+    <link:label xlink:type="resource" xlink:label="res_165" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CostOfInventoriesRecognisedAsExpenseDuringPeriod_label">Cost of inventories recognised as expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_126" xlink:to="res_165"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ResearchAndDevelopmentExpense" xlink:label="loc_127"/>
+    <link:label xlink:type="resource" xlink:label="res_166" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ResearchAndDevelopmentExpense_label">Research and development cost (included in other expenses)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_127" xlink:to="res_166"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_TradeAndOtherCurrentReceivablesAbstract" xlink:label="loc_128"/>
+    <link:label xlink:type="resource" xlink:label="res_169" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_TradeAndOtherCurrentReceivablesAbstract_label">Trade and other receivables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_128" xlink:to="res_169"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_RawMaterials" xlink:label="loc_129"/>
+    <link:label xlink:type="resource" xlink:label="res_170" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RawMaterials_label">Raw materials</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_129" xlink:to="res_170"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_WorkInProgress" xlink:label="loc_132"/>
+    <link:label xlink:type="resource" xlink:label="res_171" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_WorkInProgress_label">Work in progress</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_132" xlink:to="res_171"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_FinishedGoods" xlink:label="loc_133"/>
+    <link:label xlink:type="resource" xlink:label="res_172" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_FinishedGoods_label">Finished goods</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_133" xlink:to="res_172"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_DisclosureOfTradePayables" xlink:label="loc_134"/>
+    <link:label xlink:type="resource" xlink:label="res_176" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DisclosureOfTradePayables_label">Trade payables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_134" xlink:to="res_176"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_FinanceCostsPaidInCash" xlink:label="loc_135"/>
+    <link:label xlink:type="resource" xlink:label="res_178" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_FinanceCostsPaidInCash_label">Finance costs paid in cash</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_135" xlink:to="res_178"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_IncomeTaxesPaidInCash" xlink:label="loc_136"/>
+    <link:label xlink:type="resource" xlink:label="res_180" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_IncomeTaxesPaidInCash_label">Income taxes paid in cash</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_136" xlink:to="res_180"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfRevenueExplanatory" xlink:label="loc_138"/>
+    <link:label xlink:type="resource" xlink:label="res_181" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfRevenueExplanatory_label">5. Revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_138" xlink:to="res_181"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_ProfitBeforeTax" xlink:label="loc_141"/>
+    <link:label xlink:type="resource" xlink:label="res_183" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ProfitBeforeTax_label">Profit before tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_141" xlink:to="res_183"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfIncomeTaxExplanatory" xlink:label="loc_143"/>
+    <link:label xlink:type="resource" xlink:label="res_185" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfIncomeTaxExplanatory_label">Income tax expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_143" xlink:to="res_185"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_IncomeTaxExpenseAbstract" xlink:label="loc_146"/>
+    <link:label xlink:type="resource" xlink:label="res_186" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_note9_label">Income tax expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_146" xlink:to="res_186"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_Inventories" xlink:label="loc_147"/>
+    <link:label xlink:type="resource" xlink:label="res_187" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_Inventories_label">Inventories</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_147" xlink:to="res_187"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfInvestmentInAssociatesExplanatory" xlink:label="loc_148"/>
+    <link:label xlink:type="resource" xlink:label="res_188" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfInvestmentInAssociatesExplanatory_label">Investment in associate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_148" xlink:to="res_188"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_InvestmentInAssociate" xlink:label="loc_149"/>
+    <link:label xlink:type="resource" xlink:label="res_189" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_InvestmentInAssociate_label">Investment in associate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_149" xlink:to="res_189"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_MachinesCarryingAmount" xlink:label="loc_150"/>
+    <link:label xlink:type="resource" xlink:label="res_190" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_MachinesCarryingAmount_label">Machine's carrying amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_150" xlink:to="res_190"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_RemainingObligation" xlink:label="loc_151"/>
+    <link:label xlink:type="resource" xlink:label="res_191" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_RemainingObligation_label">Group's remaining obligation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_151" xlink:to="res_191"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfPropertyPlantAndEquipmentExplanatory" xlink:label="loc_152"/>
+    <link:label xlink:type="resource" xlink:label="res_192" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfPropertyPlantAndEquipmentExplanatory_label">Property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_152" xlink:to="res_192"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfPropertyPlantAndEquipmentAbstract" xlink:label="loc_153"/>
+    <link:label xlink:type="resource" xlink:label="res_193" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfPropertyPlantAndEquipmentAbstract_label">Property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_153" xlink:to="res_193"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_DisclosureOfBankOverdraftAndLoan" xlink:label="loc_154"/>
+    <link:label xlink:type="resource" xlink:label="res_194" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DisclosureOfBankOverdraftAndLoan_label">Bank overdraft and loan</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_154" xlink:to="res_194"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_BankOverdraftAndLoanAbstract" xlink:label="loc_156"/>
+    <link:label xlink:type="resource" xlink:label="res_196" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_note16_label">Bank overdraft and loan</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_156" xlink:to="res_196"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_LandAndBuildingCarryingAmount" xlink:label="loc_157"/>
+    <link:label xlink:type="resource" xlink:label="res_197" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_LandAndBuildingCarryingAmount_label">Carrying amount of land and buildings with floating lien</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_157" xlink:to="res_197"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_TradePayables" xlink:label="loc_158"/>
+    <link:label xlink:type="resource" xlink:label="res_198" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_TradePayables_label">Trade payables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_158" xlink:to="res_198"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_ForeignCurrencies" xlink:label="loc_159"/>
+    <link:label xlink:type="resource" xlink:label="res_199" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ForeignCurrencies_label">Trade payables in foreign currencies</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_159" xlink:to="res_199"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CashAndCashEquivalentsAbstract" xlink:label="loc_160"/>
+    <link:label xlink:type="resource" xlink:label="res_200" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CashAndCashEquivalentsAbstract_label">Cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_160" xlink:to="res_200"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory" xlink:label="loc_161"/>
+    <link:label xlink:type="resource" xlink:label="res_201" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfContingentLiabilitiesExplanatory_label">Contingent liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_161" xlink:to="res_201"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfEventsAfterReportingPeriodExplanatory" xlink:label="loc_162"/>
+    <link:label xlink:type="resource" xlink:label="res_202" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfEventsAfterReportingPeriodExplanatory_label">Events after the end of reporting period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_162" xlink:to="res_202"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_CostOfRefurbishment" xlink:label="loc_163"/>
+    <link:label xlink:type="resource" xlink:label="res_203" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_CostOfRefurbishment_label">Cost of refurbishment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_163" xlink:to="res_203"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DividendsPaidClassifiedAsFinancingActivities" xlink:label="loc_164"/>
+    <link:label xlink:type="resource" xlink:label="res_204" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DividendsPaidClassifiedAsFinancingActivities_label">Dividends paid</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_164" xlink:to="res_204"/>
+    <link:label xlink:type="resource" xlink:label="res_205" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DividendsPaidClassifiedAsFinancingActivities_negatedLabel">Dividends paid</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_164" xlink:to="res_205"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DescriptionOfAccountingPolicyForBorrowingsExplanatory" xlink:label="loc_165"/>
+    <link:label xlink:type="resource" xlink:label="res_206" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DescriptionOfAccountingPolicyForBankLoansAndOverdrafts_label">Bank loans and overdrafts</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_165" xlink:to="res_206"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_RestrictionOnPaymentOfDividend" xlink:label="loc_166"/>
+    <link:label xlink:type="resource" xlink:label="res_207" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_RestrictionOnPaymentOfDividend_label">Restriction on payment of dividend</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_166" xlink:to="res_207"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_FinanceCost" xlink:label="loc_167"/>
+    <link:label xlink:type="resource" xlink:label="res_208" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_FinanceCost_label">Finance cost</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_167" xlink:to="res_208"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_OtherIncome" xlink:label="loc_168"/>
+    <link:label xlink:type="resource" xlink:label="res_209" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_OtherIncome_label">Other income</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_168" xlink:to="res_209"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_ProfitBeforeTaxAbstract" xlink:label="loc_169"/>
+    <link:label xlink:type="resource" xlink:label="res_210" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_note8_label">Profit before tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_169" xlink:to="res_210"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_TradeAndOtherReceivables" xlink:label="loc_170"/>
+    <link:label xlink:type="resource" xlink:label="res_211" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_TradeAndOtherReceivables_label">Trade and other receivables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_170" xlink:to="res_211"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfPropertyPlantAndEquipmentTable" xlink:label="loc_171"/>
+    <link:label xlink:type="resource" xlink:label="res_212" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfPropertyPlantAndEquipmentTable_label">Property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_171" xlink:to="res_212"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ClassesOfPropertyPlantAndEquipmentAxis" xlink:label="loc_173"/>
+    <link:label xlink:type="resource" xlink:label="res_214" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ClassesOfPropertyPlantAndEquipmentAxis_label">Property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_173" xlink:to="res_214"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_OtherPropertyPlantAndEquipmentMember" xlink:label="loc_174"/>
+    <link:label xlink:type="resource" xlink:label="res_215" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_OtherPropertyPlantAndEquipmentMember_label">Total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_174" xlink:to="res_215"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_LandAndBuildingsMember" xlink:label="loc_175"/>
+    <link:label xlink:type="resource" xlink:label="res_216" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_LandAndBuildingsMember_label">Land and buildings</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_175" xlink:to="res_216"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_FixturesAndFittingsMember" xlink:label="loc_176"/>
+    <link:label xlink:type="resource" xlink:label="res_217" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_FixturesAndFittingsMember_label">Fixtures and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_176" xlink:to="res_217"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CarryingAmountMember" xlink:label="loc_177"/>
+    <link:label xlink:type="resource" xlink:label="res_218" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CarryingAmountMember_label">Carrying amount</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_177" xlink:to="res_218"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_GrossCarryingAmountMember" xlink:label="loc_178"/>
+    <link:label xlink:type="resource" xlink:label="res_219" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_GrossCarryingAmountMember_label">Cost</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_178" xlink:to="res_219"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AccumulatedDepreciationAmortisationAndImpairmentMember" xlink:label="loc_179"/>
+    <link:label xlink:type="resource" xlink:label="res_220" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AccumulatedDepreciationAmortisationAndImpairmentMember_label">Accumulated depreciation and impairment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_179" xlink:to="res_220"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ReconciliationOfChangesInPropertyPlantAndEquipmentAbstract" xlink:label="loc_180"/>
+    <link:label xlink:type="resource" xlink:label="res_221" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ReconciliationOfChangesInPropertyPlantAndEquipmentAbstract_label">Property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_180" xlink:to="res_221"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment" xlink:label="loc_181"/>
+    <link:label xlink:type="resource" xlink:label="res_222" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment_label">Additions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_181" xlink:to="res_222"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisposalsPropertyPlantAndEquipment" xlink:label="loc_182"/>
+    <link:label xlink:type="resource" xlink:label="res_223" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisposalsPropertyPlantAndEquipment_label">Disposals</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_182" xlink:to="res_223"/>
+    <link:label xlink:type="resource" xlink:label="res_224" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DisposalsPropertyPlantAndEquipment_negatedLabel">Disposals</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_182" xlink:to="res_224"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfIntangibleAssetsExplanatory" xlink:label="loc_183"/>
+    <link:label xlink:type="resource" xlink:label="res_225" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfIntangibleAssetsExplanatory_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_183" xlink:to="res_225"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfIntangibleAssetsAbstract" xlink:label="loc_184"/>
+    <link:label xlink:type="resource" xlink:label="res_226" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfIntangibleAssetsAbstract_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_184" xlink:to="res_226"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfIntangibleAssetsTable" xlink:label="loc_185"/>
+    <link:label xlink:type="resource" xlink:label="res_227" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfIntangibleAssetsTable_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_185" xlink:to="res_227"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ClassesOfIntangibleAssetsOtherThanGoodwillAxis" xlink:label="loc_186"/>
+    <link:label xlink:type="resource" xlink:label="res_228" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ClassesOfIntangibleAssetsOtherThanGoodwillAxis_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_186" xlink:to="res_228"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_IntangibleAssetsOtherThanGoodwillMember" xlink:label="loc_187"/>
+    <link:label xlink:type="resource" xlink:label="res_229" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_IntangibleAssetsOtherThanGoodwillMember_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_187" xlink:to="res_229"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ComputerSoftwareMember" xlink:label="loc_188"/>
+    <link:label xlink:type="resource" xlink:label="res_230" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ComputerSoftwareMember_label">Software</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_188" xlink:to="res_230"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfIntangibleAssetsLineItems" xlink:label="loc_189"/>
+    <link:label xlink:type="resource" xlink:label="res_231" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfIntangibleAssetsLineItems_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_189" xlink:to="res_231"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwillAbstract" xlink:label="loc_190"/>
+    <link:label xlink:type="resource" xlink:label="res_232" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ReconciliationOfChangesInIntangibleAssetsOtherThanGoodwillAbstract_label">Intangible assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_190" xlink:to="res_232"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdditionsOtherThanThroughBusinessCombinationsIntangibleAssetsOtherThanGoodwill" xlink:label="loc_191"/>
+    <link:label xlink:type="resource" xlink:label="res_233" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdditionsOtherThanThroughBusinessCombinationsIntangibleAssetsOtherThanGoodwill_label">Additions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_191" xlink:to="res_233"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisposalsIntangibleAssetsOtherThanGoodwill" xlink:label="loc_192"/>
+    <link:label xlink:type="resource" xlink:label="res_234" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisposalsIntangibleAssetsOtherThanGoodwill_label">Disposals</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_192" xlink:to="res_234"/>
+    <link:label xlink:type="resource" xlink:label="res_305" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DisposalsIntangibleAssetsOtherThanGoodwill_negatedLabel">Disposals</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_192" xlink:to="res_305"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AmortisationIntangibleAssetsOtherThanGoodwill" xlink:label="loc_193"/>
+    <link:label xlink:type="resource" xlink:label="res_235" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AmortisationIntangibleAssetsOtherThanGoodwill_label">Amortisation of intangibles</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_193" xlink:to="res_235"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DeferredTaxLiabilities" xlink:label="loc_194"/>
+    <link:label xlink:type="resource" xlink:label="res_236" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DeferredTaxLiabilities_label">Deferred tax liability</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_194" xlink:to="res_236"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DeferredTaxLiabilityAsset" xlink:label="loc_195"/>
+    <link:label xlink:type="resource" xlink:label="res_237" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DeferredTaxLiabilityAsset_label">Deferred tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_195" xlink:to="res_237"/>
+    <link:label xlink:type="resource" xlink:label="res_238" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="ifrs-smes_DeferredTaxLiabilityAsset_periodStartLabel">Deferred tax at beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_195" xlink:to="res_238"/>
+    <link:label xlink:type="resource" xlink:label="res_239" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en" id="ifrs-smes_DeferredTaxLiabilityAsset_periodEndLabel">Deferred tax at end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_195" xlink:to="res_239"/>
+    <link:label xlink:type="resource" xlink:label="res_324" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_DeferredTaxLiabilityAsset_totalLabel">Deferred tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_195" xlink:to="res_324"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory" xlink:label="loc_196"/>
+    <link:label xlink:type="resource" xlink:label="res_240" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory_label">Provision for warranty obligations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_196" xlink:to="res_240"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfOtherProvisionsAbstract" xlink:label="loc_197"/>
+    <link:label xlink:type="resource" xlink:label="res_241" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfOtherProvisionsAbstract_label">Provision for warranty obligations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_197" xlink:to="res_241"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfOtherProvisionsTable" xlink:label="loc_198"/>
+    <link:label xlink:type="resource" xlink:label="res_242" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfOtherProvisionsTable_label">Provision</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_198" xlink:to="res_242"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ClassesOfProvisionsAxis" xlink:label="loc_199"/>
+    <link:label xlink:type="resource" xlink:label="res_243" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ClassesOfProvisionsAxis_label">Provision</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_199" xlink:to="res_243"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_OtherProvisionsMember" xlink:label="loc_200"/>
+    <link:label xlink:type="resource" xlink:label="res_244" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_OtherProvisionsMember_label">Provision</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_200" xlink:to="res_244"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_WarrantyProvisionMember" xlink:label="loc_201"/>
+    <link:label xlink:type="resource" xlink:label="res_245" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_WarrantyProvisionMember_label">Warranty obligations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_201" xlink:to="res_245"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfOtherProvisionsLineItems" xlink:label="loc_202"/>
+    <link:label xlink:type="resource" xlink:label="res_246" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfOtherProvisionsLineItems_label">Provision</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_202" xlink:to="res_246"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ReconciliationOfChangesInOtherProvisionsAbstract" xlink:label="loc_203"/>
+    <link:label xlink:type="resource" xlink:label="res_247" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ReconciliationOfChangesInOtherProvisionsAbstract_label">Provision</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_203" xlink:to="res_247"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_OtherProvisions" xlink:label="loc_204"/>
+    <link:label xlink:type="resource" xlink:label="res_248" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_OtherProvisions_label">Provision obligations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_204" xlink:to="res_248"/>
+    <link:label xlink:type="resource" xlink:label="res_249" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="ifrs-smes_OtherProvisions_periodStartLabel">Provision at beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_204" xlink:to="res_249"/>
+    <link:label xlink:type="resource" xlink:label="res_250" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en" id="ifrs-smes_OtherProvisions_periodEndLabel">Provision at end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_204" xlink:to="res_250"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdditionalProvisionsOtherProvisions" xlink:label="loc_205"/>
+    <link:label xlink:type="resource" xlink:label="res_251" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdditionalProvisionsOtherProvisions_label">Additional accrual during the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_205" xlink:to="res_251"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ProvisionUsedOtherProvisions" xlink:label="loc_206"/>
+    <link:label xlink:type="resource" xlink:label="res_252" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ProvisionUsedOtherProvisions_label">Cost of warranty repairs and replacement during the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_206" xlink:to="res_252"/>
+    <link:label xlink:type="resource" xlink:label="res_329" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_ProvisionUsedOtherProvisions_negatedLabel">Cost of warranty repairs and replacement during the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_206" xlink:to="res_329"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory" xlink:label="loc_207"/>
+    <link:label xlink:type="resource" xlink:label="res_253" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfEmployeeBenefitsExplanatory_label">Employee benefit obligation - long-service payments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_207" xlink:to="res_253"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfDefinedBenefitPlansAbstract" xlink:label="loc_208"/>
+    <link:label xlink:type="resource" xlink:label="res_254" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfDefinedBenefitPlansAbstract_label">Employee benefit obligation - long-service payments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_208" xlink:to="res_254"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfDefinedBenefitPlansTable" xlink:label="loc_209"/>
+    <link:label xlink:type="resource" xlink:label="res_255" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfDefinedBenefitPlansTable_label">Employee benefit obligation - long-service payments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_209" xlink:to="res_255"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DefinedBenefitPlansAxis" xlink:label="loc_210"/>
+    <link:label xlink:type="resource" xlink:label="res_256" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DefinedBenefitPlansAxis_label">Employee benefit obligation - long-service payments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_210" xlink:to="res_256"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_GovernnmentMandatedPlanMember" xlink:label="loc_211"/>
+    <link:label xlink:type="resource" xlink:label="res_257" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_GovernnmentMandatedPlan_label">Government-mandated plan</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_211" xlink:to="res_257"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligationAbstract" xlink:label="loc_212"/>
+    <link:label xlink:type="resource" xlink:label="res_258" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ReconciliationOfChangesInPresentValueOfDefinedBenefitObligationAbstract_label">Employee benefit obligation - long-service payments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_212" xlink:to="res_258"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeAbstract" xlink:label="loc_213"/>
+    <link:label xlink:type="resource" xlink:label="res_259" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeAbstract_label">Obligations under finance and operating leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_213" xlink:to="res_259"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeTable" xlink:label="loc_214"/>
+    <link:label xlink:type="resource" xlink:label="res_260" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeTable_label">Obligations under finance and operating leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_214" xlink:to="res_260"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeLineItems" xlink:label="loc_215"/>
+    <link:label xlink:type="resource" xlink:label="res_261" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfFinanceLeaseAndOperatingLeaseByLesseeLineItems_label">Obligations under finance and operating leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_215" xlink:to="res_261"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_MinimumFinanceLeasePaymentsPayable" xlink:label="loc_216"/>
+    <link:label xlink:type="resource" xlink:label="res_262" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_MinimumFinanceLeasePaymentsPayable_label">Future minimum lease payments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_216" xlink:to="res_262"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_GainsOnDisposalsOfPropertyPlantAndEquipment" xlink:label="loc_217"/>
+    <link:label xlink:type="resource" xlink:label="res_263" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_GainsOnDisposalsOfPropertyPlantAndEquipment_label">Gain on disposal of property, plant and equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_217" xlink:to="res_263"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CurrentTaxExpenseIncome" xlink:label="loc_218"/>
+    <link:label xlink:type="resource" xlink:label="res_264" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentTaxExpenseIncome_label">Current tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_218" xlink:to="res_264"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_ApplicableTaxRate" xlink:label="loc_219"/>
+    <link:label xlink:type="resource" xlink:label="res_265" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ApplicableTaxRate_label">Income tax rate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_219" xlink:to="res_265"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_EmployeeCompensationExpenses" xlink:label="loc_220"/>
+    <link:label xlink:type="resource" xlink:label="res_266" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_EmployeeCompensationExpenses_label">Employee compensation expenses not tax deductible</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_220" xlink:to="res_266"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_ProportionOfOwnershipInterestInAssociate" xlink:label="loc_221"/>
+    <link:label xlink:type="resource" xlink:label="res_267" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ProportionOfOwnershipInterestInAssociate_label">Owning in associate whose shares are not publicly traded</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_221" xlink:to="res_267"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DeferredTaxExpenseIncomeRecognisedInProfitOrLoss" xlink:label="loc_222"/>
+    <link:label xlink:type="resource" xlink:label="res_268" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DeferredTaxExpenseIncomeRecognisedInProfitOrLoss_label">Charge (credit) to profit or loss for the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_222" xlink:to="res_268"/>
+    <link:label xlink:type="resource" xlink:label="res_326" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DeferredTaxExpenseIncomeRecognisedInProfitOrLoss_negatedLabel">Charge (credit) to profit or loss for the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_222" xlink:to="res_326"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_InterestPayableOnBankOverdraft" xlink:label="loc_223"/>
+    <link:label xlink:type="resource" xlink:label="res_269" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_InterestPayableOnBankOverdraft_label">Interest payable on bank overdraft</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_223" xlink:to="res_269"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_RecognisedLiabilitiesDefinedBenefitPlan" xlink:label="loc_224"/>
+    <link:label xlink:type="resource" xlink:label="res_270" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="ifrs-smes_RecognisedLiabilitiesDefinedBenefitPlan_periodStartLabel">Obligation at beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_224" xlink:to="res_270"/>
+    <link:label xlink:type="resource" xlink:label="res_271" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en" id="ifrs-smes_RecognisedLiabilitiesDefinedBenefitPlan_periodEndLabel">Obligation at end of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_224" xlink:to="res_271"/>
+    <link:label xlink:type="resource" xlink:label="res_272" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RecognisedLiabilitiesDefinedBenefitPlan_label">Obligation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_224" xlink:to="res_272"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_AdditionalAccrualDuringTheYear" xlink:label="loc_226"/>
+    <link:label xlink:type="resource" xlink:label="res_274" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_AdditionalAccrualDuringTheYear_label">Additional accrual during the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_226" xlink:to="res_274"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_LeaseAndSubleasePaymentsRecognisedAsExpense" xlink:label="loc_227"/>
+    <link:label xlink:type="resource" xlink:label="res_275" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_LeaseAndSubleasePaymentsRecognisedAsExpense_label">Minimum lease payments under operating leases recognised as an expense during the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_227" xlink:to="res_275"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_EstimatedFinancialEffectOfContingentLiabilities" xlink:label="loc_228"/>
+    <link:label xlink:type="resource" xlink:label="res_276" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_EstimatedFinancialEffectsOfContigentLiabilities_label">Estimated financial effect of contingent liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_228" xlink:to="res_276"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfContingentLiabilitiesAbstract" xlink:label="loc_229"/>
+    <link:label xlink:type="resource" xlink:label="res_277" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfContingentLiabilitiesAbstract_label">Contingent liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_229" xlink:to="res_277"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsExplanatory" xlink:label="loc_230"/>
+    <link:label xlink:type="resource" xlink:label="res_278" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsExplanatory_label">Deferred tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_230" xlink:to="res_278"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAbstract" xlink:label="loc_231"/>
+    <link:label xlink:type="resource" xlink:label="res_279" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAbstract_label">Deferred tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_231" xlink:to="res_279"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsTable" xlink:label="loc_232"/>
+    <link:label xlink:type="resource" xlink:label="res_280" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsTable_label">Deferred tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_232" xlink:to="res_280"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsLineItems" xlink:label="loc_233"/>
+    <link:label xlink:type="resource" xlink:label="res_281" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfTemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsLineItems_label">Deferred tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_233" xlink:to="res_281"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis" xlink:label="loc_234"/>
+    <link:label xlink:type="resource" xlink:label="res_282" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsAxis_label">Deferred tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_234" xlink:to="res_282"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsMember" xlink:label="loc_235"/>
+    <link:label xlink:type="resource" xlink:label="res_283" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_TemporaryDifferenceUnusedTaxLossesAndUnusedTaxCreditsMember_label">Total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_235" xlink:to="res_283"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_ForeignExchangeLossMember" xlink:label="loc_236"/>
+    <link:label xlink:type="resource" xlink:label="res_284" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ForeignExchangeLoss_label">Foreign exchange loss</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_236" xlink:to="res_284"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_LongServiceBenefitMember" xlink:label="loc_237"/>
+    <link:label xlink:type="resource" xlink:label="res_285" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_LongServiceBenefit_label">Long-service benefit</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_237" xlink:to="res_285"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_FinanceLeaseLiabilities" xlink:label="loc_238"/>
+    <link:label xlink:type="resource" xlink:label="res_286" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ObligationTotal_label">Total obligations under finance leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_238" xlink:to="res_286"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DefinedBenefitPlansMember" xlink:label="loc"/>
+    <link:label xlink:type="resource" xlink:label="res" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DefinedBenefitPlansMember_label">Employee benefit obligation - long-service payments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc" xlink:to="res"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DividendsDeclaredAndPaidOrPayable" xlink:label="loc_239"/>
+    <link:label xlink:type="resource" xlink:label="res_287" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DividendsDeclaredAndPaidOrPayable_label">Dividends</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_239" xlink:to="res_287"/>
+    <link:label xlink:type="resource" xlink:label="res_288" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DividendsDeclaredAndPaidOrPayable_negatedLabel">Dividends</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_239" xlink:to="res_288"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets" xlink:label="loc_240"/>
+    <link:label xlink:type="resource" xlink:label="res_289" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets_label">Gain on sale of equipment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_240" xlink:to="res_289"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfInventoriesExplanatory" xlink:label="loc_241"/>
+    <link:label xlink:type="resource" xlink:label="res_290" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfInventoriesExplanatory_label">Inventories</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_241" xlink:to="res_290"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis" xlink:label="loc_242"/>
+    <link:label xlink:type="resource" xlink:label="res_291" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis_label">Cost, depreciation and impairment</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_242" xlink:to="res_291"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_DeferredTax" xlink:label="loc_243"/>
+    <link:label xlink:type="resource" xlink:label="res_292" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DeferredTax_label">Deferred tax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_243" xlink:to="res_292"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ProvisionsForEmployeeBenefits" xlink:label="loc_244"/>
+    <link:label xlink:type="resource" xlink:label="res_293" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ProvisionsForEmployeeBenefits_label">Total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_244" xlink:to="res_293"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_DisclosureOfObligationsUnderFinanceLeases" xlink:label="loc_245"/>
+    <link:label xlink:type="resource" xlink:label="res_294" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DisclosureOfObligationsUnderFinanceLeases_label">Obligations under finance leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_245" xlink:to="res_294"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_DisclosureOfCommitmentsUnderFinanceLeases" xlink:label="loc_246"/>
+    <link:label xlink:type="resource" xlink:label="res_295" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_DisclosureOfCommitmentsUnderFinanceLeases_label">Commitments under operating leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_246" xlink:to="res_295"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease" xlink:label="loc_247"/>
+    <link:label xlink:type="resource" xlink:label="res_296" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease_label">Minimum lease payments under operating leases recognised as an expense during the year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_247" xlink:to="res_296"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory" xlink:label="loc_248"/>
+    <link:label xlink:type="resource" xlink:label="res_297" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfShareCapitalReservesAndOtherEquityInterestExplanatory_label">Share capital</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_248" xlink:to="res_297"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfClassesOfShareCapitalAbstract" xlink:label="loc_249"/>
+    <link:label xlink:type="resource" xlink:label="res_298" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfClassesOfShareCapitalAbstract_label">Share capital</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_249" xlink:to="res_298"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfClassesOfShareCapitalTable" xlink:label="loc_250"/>
+    <link:label xlink:type="resource" xlink:label="res_299" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfClassesOfShareCapitalTable_label">Share capital</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_250" xlink:to="res_299"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ClassesOfShareCapitalAxis" xlink:label="loc_251"/>
+    <link:label xlink:type="resource" xlink:label="res_300" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ClassesOfShareCapitalAxis_label">Share capital</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_251" xlink:to="res_300"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ClassesOfShareCapitalMember" xlink:label="loc_252"/>
+    <link:label xlink:type="resource" xlink:label="res_301" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ClassesOfShareCapitalMember_label">Share capital</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_252" xlink:to="res_301"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfClassesOfShareCapitalLineItems" xlink:label="loc_253"/>
+    <link:label xlink:type="resource" xlink:label="res_302" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfClassesOfShareCapitalLineItems_label">Ordinary shares</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_253" xlink:to="res_302"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NumberOfSharesOutstanding" xlink:label="loc_254"/>
+    <link:label xlink:type="resource" xlink:label="res_303" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NumberOfSharesOutstanding_label">Shares outstanding</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_254" xlink:to="res_303"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_ParValuePerShare" xlink:label="loc_255"/>
+    <link:label xlink:type="resource" xlink:label="res_304" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_ParValuePerShare_label">Par value per shares</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_255" xlink:to="res_304"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfCashFlowStatementExplanatory" xlink:label="loc_256"/>
+    <link:label xlink:type="resource" xlink:label="res_306" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfCashFlowStatementExplanatory_label">Cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_256" xlink:to="res_306"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodAbstract" xlink:label="loc_258"/>
+    <link:label xlink:type="resource" xlink:label="res_307" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodAbstract_label">Events after the end of the reporting period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_258" xlink:to="res_307"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodTable" xlink:label="loc_259"/>
+    <link:label xlink:type="resource" xlink:label="res_308" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodTable_label">Events after the end of the reporting period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_259" xlink:to="res_308"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NonadjustingEventsAfterReportingPeriodAxis" xlink:label="loc_260"/>
+    <link:label xlink:type="resource" xlink:label="res_309" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NonadjustingEventsAfterReportingPeriodAxis_label">Events after the end of the reporting period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_260" xlink:to="res_309"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NonadjustingEventsMember" xlink:label="loc_261"/>
+    <link:label xlink:type="resource" xlink:label="res_310" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NonadjustingEventsMember_label">Events after the end of the reporting period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_261" xlink:to="res_310"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_FloodInOneOfTheCandleStorageRoomsMember" xlink:label="loc_262"/>
+    <link:label xlink:type="resource" xlink:label="res_311" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_FloodInOneOfTheCandleStorageRooms_label">Flood in candle storage rooms</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_262" xlink:to="res_311"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodLineItems" xlink:label="loc_263"/>
+    <link:label xlink:type="resource" xlink:label="res_312" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfNonadjustingEventsAfterReportingPeriodLineItems_label">Events after the end of the reporting period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_263" xlink:to="res_312"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DescriptionOfNatureOfNonadjustingEventAfterReportingPeriod" xlink:label="loc_264"/>
+    <link:label xlink:type="resource" xlink:label="res_313" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DescriptionOfNatureOfNonadjustingEventAfterReportingPeriod_label">Events after the end of the reporting period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_264" xlink:to="res_313"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_ReimbursementsFromInsurance" xlink:label="loc_265"/>
+    <link:label xlink:type="resource" xlink:label="res_314" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ReimbursementsFromInsurance_label">Reimbursement from insurance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_265" xlink:to="res_314"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners" xlink:label="loc_266"/>
+    <link:label xlink:type="resource" xlink:label="res_315" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners_label">Dividend</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_266" xlink:to="res_315"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwnersPerShare" xlink:label="loc_267"/>
+    <link:label xlink:type="resource" xlink:label="res_316" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwnersPerShare_label">Dividend per share</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_267" xlink:to="res_316"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfRelatedPartyExplanatory" xlink:label="loc_268"/>
+    <link:label xlink:type="resource" xlink:label="res_317" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfRelatedPartyExplanatory_label">Related party transaction</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_268" xlink:to="res_317"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesAbstract" xlink:label="loc_269"/>
+    <link:label xlink:type="resource" xlink:label="res_318" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesAbstract_label">Related party transaction</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_269" xlink:to="res_318"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_ApprovalOfFinancialStatements" xlink:label="loc_270"/>
+    <link:label xlink:type="resource" xlink:label="res_319" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_ApprovalOfFinancialStatements_label">Approval of financial statement</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_270" xlink:to="res_319"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DateOfAuthorisationForIssueOfFinancialStatements2013" xlink:label="loc_271"/>
+    <link:label xlink:type="resource" xlink:label="res_320" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DateOfAuthorisationForIssueOfFinancialStatements_label">Date of authorisation of financial statement</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_271" xlink:to="res_320"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_MaturityAxis" xlink:label="loc_2"/>
+    <link:label xlink:type="resource" xlink:label="res_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_MaturityAxis_label">Maturity</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_2" xlink:to="res_2"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AggregatedTimeBandsMember" xlink:label="loc_3"/>
+    <link:label xlink:type="resource" xlink:label="res_3" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AggregatedTimeBandsMember_label">All time bands</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_3" xlink:to="res_3"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_NotLaterThanOneYearMember" xlink:label="loc_4"/>
+    <link:label xlink:type="resource" xlink:label="res_4" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_NotLaterThanOneYearMember_label">Within one year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_4" xlink:to="res_4"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_LaterThanOneYearAndNotLaterThanFiveYearsMember" xlink:label="loc_5"/>
+    <link:label xlink:type="resource" xlink:label="res_5" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_LaterThanOneYearAndNotLaterThanFiveYearsMember_label">Later than one year but within five years</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_5" xlink:to="res_5"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_LaterThanFiveYearsMember" xlink:label="loc_6"/>
+    <link:label xlink:type="resource" xlink:label="res_6" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_LaterThanFiveYearsMember_label">Later than five years</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_6" xlink:to="res_6"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_OrdinarySharesMember" xlink:label="loc_7"/>
+    <link:label xlink:type="resource" xlink:label="res_7" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_OrdinarySharesMember_label">Ordinary shares</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_7" xlink:to="res_7"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CategoriesOfRelatedPartiesAxis" xlink:label="loc_9"/>
+    <link:label xlink:type="resource" xlink:label="res_9" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CategoriesOfRelatedPartiesAxis_label">Related parties</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_9" xlink:to="res_9"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesLineItems" xlink:label="loc_10"/>
+    <link:label xlink:type="resource" xlink:label="res_10" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesLineItems_label">Related party transactions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_10" xlink:to="res_10"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesTable" xlink:label="loc_11"/>
+    <link:label xlink:type="resource" xlink:label="res_11" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DisclosureOfTransactionsBetweenRelatedPartiesTable_label">Related party transactions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_11" xlink:to="res_11"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_KeyManagementPersonnelCompensation" xlink:label="loc_12"/>
+    <link:label xlink:type="resource" xlink:label="res_12" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_KeyManagementPersonnelCompensation_label">Remuneration of directors and other members of key management</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_12" xlink:to="res_12"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RevenueFromSaleOfGoodsRelatedPartyTransactions" xlink:label="loc_13"/>
+    <link:label xlink:type="resource" xlink:label="res_13" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RevenueFromSaleOfGoodsRelatedPartyTransactions_label">Sales of goods</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_13" xlink:to="res_13"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RelatedPartiesMember" xlink:label="loc_14"/>
+    <link:label xlink:type="resource" xlink:label="res_14" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RelatedPartiesMember_label">Related parties</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_14" xlink:to="res_14"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_AssociatesMember" xlink:label="loc_15"/>
+    <link:label xlink:type="resource" xlink:label="res_15" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AssociatesMember_label">Associate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_15" xlink:to="res_15"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DecreaseThroughBenefitsPaidDefinedBenefitObligationAtPresentValue" xlink:label="loc_225"/>
+    <link:label xlink:type="resource" xlink:label="res_273" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DecreaseThroughBenefitsPaidDefinedBenefitObligationAtPresentValue_label">Benefit payments made in year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_225" xlink:to="res_273"/>
+    <link:label xlink:type="resource" xlink:label="res_331" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en" id="ifrs-smes_DecreaseThroughBenefitsPaidDefinedBenefitObligationAtPresentValue_negatedLabel">Benefit payments made in year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_225" xlink:to="res_331"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RecognisedFinanceLeaseAsAssets" xlink:label="loc_272"/>
+    <link:label xlink:type="resource" xlink:label="res_332" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RecognisedFinanceLeaseAsAssets_label">Assets held under finance leases</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_272" xlink:to="res_332"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_DividendsAndOtherDistributionsRecognisedAsIncome" xlink:label="loc_273"/>
+    <link:label xlink:type="resource" xlink:label="res_333" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_DividendsAndOtherDistributionsRecognisedAsIncome_label">Dividends received from an associate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_273" xlink:to="res_333"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_StatementOfIFRSCompliance" xlink:label="loc_274"/>
+    <link:label xlink:type="resource" xlink:label="res_334" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_StatementOfIFRSCompliance_label">Basis of preparation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_274" xlink:to="res_334"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_RightsPreferencesAndRestrictionsAttachingToClassOfShareCapital" xlink:label="loc_275"/>
+    <link:label xlink:type="resource" xlink:label="res_335" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_RightsPreferencesAndRestrictionsAttachingToClassOfShareCapital_label">Restriction on payment of dividend</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_275" xlink:to="res_335"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_Borrowings" xlink:label="loc_276"/>
+    <link:label xlink:type="resource" xlink:label="res_336" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_Borrowings_label">Total bank overdraft and loan</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_276" xlink:to="res_336"/>
+    <link:label xlink:type="resource" xlink:label="res_337" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="ifrs-smes_Borrowings_totalLabel">Total bank overdraft and loan</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_276" xlink:to="res_337"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_InterestPayableOnBankLoan" xlink:label="loc_277"/>
+    <link:label xlink:type="resource" xlink:label="res_338" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_InterestPayableOnBankLoan_label">Interest payable on bank loan</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_277" xlink:to="res_338"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_AmountsPayableRelatedPartyTransactions" xlink:label="loc_278"/>
+    <link:label xlink:type="resource" xlink:label="res_339" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_AmountsPayableRelatedPartyTransactions_label">Amounts owed to the Group and included in trade receivables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_278" xlink:to="res_339"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CurrentTaxLiabilitiesCurrent" xlink:label="loc_279"/>
+    <link:label xlink:type="resource" xlink:label="res_340" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentTaxLiabilitiesCurrent_label">Current tax liability</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_279" xlink:to="res_340"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_CurrentTradeReceivables" xlink:label="loc_280"/>
+    <link:label xlink:type="resource" xlink:label="res_341" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentTradeReceivables_label">Trade receivables</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_280" xlink:to="res_341"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_CurrentPrepayments" xlink:label="loc_281"/>
+    <link:label xlink:type="resource" xlink:label="res_342" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_CurrentPrepayments_label">Prepayments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_281" xlink:to="res_342"/>
+    <link:loc xlink:type="locator" xlink:href="example1_2017-03-09.xsd#example1_NumberOfSharesAuthorisedButUnissued" xlink:label="loc_282"/>
+    <link:label xlink:type="resource" xlink:label="res_343" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="example1_NumberOfSharesAuthorisedButUnissued_label">Authorised shares but unissued</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_282" xlink:to="res_343"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss" xlink:label="loc_283"/>
+    <link:label xlink:type="resource" xlink:label="res_344" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="ifrs-smes_GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss_label">Foreign exchange loss on trade payables (included in other expenses)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_283" xlink:to="res_344"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition" xlink:label="loc_"/>
+    <link:label xlink:type="resource" xlink:label="res_" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_" xlink:to="res_" xlink:title="label: CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition to label_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition"/>
+    <link:label xlink:type="resource" xlink:label="res__2" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en">Cash and cash equivalents at beginning of year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_" xlink:to="res__2" xlink:title="label: CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition to label_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition"/>
+    <link:label xlink:type="resource" xlink:label="res__3" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en">Cash and cash equivalents at end of year</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_" xlink:to="res__3" xlink:title="label: CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition to label_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition"/>
+    <link:label xlink:type="resource" xlink:label="res__4" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en">Cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_" xlink:to="res__4" xlink:title="label: CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition to label_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd#ifrs-full_UnrealisedForeignExchangeGainsLossesMember" xlink:label="loc__2"/>
+    <link:label xlink:type="resource" xlink:label="res__5" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Foreign exchange loss</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc__2" xlink:to="res__5" xlink:title="label: UnrealisedForeignExchangeGainsLossesMember to label_UnrealisedForeignExchangeGainsLossesMember"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes/ifrs_for_smes-cor_2017-03-09.xsd#ifrs-smes_PropertyPlantAndEquipmentMember" xlink:label="loc__3"/>
+    <link:label xlink:type="resource" xlink:label="res__6" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Total PPE</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc__3" xlink:to="res__6" xlink:title="label: PropertyPlantAndEquipmentMember to label_PropertyPlantAndEquipmentMember"/>
+  </link:labelLink>
+</link:linkbase>
